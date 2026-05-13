@@ -1,0 +1,9 @@
+# Test fixture expected metadata
+# Generated from strip_acsl.find_acsl_blocks() — re-verify when fixtures change
+
+file = "bsearch.c"
+input_hash = "sha256:e2244e861294ae958a451ca32a5acacdb84e93d6d566e1b973923c48898ca4dc"
+total_blocks = 2
+all_block_lines = [10, 22]
+block_comment_lines = [10, 22]    # /*@...*/
+line_comment_lines = []       # //@...

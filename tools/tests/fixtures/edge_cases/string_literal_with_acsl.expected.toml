@@ -1,0 +1,16 @@
+# Edge case fixture: ACSL-like syntax inside string / char literals must
+# NOT be detected as ACSL blocks. Only the 4 real blocks should be found.
+
+file = "string_literal_with_acsl.c"
+input_hash = "sha256:e564e747f5815f0ca25b880fad51b09168ba5f90cc8e8d039073cb2ab713c609"
+total_blocks = 4
+all_block_lines = [6, 13, 14, 21]
+block_comment_lines = [6, 14, 21]
+line_comment_lines = [13]
+
+# Lines that MUST NOT be detected (false positives):
+must_not_be_detected = [
+    10,   # `const char *fake1 = "...fake /*@...*/..."` — fake inside string
+    11,   # `const char *fake2 = "//@ assert fake..."`   — fake inside string
+    12,   # `char fake3 = '/'` — char literal, not comment start
+]

@@ -1,0 +1,9 @@
+# Test fixture expected metadata
+# Generated from strip_acsl.find_acsl_blocks() — re-verify when fixtures change
+
+file = "euclid.c"
+input_hash = "sha256:1995f5d291119813a22be01b6876f3c2a9aa2400fc656d38c920084900b04e35"
+total_blocks = 3
+all_block_lines = [11, 20, 30]
+block_comment_lines = [11, 20, 30]    # /*@...*/
+line_comment_lines = []       # //@...

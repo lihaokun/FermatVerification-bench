@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+venv/
+.venv/
+
+# fetch 工具下载产物（不重分发的 mined corpus）
+cases/part5_mined/casp/**/ground_truth.c
+cases/part5_mined/casp/**/stripped.c
+cases/part5_mined/fm_bench_acsl/**/ground_truth.c
+cases/part5_mined/fm_bench_acsl/**/stripped.c
+
+# 工具运行临时
+**/.in_progress
+**/.classify-suggested.toml
+**/.classify-archive/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store

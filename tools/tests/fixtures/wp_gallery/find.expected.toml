@@ -1,0 +1,9 @@
+# Test fixture expected metadata
+# Generated from strip_acsl.find_acsl_blocks() — re-verify when fixtures change
+
+file = "find.i"
+input_hash = "sha256:e8291d17f67595f0af5fbe77503ae14652848dfcde33826cb46fdb64cd5a511c"
+total_blocks = 13
+all_block_lines = [9, 12, 15, 20, 36, 48, 51, 57, 62, 77, 85, 91, 96]
+block_comment_lines = [9, 12, 15, 20, 36, 48, 51, 57, 62, 77, 91, 96]    # /*@...*/
+line_comment_lines = [85]       # //@...
