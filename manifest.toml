@@ -1,0 +1,23 @@
+schema_version = "0.1"
+bench_version  = "0.1.0"
+generated_at   = "2026-05-13T19:53:53Z"
+
+[parts.part1_c_features]
+manifest   = "manifest_part1.toml"
+case_count = 0
+
+[parts.part2_acsl_features]
+manifest   = "manifest_part2.toml"
+case_count = 0
+
+[parts.part3_curated]
+manifest   = "manifest_part3.toml"
+case_count = 0
+
+[parts.part4_real_targets]
+manifest   = "manifest_part4.toml"
+case_count = 0
+
+[parts.part5_mined]
+manifest   = "manifest_part5.toml"
+case_count = 2

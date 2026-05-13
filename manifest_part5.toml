@@ -1,0 +1,29 @@
+schema_version = "0.1"
+part           = 5
+part_name      = "part5_mined"
+generated_at   = "2026-05-13T19:53:53Z"
+case_count     = 2
+
+[[case]]
+id                 = "part5_mined/casp/00001"
+path               = "cases/part5_mined/casp/00001"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00002"
+path               = "cases/part5_mined/casp/00002"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
