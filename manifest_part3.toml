@@ -1,8 +1,920 @@
 schema_version = "0.1"
 part           = 3
 part_name      = "part3_curated"
-generated_at   = "2026-05-13T20:23:19Z"
-case_count     = 13
+generated_at   = "2026-05-13T20:33:09Z"
+case_count     = 89
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/BinarySearch/binary_search"
+path               = "cases/part3_curated/acsl_by_example/BinarySearch/binary_search"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/BinarySearch/equal_range"
+path               = "cases/part3_curated/acsl_by_example/BinarySearch/equal_range"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/BinarySearch/equal_range2"
+path               = "cases/part3_curated/acsl_by_example/BinarySearch/equal_range2"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/BinarySearch/lower_bound"
+path               = "cases/part3_curated/acsl_by_example/BinarySearch/lower_bound"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/BinarySearch/upper_bound"
+path               = "cases/part3_curated/acsl_by_example/BinarySearch/upper_bound"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/heap_child"
+path               = "cases/part3_curated/acsl_by_example/Heap/heap_child"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/heap_parent"
+path               = "cases/part3_curated/acsl_by_example/Heap/heap_parent"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/is_heap"
+path               = "cases/part3_curated/acsl_by_example/Heap/is_heap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/is_heap_until"
+path               = "cases/part3_curated/acsl_by_example/Heap/is_heap_until"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/make_heap"
+path               = "cases/part3_curated/acsl_by_example/Heap/make_heap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/pop_heap"
+path               = "cases/part3_curated/acsl_by_example/Heap/pop_heap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/push_heap"
+path               = "cases/part3_curated/acsl_by_example/Heap/push_heap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Heap/sort_heap"
+path               = "cases/part3_curated/acsl_by_example/Heap/sort_heap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "arrays_mut", "predicate", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/clamp"
+path               = "cases/part3_curated/acsl_by_example/MinMax/clamp"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/make_pair"
+path               = "cases/part3_curated/acsl_by_example/MinMax/make_pair"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/max_element"
+path               = "cases/part3_curated/acsl_by_example/MinMax/max_element"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/max_element2"
+path               = "cases/part3_curated/acsl_by_example/MinMax/max_element2"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/max_seq"
+path               = "cases/part3_curated/acsl_by_example/MinMax/max_seq"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/min_element"
+path               = "cases/part3_curated/acsl_by_example/MinMax/min_element"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/MinMax/minmax_element"
+path               = "cases/part3_curated/acsl_by_example/MinMax/minmax_element"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/copy"
+path               = "cases/part3_curated/acsl_by_example/Mutating/copy"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/copy_backward"
+path               = "cases/part3_curated/acsl_by_example/Mutating/copy_backward"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/fill"
+path               = "cases/part3_curated/acsl_by_example/Mutating/fill"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/random_number"
+path               = "cases/part3_curated/acsl_by_example/Mutating/random_number"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/remove"
+path               = "cases/part3_curated/acsl_by_example/Mutating/remove"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/remove_copy"
+path               = "cases/part3_curated/acsl_by_example/Mutating/remove_copy"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/remove_copy2"
+path               = "cases/part3_curated/acsl_by_example/Mutating/remove_copy2"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/remove_copy3"
+path               = "cases/part3_curated/acsl_by_example/Mutating/remove_copy3"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/replace"
+path               = "cases/part3_curated/acsl_by_example/Mutating/replace"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/replace_copy"
+path               = "cases/part3_curated/acsl_by_example/Mutating/replace_copy"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/reverse"
+path               = "cases/part3_curated/acsl_by_example/Mutating/reverse"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/reverse_copy"
+path               = "cases/part3_curated/acsl_by_example/Mutating/reverse_copy"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/rewrite_array_nothing"
+path               = "cases/part3_curated/acsl_by_example/Mutating/rewrite_array_nothing"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/rewrite_array_unchanged"
+path               = "cases/part3_curated/acsl_by_example/Mutating/rewrite_array_unchanged"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/rotate"
+path               = "cases/part3_curated/acsl_by_example/Mutating/rotate"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/rotate_copy"
+path               = "cases/part3_curated/acsl_by_example/Mutating/rotate_copy"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/shuffle"
+path               = "cases/part3_curated/acsl_by_example/Mutating/shuffle"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/swap"
+path               = "cases/part3_curated/acsl_by_example/Mutating/swap"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Mutating/swap_ranges"
+path               = "cases/part3_curated/acsl_by_example/Mutating/swap_ranges"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/adjacent_find"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/adjacent_find"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/count"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/count"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/equal"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/equal"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find2"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find2"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find3"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find3"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find4"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find4"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find5"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find5"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find_end"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find_end"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find_first_of"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find_first_of"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/find_if_not"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/find_if_not"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/mismatch"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/mismatch"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/search"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/search"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Nonmutating/search_n"
+path               = "cases/part3_curated/acsl_by_example/Nonmutating/search_n"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/accumulate"
+path               = "cases/part3_curated/acsl_by_example/Numeric/accumulate"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/adjacent_difference"
+path               = "cases/part3_curated/acsl_by_example/Numeric/adjacent_difference"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/adjacent_difference_inv"
+path               = "cases/part3_curated/acsl_by_example/Numeric/adjacent_difference_inv"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/inner_product"
+path               = "cases/part3_curated/acsl_by_example/Numeric/inner_product"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/iota"
+path               = "cases/part3_curated/acsl_by_example/Numeric/iota"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/partial_sum"
+path               = "cases/part3_curated/acsl_by_example/Numeric/partial_sum"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Numeric/partial_sum_inv"
+path               = "cases/part3_curated/acsl_by_example/Numeric/partial_sum_inv"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/bubble_sort"
+path               = "cases/part3_curated/acsl_by_example/Sorting/bubble_sort"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/heap_sort"
+path               = "cases/part3_curated/acsl_by_example/Sorting/heap_sort"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/insertion_sort"
+path               = "cases/part3_curated/acsl_by_example/Sorting/insertion_sort"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/is_sorted"
+path               = "cases/part3_curated/acsl_by_example/Sorting/is_sorted"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/merge"
+path               = "cases/part3_curated/acsl_by_example/Sorting/merge"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/partial_sort"
+path               = "cases/part3_curated/acsl_by_example/Sorting/partial_sort"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Sorting/selection_sort"
+path               = "cases/part3_curated/acsl_by_example/Sorting/selection_sort"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_capacity"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_capacity"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_empty"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_empty"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_equal"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_equal"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_full"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_full"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_init"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_init"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_pop"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_pop"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_push"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_push"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_size"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_size"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/acsl_by_example/Stack/stack_top"
+path               = "cases/part3_curated/acsl_by_example/Stack/stack_top"
+source             = "acsl_by_example"
+license            = "MIT"
+quality            = "textbook"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["pointers", "nested_struct", "predicate", "behaviors"]
+has_ground_truth   = true
+has_stripped       = true
 
 [[case]]
 id                 = "part3_curated/frama_c_wp_gallery/binary_multiplication"

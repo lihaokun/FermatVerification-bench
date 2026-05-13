@@ -1,6 +1,6 @@
 # Bench Cases — by Part
 
-> Generated: 2026-05-13T20:23:19Z
+> Generated: 2026-05-13T20:33:09Z
 > Bench version: 0.1.0
 
 ## Part 1 — C 语言特性 (0 case(s))
@@ -11,10 +11,86 @@ _(empty)_
 
 _(empty)_
 
-## Part 3 — 短小算法 (curated) (13 case(s))
+## Part 3 — 短小算法 (curated) (89 case(s))
 
 | id | name | source | difficulty | features |
 |---|---|---|---|---|
+| `part3_curated/acsl_by_example/BinarySearch/binary_search` | binary_search | acsl_by_example | 3 | loops, arrays_ro, linear_arith, predicate |
+| `part3_curated/acsl_by_example/BinarySearch/equal_range` | equal_range | acsl_by_example | 3 | loops, arrays_ro, linear_arith, predicate |
+| `part3_curated/acsl_by_example/BinarySearch/equal_range2` | equal_range2 | acsl_by_example | 3 | loops, arrays_ro, linear_arith, predicate |
+| `part3_curated/acsl_by_example/BinarySearch/lower_bound` | lower_bound | acsl_by_example | 3 | loops, arrays_ro, linear_arith, predicate |
+| `part3_curated/acsl_by_example/BinarySearch/upper_bound` | upper_bound | acsl_by_example | 3 | loops, arrays_ro, linear_arith, predicate |
+| `part3_curated/acsl_by_example/Heap/heap_child` | heap_child | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/heap_parent` | heap_parent | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/is_heap` | is_heap | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/is_heap_until` | is_heap_until | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/make_heap` | make_heap | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/pop_heap` | pop_heap | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/push_heap` | push_heap | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/Heap/sort_heap` | sort_heap | acsl_by_example | 4 | loops, arrays_mut, predicate, axiomatic |
+| `part3_curated/acsl_by_example/MinMax/clamp` | clamp | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/make_pair` | make_pair | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/max_element` | max_element | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/max_element2` | max_element2 | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/max_seq` | max_seq | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/min_element` | min_element | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/MinMax/minmax_element` | minmax_element | acsl_by_example | 2 | loops, arrays_ro, linear_arith |
+| `part3_curated/acsl_by_example/Mutating/copy` | copy | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/copy_backward` | copy_backward | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/fill` | fill | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/random_number` | random_number | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/remove` | remove | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/remove_copy` | remove_copy | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/remove_copy2` | remove_copy2 | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/remove_copy3` | remove_copy3 | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/replace` | replace | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/replace_copy` | replace_copy | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/reverse` | reverse | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/reverse_copy` | reverse_copy | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/rewrite_array_nothing` | rewrite_array_nothing | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/rewrite_array_unchanged` | rewrite_array_unchanged | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/rotate` | rotate | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/rotate_copy` | rotate_copy | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/shuffle` | shuffle | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/swap` | swap | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Mutating/swap_ranges` | swap_ranges | acsl_by_example | 3 | loops, arrays_mut, pointers, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/adjacent_find` | adjacent_find | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/count` | count | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/equal` | equal | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find` | find | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find2` | find2 | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find3` | find3 | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find4` | find4 | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find5` | find5 | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find_end` | find_end | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find_first_of` | find_first_of | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/find_if_not` | find_if_not | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/mismatch` | mismatch | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/search` | search | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Nonmutating/search_n` | search_n | acsl_by_example | 2 | loops, arrays_ro, predicate |
+| `part3_curated/acsl_by_example/Numeric/accumulate` | accumulate | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/adjacent_difference` | adjacent_difference | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/adjacent_difference_inv` | adjacent_difference_inv | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/inner_product` | inner_product | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/iota` | iota | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/partial_sum` | partial_sum | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Numeric/partial_sum_inv` | partial_sum_inv | acsl_by_example | 3 | loops, arrays_ro, linear_arith, logic_function |
+| `part3_curated/acsl_by_example/Sorting/bubble_sort` | bubble_sort | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/heap_sort` | heap_sort | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/insertion_sort` | insertion_sort | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/is_sorted` | is_sorted | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/merge` | merge | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/partial_sort` | partial_sort | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Sorting/selection_sort` | selection_sort | acsl_by_example | 4 | loops, nested_loops, arrays_mut, predicate |
+| `part3_curated/acsl_by_example/Stack/stack_capacity` | stack_capacity | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_empty` | stack_empty | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_equal` | stack_equal | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_full` | stack_full | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_init` | stack_init | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_pop` | stack_pop | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_push` | stack_push | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_size` | stack_size | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
+| `part3_curated/acsl_by_example/Stack/stack_top` | stack_top | acsl_by_example | 3 | pointers, nested_struct, predicate, behaviors |
 | `part3_curated/frama_c_wp_gallery/binary_multiplication` | binary_multiplication | frama_c_wp_gallery | 4 | loops, bitwise, linear_arith, lemma, axiomatic |
 | `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` | binary_multiplication_without_overflow | frama_c_wp_gallery | 4 | loops, bitwise, overflow_concern, linear_arith, lemma, axiomatic |
 | `part3_curated/frama_c_wp_gallery/bsearch` | bsearch | frama_c_wp_gallery | 3 | loops, arrays_ro, linear_arith |

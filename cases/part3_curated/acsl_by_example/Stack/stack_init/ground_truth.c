@@ -1,0 +1,187 @@
+/* ===== include: stack_init.c ===== */
+
+/* ===== include: stack_init.h ===== */
+
+#ifndef STACK_INIT_H_INCLUDED
+#define STACK_INIT_H_INCLUDED
+
+/* ===== include: StackObservers.acsl ===== */
+
+#ifndef STACKOBSERVERS_ACSL_INCLUDED
+#define STACKOBSERVERS_ACSL_INCLUDED
+
+/* ===== include: StackEqual.acsl ===== */
+
+#ifndef STACKEQUAL_ACSL_INCLUDED
+#define STACKEQUAL_ACSL_INCLUDED
+
+/* ===== include: Stack.acsl ===== */
+
+#ifndef STACK_ACSL_INCLUDED
+#define STACK_ACSL_INCLUDED
+
+/* ===== include: Stack.h ===== */
+
+#ifndef STACK_H_INCLUDED
+#define STACK_H_INCLUDED
+
+/* ===== include: typedefs.h ===== */
+
+#ifndef TYPEDEFS_H_INCLUDED
+#define TYPEDEFS_H_INCLUDED
+
+#include <limits.h>
+
+#ifndef __cplusplus
+typedef int bool;
+#define false		((bool)0)
+#define true		((bool)1)
+#endif
+
+typedef int value_type;
+
+#define VALUE_TYPE_MAX  INT_MAX
+#define VALUE_TYPE_MIN  INT_MIN
+
+typedef unsigned int size_type;
+
+#define SIZE_TYPE_MAX  UINT_MAX
+
+#endif /* TYPEDEFS_H_INCLUDED */
+
+
+
+struct Stack {
+  value_type*  data;
+  size_type    cap;
+  size_type    sz;
+};
+
+typedef struct Stack Stack;
+
+#endif /* STACK_H_INCLUDED */
+
+
+
+/*@
+  logic value_type* StackData{S}(Stack* s)     = s->data;
+
+  logic integer     StackCapacity{S}(Stack* s) = s->cap;
+
+  logic integer     StackSize{S}(Stack* s)     = s->sz;
+*/
+
+#endif /* STACK_ACSL_INCLUDED */
+
+
+/* ===== include: Equal.acsl ===== */
+
+#ifndef EQUAL_ACSL_INCLUDED
+#define EQUAL_ACSL_INCLUDED
+
+
+/*@
+  predicate Equal{K,L}(value_type* a, integer m, integer n, value_type* b) =
+    \forall integer i; m <= i < n  ==>  \at(a[i],K) == \at(b[i],L);
+
+  predicate Equal{K,L}(value_type* a, integer n, value_type* b) =
+    Equal{K,L}(a, 0, n, b);
+
+  predicate Equal{K,L}(value_type* a, integer m, integer n,
+                       value_type* b, integer p) =
+    \forall integer k; 0 <= k < n-m ==> \at(a[m+k],K) == \at(b[p+k],L);
+
+  predicate Equal{K,L}(value_type* a, integer m, integer n, integer p) =
+      Equal{K,L}(a, m, n, a, p);
+*/
+
+#endif /* EQUAL_ACSL_INCLUDED */
+
+
+
+/*@
+  predicate StackPrefix{S,T}(Stack* s, Stack* t) =
+    StackSize{S}(s) <= StackSize{T}(t)  &&
+    Equal{S,T}(StackData{S}(s), StackSize{S}(s), StackData{T}(t));
+
+  predicate StackEqual{S,T}(Stack* s, Stack* t) =
+    StackSize{S}(s) == StackSize{T}(t) &&
+    StackPrefix{S,T}(s, t);
+
+  lemma StackEqual_Reflexive{S} :
+    \forall Stack* s; StackEqual{S,S}(s, s);
+
+  lemma StackEqual_Symmetric{S,T} :
+    \forall Stack *s, *t;
+      StackEqual{S,T}(s, t) ==>  StackEqual{T,S}(t, s);
+
+  lemma StackEqual_Transitive{S,T,U}:
+    \forall Stack *s, *t, *u;
+      StackEqual{S,T}(s, t) ==> StackEqual{T,U}(t, u) ==> StackEqual{S,U}(s, u);
+*/
+
+#endif /* STACKEQUAL_ACSL_INCLUDED */
+
+
+/* ===== include: StackInvariant.acsl ===== */
+
+#ifndef STACKINVARIANT_ACSL_INCLUDED
+#define STACKINVARIANT_ACSL_INCLUDED
+
+
+/*@
+  predicate StackInvariant{L}(Stack* s) =
+    0 < StackCapacity(s)                           &&
+    0 <= StackSize(s) <= StackCapacity(s)          &&
+    \valid(StackData(s) + (0..StackCapacity(s)-1)) &&
+    \separated(s, StackData(s) + (0..StackCapacity(s)-1));
+
+  predicate StackValid{L}(Stack* s) = \valid(s) && StackInvariant(s);
+*/
+
+#endif /* STACKINVARIANT_ACSL_INCLUDED */
+
+
+
+/*@
+  logic value_type StackTop{S}(Stack* s)  =  StackData(s)[StackSize(s)-1];
+
+  predicate StackEmpty{S}(Stack* s)       =  StackSize(s) == 0;
+
+  predicate StackFull{S}(Stack* s)        =  StackSize(s) == StackCapacity(s);
+*/
+
+#endif /* STACKOBSERVERS_ACSL_INCLUDED */
+
+
+
+/*@
+  requires   valid:      \valid(s);
+  requires   capacity:   0 < cap;
+  requires   storage:    \valid(data + (0..cap-1));
+  requires   sep:        \separated(s, data + (0..cap-1));
+
+  terminates             \true;
+  exits                  \false;
+  assigns                s->data \from data;
+  assigns                s->cap  \from cap;
+  assigns                s->sz   \from \nothing;
+
+  ensures    valid:      StackValid(s);
+  ensures    storage:    StackData(s)     == data;
+  ensures    capacity:   StackCapacity(s) == cap;
+  ensures    empty:      StackSize(s)     == 0;
+*/
+void stack_init(Stack* s, value_type* data, size_type cap);
+
+#endif /* STACK_INIT_H_INCLUDED */
+
+
+
+void stack_init(Stack* s, value_type* data, size_type cap)
+{
+  s->data  = data;
+  s->cap   = cap;
+  s->sz    = 0u;
+}
+

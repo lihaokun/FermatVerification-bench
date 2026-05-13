@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/acsl_by_example/MinMax/max_element2"
+name          = "max_element2"
+part          = 3
+features      = ["loops", "arrays_ro", "linear_arith"]
+
+[provenance]
+source             = "acsl_by_example"
+upstream_url       = "https://github.com/fraunhoferfokus/acsl-by-example"
+upstream_path      = "StandardAlgorithms/MinMax/max_element2.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "MIT"
+license_file       = "LICENSES/MIT-fraunhofer-fokus.txt"
+quality            = "textbook"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 2
+proof_size         = 1
+math_theory        = 2
+data_complexity    = 2
+control_complexity = 2
+spec_complexity    = 2
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [49, 73, 103, 115, 149]
+source_hash = "sha256:dbcc933bc2c1444917f9ba9bae4a86f295606291c6fd73fc9caddab2351dee0d"
+rationale   = "ACSL by Example MinMax 用例：#include 展平 → 单文件 ground_truth；函数 pre/post 视为过程规约（架构 v3+），stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

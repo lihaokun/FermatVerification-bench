@@ -1,0 +1,46 @@
+ACSL by Example — Attribution & License Reference
+====================================================
+
+Content under the following bench paths is derived from
+"ACSL by Example" by Fraunhofer FOKUS:
+
+  cases/part3_curated/acsl_by_example/**
+
+Upstream repository: https://github.com/fraunhoferfokus/acsl-by-example
+Copyright:           2020-2026 Fraunhofer FOKUS
+License:             MIT (SPDX identifier: MIT)
+
+The upstream LICENSE.md states:
+
+  MIT License
+
+  Copyright (c) 2020-2026 Fraunhofer FOKUS
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+Note on multi-file expansion:
+  Each ACSL by Example case directory contains a single `ground_truth.c` file
+  that is a flat expansion of the upstream multi-file structure: typedefs.h
+  + Logic/*.acsl + dependency .h files + algorithm .c file. The `[provenance]
+  upstream_path` field points to the original .c file in the upstream's
+  StandardAlgorithms/ directory.
+
+Citation:
+  Fraunhofer FOKUS — ACSL by Example: Towards a Verified C Standard Library.
+  Project page: https://www.fokus.fraunhofer.de/en/sqc/projects/acsl_by_example

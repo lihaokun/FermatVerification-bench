@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/acsl_by_example/Sorting/partial_sort"
+name          = "partial_sort"
+part          = 3
+features      = ["loops", "nested_loops", "arrays_mut", "predicate"]
+
+[provenance]
+source             = "acsl_by_example"
+upstream_url       = "https://github.com/fraunhoferfokus/acsl-by-example"
+upstream_path      = "StandardAlgorithms/Sorting/partial_sort.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "MIT"
+license_file       = "LICENSES/MIT-fraunhofer-fokus.txt"
+quality            = "textbook"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 4
+proof_size         = 2
+math_theory        = 2
+data_complexity    = 3
+control_complexity = 3
+spec_complexity    = 3
+auxiliary_needed   = ["loop_invariant", "predicate_def"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [44, 56, 73, 97, 126, 137, 170, 248, 282, 322, 346, 391, 417, 501, 513, 562, 570, 584, 603, 604, 616, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 629, 630, 632, 633, 634, 635, 636, 637, 638, 639, 640, 642, 644, 645, 646, 647, 648, 649, 653, 654, 656, 657, 658, 659]
+source_hash = "sha256:99648c96b572989b0bc50a8650edcee800e85dc0db0d918100d658329c5b9544"
+rationale   = "ACSL by Example Sorting 用例：#include 展平 → 单文件 ground_truth；函数 pre/post 视为过程规约（架构 v3+），stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

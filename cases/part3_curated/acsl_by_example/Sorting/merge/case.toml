@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/acsl_by_example/Sorting/merge"
+name          = "merge"
+part          = 3
+features      = ["loops", "nested_loops", "arrays_mut", "predicate"]
+
+[provenance]
+source             = "acsl_by_example"
+upstream_url       = "https://github.com/fraunhoferfokus/acsl-by-example"
+upstream_path      = "StandardAlgorithms/Sorting/merge.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "MIT"
+license_file       = "LICENSES/MIT-fraunhofer-fokus.txt"
+quality            = "textbook"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 4
+proof_size         = 2
+math_theory        = 2
+data_complexity    = 3
+control_complexity = 3
+spec_complexity    = 3
+auxiliary_needed   = ["loop_invariant", "predicate_def"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [49, 61, 83, 107, 142, 161, 196, 208, 239, 257, 290, 331, 337, 350, 351, 355, 356, 359, 362, 363, 364, 365, 366, 367, 368, 371, 372, 373, 376, 377, 378, 379, 380, 381, 382, 383, 384, 387, 388, 389, 390, 391, 394, 395, 396, 397, 398, 399, 400, 401, 404, 405, 406, 407, 408, 409]
+source_hash = "sha256:b313c26136e6dcc83d28c66c23b2169f6fc9a634f9e36ee2d615eaa4062203cd"
+rationale   = "ACSL by Example Sorting 用例：#include 展平 → 单文件 ground_truth；函数 pre/post 视为过程规约（架构 v3+），stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

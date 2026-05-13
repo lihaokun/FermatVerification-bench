@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/acsl_by_example/Heap/push_heap"
+name          = "push_heap"
+part          = 3
+features      = ["loops", "arrays_mut", "predicate", "axiomatic"]
+
+[provenance]
+source             = "acsl_by_example"
+upstream_url       = "https://github.com/fraunhoferfokus/acsl-by-example"
+upstream_path      = "StandardAlgorithms/Heap/push_heap.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "MIT"
+license_file       = "LICENSES/MIT-fraunhofer-fokus.txt"
+quality            = "textbook"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 4
+proof_size         = 2
+math_theory        = 2
+data_complexity    = 3
+control_complexity = 3
+spec_complexity    = 3
+auxiliary_needed   = ["loop_invariant", "predicate_def", "lemma"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [44, 96, 120, 150, 171, 184, 195, 221, 272, 296, 329, 407, 441, 464, 497, 533, 563, 601, 624, 629, 630, 631, 633, 645, 648, 649, 650, 651, 652, 656, 657, 658, 659, 660, 662, 663, 664, 665, 666, 667]
+source_hash = "sha256:fabe24a98a52217651f431e727061ebfd16c81201a202be64276ecc04c86661d"
+rationale   = "ACSL by Example Heap 用例：#include 展平 → 单文件 ground_truth；函数 pre/post 视为过程规约（架构 v3+），stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

@@ -1,7 +1,88 @@
 # Bench Cases — by Source
 
-> Generated: 2026-05-13T20:23:19Z
-> Total: 519 case(s) across 2 source(s)
+> Generated: 2026-05-13T20:33:09Z
+> Total: 595 case(s) across 3 source(s)
+
+## `acsl_by_example` (76 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/acsl_by_example/BinarySearch/binary_search` | binary_search | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/BinarySearch/equal_range` | equal_range | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/BinarySearch/equal_range2` | equal_range2 | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/BinarySearch/lower_bound` | lower_bound | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/BinarySearch/upper_bound` | upper_bound | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Heap/heap_child` | heap_child | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/heap_parent` | heap_parent | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/is_heap` | is_heap | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/is_heap_until` | is_heap_until | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/make_heap` | make_heap | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/pop_heap` | pop_heap | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/push_heap` | push_heap | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Heap/sort_heap` | sort_heap | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/MinMax/clamp` | clamp | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/make_pair` | make_pair | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/max_element` | max_element | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/max_element2` | max_element2 | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/max_seq` | max_seq | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/min_element` | min_element | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/MinMax/minmax_element` | minmax_element | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Mutating/copy` | copy | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/copy_backward` | copy_backward | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/fill` | fill | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/random_number` | random_number | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/remove` | remove | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/remove_copy` | remove_copy | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/remove_copy2` | remove_copy2 | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/remove_copy3` | remove_copy3 | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/replace` | replace | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/replace_copy` | replace_copy | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/reverse` | reverse | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/reverse_copy` | reverse_copy | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/rewrite_array_nothing` | rewrite_array_nothing | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/rewrite_array_unchanged` | rewrite_array_unchanged | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/rotate` | rotate | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/rotate_copy` | rotate_copy | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/shuffle` | shuffle | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/swap` | swap | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Mutating/swap_ranges` | swap_ranges | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/adjacent_find` | adjacent_find | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/count` | count | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/equal` | equal | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find` | find | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find2` | find2 | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find3` | find3 | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find4` | find4 | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find5` | find5 | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find_end` | find_end | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find_first_of` | find_first_of | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/find_if_not` | find_if_not | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/mismatch` | mismatch | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/search` | search | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Nonmutating/search_n` | search_n | 3 | 2 | MIT |
+| `part3_curated/acsl_by_example/Numeric/accumulate` | accumulate | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/adjacent_difference` | adjacent_difference | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/adjacent_difference_inv` | adjacent_difference_inv | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/inner_product` | inner_product | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/iota` | iota | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/partial_sum` | partial_sum | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Numeric/partial_sum_inv` | partial_sum_inv | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Sorting/bubble_sort` | bubble_sort | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/heap_sort` | heap_sort | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/insertion_sort` | insertion_sort | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/is_sorted` | is_sorted | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/merge` | merge | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/partial_sort` | partial_sort | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Sorting/selection_sort` | selection_sort | 3 | 4 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_capacity` | stack_capacity | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_empty` | stack_empty | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_equal` | stack_equal | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_full` | stack_full | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_init` | stack_init | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_pop` | stack_pop | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_push` | stack_push | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_size` | stack_size | 3 | 3 | MIT |
+| `part3_curated/acsl_by_example/Stack/stack_top` | stack_top | 3 | 3 | MIT |
 
 ## `casp` (506 case(s))
 
