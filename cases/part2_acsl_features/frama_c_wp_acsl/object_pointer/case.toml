@@ -1,0 +1,36 @@
+schema_version = "0.1"
+id            = "part2_acsl_features/frama_c_wp_acsl/object_pointer"
+name          = "object_pointer"
+part          = 2
+features      = ["pointers"]
+
+[provenance]
+source             = "frama_c_wp_acsl"
+upstream_url       = "https://git.frama-c.com/pub/frama-c"
+upstream_path      = "object_pointer.i"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "LGPL-2.1-only"
+license_file       = "LICENSES/LGPL-2.1-frama-c.txt"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+
+[files]
+entry_files = ["object_pointer.i"]
+
+[difficulty]
+overall            = 2
+proof_size         = 1
+math_theory        = 1
+data_complexity    = 1
+control_complexity = 1
+spec_complexity    = 2
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[parse]
+constructs_used = []
+known_issues    = []
+notes           = "Frama-C wp_acsl ACSL 特性单元测试。features 由文件名启发式推导。"

@@ -1,15 +1,104 @@
 # Bench Cases — by Part
 
-> Generated: 2026-05-13T20:33:09Z
+> Generated: 2026-05-13T20:37:49Z
 > Bench version: 0.1.0
 
 ## Part 1 — C 语言特性 (0 case(s))
 
 _(empty)_
 
-## Part 2 — ACSL 语言特性 (0 case(s))
+## Part 2 — ACSL 语言特性 (88 case(s))
 
-_(empty)_
+| id | name | source | difficulty | features |
+|---|---|---|---|---|
+| `part2_acsl_features/frama_c_wp_acsl/arith` | arith | frama_c_wp_acsl | 2 | pure_arith |
+| `part2_acsl_features/frama_c_wp_acsl/assign_array` | assign_array | frama_c_wp_acsl | 2 | arrays_mut, arrays_ro |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memtyped` | assigned_initialized_memtyped | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memvar` | assigned_initialized_memvar | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memtyped` | assigned_not_initialized_memtyped | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memvar` | assigned_not_initialized_memvar | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assigns_path` | assigns_path | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assigns_range` | assigns_range | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/assumes_labels` | assumes_labels | frama_c_wp_acsl | 2 | behaviors |
+| `part2_acsl_features/frama_c_wp_acsl/axioms` | axioms | frama_c_wp_acsl | 2 | axiomatic |
+| `part2_acsl_features/frama_c_wp_acsl/base_offset` | base_offset | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise` | bitwise | frama_c_wp_acsl | 2 | bitwise |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise2` | bitwise2 | frama_c_wp_acsl | 2 | bitwise |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise_idemp` | bitwise_idemp | frama_c_wp_acsl | 2 | bitwise |
+| `part2_acsl_features/frama_c_wp_acsl/block_length` | block_length | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/boolean` | boolean | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/checks` | checks | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/chunk_typing` | chunk_typing | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/chunk_typing_usable` | chunk_typing_usable | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/classify_float` | classify_float | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/clusters` | clusters | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/cnf` | cnf | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/ctor` | ctor | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/decreases` | decreases | frama_c_wp_acsl | 2 | termination |
+| `part2_acsl_features/frama_c_wp_acsl/div_mod` | div_mod | frama_c_wp_acsl | 2 | pure_arith |
+| `part2_acsl_features/frama_c_wp_acsl/e_imply` | e_imply | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/empty_struct` | empty_struct | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/equal` | equal | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/float_compare` | float_compare | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/float_const` | float_const | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/float_sign` | float_sign | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/funvar_inv` | funvar_inv | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/garbled_opaque_struct` | garbled_opaque_struct | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/generalized_checks` | generalized_checks | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/global_const_dependencies` | global_const_dependencies | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/gnu_zero_array` | gnu_zero_array | frama_c_wp_acsl | 2 | arrays_ro |
+| `part2_acsl_features/frama_c_wp_acsl/implicit_enum_cast` | implicit_enum_cast | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/inductive` | inductive | frama_c_wp_acsl | 2 | axiomatic |
+| `part2_acsl_features/frama_c_wp_acsl/inductive_why3_scope` | inductive_why3_scope | frama_c_wp_acsl | 2 | axiomatic |
+| `part2_acsl_features/frama_c_wp_acsl/init_label` | init_label | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/init_value` | init_value | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/init_value_mem` | init_value_mem | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_local_init` | initialized_local_init | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_memtyped` | initialized_memtyped | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_memvar` | initialized_memvar | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_shift_array` | initialized_shift_array | frama_c_wp_acsl | 2 | arrays_mut, arrays_ro |
+| `part2_acsl_features/frama_c_wp_acsl/intbool` | intbool | frama_c_wp_acsl | 2 | pure_arith |
+| `part2_acsl_features/frama_c_wp_acsl/issue_A228` | issue_A228 | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/label` | label | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/label_escape` | label_escape | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/lemma_dependency` | lemma_dependency | frama_c_wp_acsl | 2 | lemma |
+| `part2_acsl_features/frama_c_wp_acsl/logic` | logic | frama_c_wp_acsl | 2 | logic_function |
+| `part2_acsl_features/frama_c_wp_acsl/looplabels` | looplabels | frama_c_wp_acsl | 2 | loops |
+| `part2_acsl_features/frama_c_wp_acsl/memvar_chunk_typing` | memvar_chunk_typing | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/null` | null | frama_c_wp_acsl | 2 | pointers |
+| `part2_acsl_features/frama_c_wp_acsl/object_pointer` | object_pointer | frama_c_wp_acsl | 2 | pointers |
+| `part2_acsl_features/frama_c_wp_acsl/old_assigns` | old_assigns | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/opaque_struct` | opaque_struct | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/pointer` | pointer | frama_c_wp_acsl | 2 | pointers |
+| `part2_acsl_features/frama_c_wp_acsl/poly` | poly | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/post_result` | post_result | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/postassigns` | postassigns | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/postassigns2` | postassigns2 | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/precedence` | precedence | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/predicates_functions` | predicates_functions | frama_c_wp_acsl | 2 | predicate |
+| `part2_acsl_features/frama_c_wp_acsl/range` | range | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/reads` | reads | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/real` | real | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/record` | record | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/simpl_is_type` | simpl_is_type | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/sizeof` | sizeof | frama_c_wp_acsl | 2 | pure_arith |
+| `part2_acsl_features/frama_c_wp_acsl/sqrt_builtins` | sqrt_builtins | frama_c_wp_acsl | 2 | floats |
+| `part2_acsl_features/frama_c_wp_acsl/struct_fields` | struct_fields | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/struct_use_case` | struct_use_case | frama_c_wp_acsl | 2 | nested_struct |
+| `part2_acsl_features/frama_c_wp_acsl/sum_types` | sum_types | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_call_options` | terminates_call_options | frama_c_wp_acsl | 2 | termination |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_formulae` | terminates_formulae | frama_c_wp_acsl | 2 | termination |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_fp` | terminates_fp | frama_c_wp_acsl | 2 | termination |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_variant_option` | terminates_variant_option | frama_c_wp_acsl | 2 | termination |
+| `part2_acsl_features/frama_c_wp_acsl/tset` | tset | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/type_guard` | type_guard | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/unit_bit_test` | unit_bit_test | frama_c_wp_acsl | 2 | bitwise |
+| `part2_acsl_features/frama_c_wp_acsl/unit_bool` | unit_bool | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/unit_compare` | unit_compare | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/unsupported_builtin` | unsupported_builtin | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/user_def_type_guard` | user_def_type_guard | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/vset` | vset | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/frama_c_wp_acsl/zero` | zero | frama_c_wp_acsl | 2 | — |
 
 ## Part 3 — 短小算法 (curated) (89 case(s))
 

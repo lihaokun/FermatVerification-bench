@@ -1,7 +1,7 @@
 # Bench Cases — by Source
 
-> Generated: 2026-05-13T20:33:09Z
-> Total: 595 case(s) across 3 source(s)
+> Generated: 2026-05-13T20:37:49Z
+> Total: 683 case(s) across 4 source(s)
 
 ## `acsl_by_example` (76 case(s))
 
@@ -594,6 +594,99 @@
 | `part5_mined/casp/00504` | 00504 | 5 | 0 | NOASSERTION |
 | `part5_mined/casp/00505` | 00505 | 5 | 0 | NOASSERTION |
 | `part5_mined/casp/00506` | 00506 | 5 | 0 | NOASSERTION |
+
+## `frama_c_wp_acsl` (88 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part2_acsl_features/frama_c_wp_acsl/arith` | arith | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assign_array` | assign_array | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memtyped` | assigned_initialized_memtyped | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memvar` | assigned_initialized_memvar | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memtyped` | assigned_not_initialized_memtyped | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memvar` | assigned_not_initialized_memvar | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigns_path` | assigns_path | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assigns_range` | assigns_range | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/assumes_labels` | assumes_labels | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/axioms` | axioms | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/base_offset` | base_offset | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise` | bitwise | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise2` | bitwise2 | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/bitwise_idemp` | bitwise_idemp | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/block_length` | block_length | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/boolean` | boolean | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/checks` | checks | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/chunk_typing` | chunk_typing | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/chunk_typing_usable` | chunk_typing_usable | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/classify_float` | classify_float | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/clusters` | clusters | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/cnf` | cnf | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/ctor` | ctor | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/decreases` | decreases | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/div_mod` | div_mod | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/e_imply` | e_imply | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/empty_struct` | empty_struct | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/equal` | equal | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/float_compare` | float_compare | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/float_const` | float_const | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/float_sign` | float_sign | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/funvar_inv` | funvar_inv | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/garbled_opaque_struct` | garbled_opaque_struct | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/generalized_checks` | generalized_checks | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/global_const_dependencies` | global_const_dependencies | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/gnu_zero_array` | gnu_zero_array | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/implicit_enum_cast` | implicit_enum_cast | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/inductive` | inductive | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/inductive_why3_scope` | inductive_why3_scope | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/init_label` | init_label | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/init_value` | init_value | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/init_value_mem` | init_value_mem | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_local_init` | initialized_local_init | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_memtyped` | initialized_memtyped | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_memvar` | initialized_memvar | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/initialized_shift_array` | initialized_shift_array | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/intbool` | intbool | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/issue_A228` | issue_A228 | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/label` | label | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/label_escape` | label_escape | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/lemma_dependency` | lemma_dependency | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/logic` | logic | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/looplabels` | looplabels | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/memvar_chunk_typing` | memvar_chunk_typing | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/null` | null | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/object_pointer` | object_pointer | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/old_assigns` | old_assigns | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/opaque_struct` | opaque_struct | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/pointer` | pointer | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/poly` | poly | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/post_result` | post_result | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/postassigns` | postassigns | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/postassigns2` | postassigns2 | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/precedence` | precedence | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/predicates_functions` | predicates_functions | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/range` | range | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/reads` | reads | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/real` | real | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/record` | record | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/simpl_is_type` | simpl_is_type | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/sizeof` | sizeof | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/sqrt_builtins` | sqrt_builtins | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/struct_fields` | struct_fields | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/struct_use_case` | struct_use_case | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/sum_types` | sum_types | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_call_options` | terminates_call_options | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_formulae` | terminates_formulae | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_fp` | terminates_fp | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/terminates_variant_option` | terminates_variant_option | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/tset` | tset | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/type_guard` | type_guard | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/unit_bit_test` | unit_bit_test | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/unit_bool` | unit_bool | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/unit_compare` | unit_compare | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/unsupported_builtin` | unsupported_builtin | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/user_def_type_guard` | user_def_type_guard | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/vset` | vset | 2 | 2 | LGPL-2.1-only |
+| `part2_acsl_features/frama_c_wp_acsl/zero` | zero | 2 | 2 | LGPL-2.1-only |
 
 ## `frama_c_wp_gallery` (13 case(s))
 

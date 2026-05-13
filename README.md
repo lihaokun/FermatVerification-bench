@@ -40,10 +40,11 @@
 
 - **Bench 版本**：0.1.0
 - **Schema 版本**：0.1
-- **总用例数**：595
+- **总用例数**：683
   - Part 5 (mined corpus)：506 CASP
   - Part 3 (curated)：89（13 Frama-C wp_gallery + 76 ACSL by Example）
-  - Part 1 / 2 / 4：填充中
+  - Part 2 (ACSL 特性)：88 Frama-C wp_acsl
+  - Part 1 / 4：填充中
 
 详见 [`views/stats.md`](views/stats.md) / [`views/by_part.md`](views/by_part.md)。
 
@@ -168,8 +169,9 @@ POC 阶段（v0.1）：
 - ✅ CASP 全 506 case 入库（含 case.toml 元数据；.c 文件 fetch 时生成）
 - ✅ Frama-C wp_gallery 13 case 入库（part 3）
 - ✅ ACSL by Example 76 case 入库（part 3，#include 递归展平为单文件）
+- ✅ Frama-C wp_acsl 88 case 入库（part 2，ACSL 特性单元测试）
 - ⏳ classify_case.py（LLM 判读 strip_policy + difficulty）
-- ⏳ GoblintCil / Frama-C tests/ 入库
+- ⏳ GoblintCil / Frama-C tests/syntax / spec / cil 入库
 - ⏳ ANSSI x509 (Part 4) submodule + transformations
 - ⏳ FM-Bench ACSL slice fetch
 

@@ -1,10 +1,12 @@
 # Bench Cases — by Feature
 
-> Generated: 2026-05-13T20:33:09Z
-> 18 distinct feature(s) tagged across 595 case(s)
+> Generated: 2026-05-13T20:37:49Z
+> 20 distinct feature(s) tagged across 683 case(s)
 
-## `arrays_mut` (34 case(s))
+## `arrays_mut` (36 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/assign_array` — assign_array (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/initialized_shift_array` — initialized_shift_array (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Heap/heap_child` — heap_child (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Heap/heap_parent` — heap_parent (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Heap/is_heap` — is_heap (part 3, difficulty 4)
@@ -40,8 +42,11 @@
 - `part3_curated/acsl_by_example/Sorting/partial_sort` — partial_sort (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Sorting/selection_sort` — selection_sort (part 3, difficulty 4)
 
-## `arrays_ro` (40 case(s))
+## `arrays_ro` (43 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/assign_array` — assign_array (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/gnu_zero_array` — gnu_zero_array (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/initialized_shift_array` — initialized_shift_array (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/BinarySearch/binary_search` — binary_search (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range` — equal_range (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range2` — equal_range2 (part 3, difficulty 3)
@@ -83,8 +88,11 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
 
-## `axiomatic` (12 case(s))
+## `axiomatic` (15 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/axioms` — axioms (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/inductive` — inductive (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/inductive_why3_scope` — inductive_why3_scope (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Heap/heap_child` — heap_child (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Heap/heap_parent` — heap_parent (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Heap/is_heap` — is_heap (part 3, difficulty 4)
@@ -98,8 +106,9 @@
 - `part3_curated/frama_c_wp_gallery/euclid` — euclid (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
 
-## `behaviors` (13 case(s))
+## `behaviors` (14 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/assumes_labels` — assumes_labels (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Stack/stack_capacity` — stack_capacity (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_empty` — stack_empty (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_equal` — stack_equal (part 3, difficulty 3)
@@ -114,8 +123,12 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
 
-## `bitwise` (2 case(s))
+## `bitwise` (6 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/bitwise` — bitwise (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/bitwise2` — bitwise2 (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/bitwise_idemp` — bitwise_idemp (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/unit_bit_test` — unit_bit_test (part 2, difficulty 2)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication` — binary_multiplication (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
 
@@ -123,12 +136,22 @@
 
 - `part3_curated/frama_c_wp_gallery/euclid3` — euclid3 (part 3, difficulty 3)
 
+## `floats` (6 case(s))
+
+- `part2_acsl_features/frama_c_wp_acsl/classify_float` — classify_float (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/float_compare` — float_compare (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/float_const` — float_const (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/float_sign` — float_sign (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/real` — real (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/sqrt_builtins` — sqrt_builtins (part 2, difficulty 2)
+
 ## `ghost` (1 case(s))
 
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
 
-## `lemma` (2 case(s))
+## `lemma` (3 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/lemma_dependency` — lemma_dependency (part 2, difficulty 2)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication` — binary_multiplication (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
 
@@ -159,8 +182,9 @@
 - `part3_curated/frama_c_wp_gallery/find` — find (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo1` — frama_c_exo1 (part 3, difficulty 3)
 
-## `logic_function` (11 case(s))
+## `logic_function` (12 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/logic` — logic (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Numeric/accumulate` — accumulate (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Numeric/adjacent_difference` — adjacent_difference (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Numeric/adjacent_difference_inv` — adjacent_difference_inv (part 3, difficulty 3)
@@ -173,8 +197,9 @@
 - `part3_curated/frama_c_wp_gallery/euclid3` — euclid3 (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
 
-## `loops` (80 case(s))
+## `loops` (81 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/looplabels` — looplabels (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/BinarySearch/binary_search` — binary_search (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range` — equal_range (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range2` — equal_range2 (part 3, difficulty 3)
@@ -266,8 +291,14 @@
 - `part3_curated/acsl_by_example/Sorting/partial_sort` — partial_sort (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Sorting/selection_sort` — selection_sort (part 3, difficulty 4)
 
-## `nested_struct` (9 case(s))
+## `nested_struct` (15 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/empty_struct` — empty_struct (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/garbled_opaque_struct` — garbled_opaque_struct (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/opaque_struct` — opaque_struct (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/record` — record (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/struct_fields` — struct_fields (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/struct_use_case` — struct_use_case (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Stack/stack_capacity` — stack_capacity (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_empty` — stack_empty (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_equal` — stack_equal (part 3, difficulty 3)
@@ -282,8 +313,11 @@
 
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
 
-## `pointers` (30 case(s))
+## `pointers` (33 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/null` — null (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/object_pointer` — object_pointer (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/pointer` — pointer (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/Mutating/copy` — copy (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Mutating/copy_backward` — copy_backward (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Mutating/fill` — fill (part 3, difficulty 3)
@@ -315,8 +349,9 @@
 - `part3_curated/frama_c_wp_gallery/find` — find (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
 
-## `predicate` (66 case(s))
+## `predicate` (67 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/predicates_functions` — predicates_functions (part 2, difficulty 2)
 - `part3_curated/acsl_by_example/BinarySearch/binary_search` — binary_search (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range` — equal_range (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/BinarySearch/equal_range2` — equal_range2 (part 3, difficulty 3)
@@ -384,12 +419,24 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
 
+## `pure_arith` (4 case(s))
+
+- `part2_acsl_features/frama_c_wp_acsl/arith` — arith (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/div_mod` — div_mod (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/intbool` — intbool (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/sizeof` — sizeof (part 2, difficulty 2)
+
 ## `strings` (1 case(s))
 
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
 
-## `termination` (8 case(s))
+## `termination` (13 case(s))
 
+- `part2_acsl_features/frama_c_wp_acsl/decreases` — decreases (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/terminates_call_options` — terminates_call_options (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/terminates_formulae` — terminates_formulae (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/terminates_fp` — terminates_fp (part 2, difficulty 2)
+- `part2_acsl_features/frama_c_wp_acsl/terminates_variant_option` — terminates_variant_option (part 2, difficulty 2)
 - `part3_curated/frama_c_wp_gallery/euclid` — euclid (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/euclid2` — euclid2 (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/euclid3` — euclid3 (part 3, difficulty 3)

@@ -1,5 +1,1061 @@
 schema_version = "0.1"
 part           = 2
 part_name      = "part2_acsl_features"
-generated_at   = "2026-05-13T20:33:09Z"
-case_count     = 0
+generated_at   = "2026-05-13T20:37:49Z"
+case_count     = 88
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/arith"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/arith"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assign_array"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assign_array"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_mut", "arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memtyped"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memtyped"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memvar"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigned_initialized_memvar"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memtyped"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memtyped"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memvar"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigned_not_initialized_memvar"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigns_path"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigns_path"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assigns_range"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assigns_range"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/assumes_labels"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/assumes_labels"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/axioms"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/axioms"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/base_offset"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/base_offset"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/bitwise"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/bitwise"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["bitwise"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/bitwise2"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/bitwise2"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["bitwise"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/bitwise_idemp"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/bitwise_idemp"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["bitwise"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/block_length"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/block_length"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/boolean"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/boolean"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/checks"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/checks"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/chunk_typing"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/chunk_typing"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/chunk_typing_usable"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/chunk_typing_usable"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/classify_float"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/classify_float"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/clusters"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/clusters"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/cnf"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/cnf"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/ctor"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/ctor"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/decreases"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/decreases"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/div_mod"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/div_mod"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/e_imply"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/e_imply"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/empty_struct"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/empty_struct"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/equal"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/equal"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/float_compare"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/float_compare"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/float_const"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/float_const"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/float_sign"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/float_sign"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/funvar_inv"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/funvar_inv"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/garbled_opaque_struct"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/garbled_opaque_struct"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/generalized_checks"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/generalized_checks"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/global_const_dependencies"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/global_const_dependencies"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/gnu_zero_array"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/gnu_zero_array"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/implicit_enum_cast"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/implicit_enum_cast"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/inductive"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/inductive"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/inductive_why3_scope"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/inductive_why3_scope"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/init_label"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/init_label"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/init_value"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/init_value"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/init_value_mem"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/init_value_mem"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/initialized_local_init"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/initialized_local_init"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/initialized_memtyped"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/initialized_memtyped"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/initialized_memvar"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/initialized_memvar"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/initialized_shift_array"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/initialized_shift_array"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_mut", "arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/intbool"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/intbool"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/issue_A228"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/issue_A228"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/label"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/label"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/label_escape"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/label_escape"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/lemma_dependency"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/lemma_dependency"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["lemma"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/logic"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/logic"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/looplabels"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/looplabels"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/memvar_chunk_typing"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/memvar_chunk_typing"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/null"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/null"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/object_pointer"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/object_pointer"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/old_assigns"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/old_assigns"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/opaque_struct"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/opaque_struct"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/pointer"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/pointer"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/poly"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/poly"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/post_result"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/post_result"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/postassigns"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/postassigns"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/postassigns2"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/postassigns2"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/precedence"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/precedence"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/predicates_functions"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/predicates_functions"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["predicate"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/range"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/range"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/reads"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/reads"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/real"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/real"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/record"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/record"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/simpl_is_type"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/simpl_is_type"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/sizeof"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/sizeof"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/sqrt_builtins"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/sqrt_builtins"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/struct_fields"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/struct_fields"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/struct_use_case"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/struct_use_case"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/sum_types"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/sum_types"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/terminates_call_options"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/terminates_call_options"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/terminates_formulae"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/terminates_formulae"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/terminates_fp"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/terminates_fp"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/terminates_variant_option"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/terminates_variant_option"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/tset"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/tset"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/type_guard"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/type_guard"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/unit_bit_test"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/unit_bit_test"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["bitwise"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/unit_bool"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/unit_bool"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/unit_compare"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/unit_compare"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/unsupported_builtin"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/unsupported_builtin"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/user_def_type_guard"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/user_def_type_guard"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/vset"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/vset"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_wp_acsl/zero"
+path               = "cases/part2_acsl_features/frama_c_wp_acsl/zero"
+source             = "frama_c_wp_acsl"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
