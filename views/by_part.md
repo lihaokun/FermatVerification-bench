@@ -1,6 +1,6 @@
 # Bench Cases — by Part
 
-> Generated: 2026-05-13T19:54:38Z
+> Generated: 2026-05-13T20:23:19Z
 > Bench version: 0.1.0
 
 ## Part 1 — C 语言特性 (0 case(s))
@@ -11,9 +11,23 @@ _(empty)_
 
 _(empty)_
 
-## Part 3 — 短小算法 (curated) (0 case(s))
+## Part 3 — 短小算法 (curated) (13 case(s))
 
-_(empty)_
+| id | name | source | difficulty | features |
+|---|---|---|---|---|
+| `part3_curated/frama_c_wp_gallery/binary_multiplication` | binary_multiplication | frama_c_wp_gallery | 4 | loops, bitwise, linear_arith, lemma, axiomatic |
+| `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` | binary_multiplication_without_overflow | frama_c_wp_gallery | 4 | loops, bitwise, overflow_concern, linear_arith, lemma, axiomatic |
+| `part3_curated/frama_c_wp_gallery/bsearch` | bsearch | frama_c_wp_gallery | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/frama_c_wp_gallery/euclid` | euclid | frama_c_wp_gallery | 3 | loops, axiomatic, logic_function, termination |
+| `part3_curated/frama_c_wp_gallery/euclid2` | euclid2 | frama_c_wp_gallery | 3 | loops, termination, logic_function |
+| `part3_curated/frama_c_wp_gallery/euclid3` | euclid3 | frama_c_wp_gallery | 3 | loops, termination, logic_function, callers |
+| `part3_curated/frama_c_wp_gallery/find` | find | frama_c_wp_gallery | 3 | loops, pointers, arrays_ro, predicate, linear_arith |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo1` | frama_c_exo1 | frama_c_wp_gallery | 3 | loops, arrays_ro, linear_arith, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo2` | frama_c_exo2 | frama_c_wp_gallery | 4 | loops, arrays_ro, axiomatic, ghost, logic_function, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` | frama_c_exo3_old | frama_c_wp_gallery | 4 | loops, arrays_ro, behaviors, predicate, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` | frama_c_exo3_old_v2 | frama_c_wp_gallery | 4 | loops, arrays_ro, behaviors, predicate, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | frama_c_wp_gallery | 3 | loops, arrays_ro, behaviors, predicate |
+| `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | frama_c_wp_gallery | 4 | loops, strings, pointers, behaviors, termination |
 
 ## Part 4 — 真实验证目标项目 (0 case(s))
 

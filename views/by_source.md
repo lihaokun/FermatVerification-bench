@@ -1,7 +1,7 @@
 # Bench Cases — by Source
 
-> Generated: 2026-05-13T19:54:38Z
-> Total: 506 case(s) across 1 source(s)
+> Generated: 2026-05-13T20:23:19Z
+> Total: 519 case(s) across 2 source(s)
 
 ## `casp` (506 case(s))
 
@@ -513,3 +513,21 @@
 | `part5_mined/casp/00504` | 00504 | 5 | 0 | NOASSERTION |
 | `part5_mined/casp/00505` | 00505 | 5 | 0 | NOASSERTION |
 | `part5_mined/casp/00506` | 00506 | 5 | 0 | NOASSERTION |
+
+## `frama_c_wp_gallery` (13 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/frama_c_wp_gallery/binary_multiplication` | binary_multiplication | 3 | 4 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` | binary_multiplication_without_overflow | 3 | 4 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/bsearch` | bsearch | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/euclid` | euclid | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/euclid2` | euclid2 | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/euclid3` | euclid3 | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/find` | find | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo1` | frama_c_exo1 | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo2` | frama_c_exo2 | 3 | 4 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` | frama_c_exo3_old | 3 | 4 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` | frama_c_exo3_old_v2 | 3 | 4 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | 3 | 3 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | 3 | 4 | LGPL-2.1-only |

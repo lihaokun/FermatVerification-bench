@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2"
+name          = "frama_c_exo3_old_v2"
+part          = 3
+features      = ["loops", "arrays_ro", "behaviors", "predicate", "termination"]
+
+[provenance]
+source             = "frama_c_wp_gallery"
+upstream_url       = "https://git.frama-c.com/pub/frama-c"
+upstream_path      = "frama_c_exo3_solved.old.v2.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "LGPL-2.1-only"
+license_file       = "LICENSES/LGPL-2.1-frama-c.txt"
+quality            = "algorithm"
+intent             = "edge_case"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 4
+proof_size         = 2
+math_theory        = 2
+data_complexity    = 2
+control_complexity = 3
+spec_complexity    = 3
+auxiliary_needed   = ["loop_invariant", "predicate_def"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional", "termination"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [27, 41, 63, 71, 75]
+source_hash = "sha256:a1b9e7ce53e4b3e8bcbdfdce10a57c4df3f377396542eb3e819dabb61c501ea7"
+rationale   = "wp_gallery 用例：函数 pre/post 视为过程规约（架构 v3+），ground_truth 含完整 ACSL，stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

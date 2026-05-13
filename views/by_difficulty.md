@@ -1,9 +1,32 @@
 # Bench Cases — by Difficulty (overall)
 
-> Generated: 2026-05-13T19:54:38Z
-> Total: 506 case(s)
+> Generated: 2026-05-13T20:23:19Z
+> Total: 519 case(s)
 
 标度锚点：docs/manifest-schema.md §7.3
+
+## Difficulty 4 (6 case(s))
+
+| id | name | source | features |
+|---|---|---|---|
+| `part3_curated/frama_c_wp_gallery/binary_multiplication` | binary_multiplication | frama_c_wp_gallery | loops, bitwise, linear_arith, lemma, axiomatic |
+| `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` | binary_multiplication_without_overflow | frama_c_wp_gallery | loops, bitwise, overflow_concern, linear_arith, lemma, axiomatic |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo2` | frama_c_exo2 | frama_c_wp_gallery | loops, arrays_ro, axiomatic, ghost, logic_function, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` | frama_c_exo3_old | frama_c_wp_gallery | loops, arrays_ro, behaviors, predicate, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` | frama_c_exo3_old_v2 | frama_c_wp_gallery | loops, arrays_ro, behaviors, predicate, termination |
+| `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | frama_c_wp_gallery | loops, strings, pointers, behaviors, termination |
+
+## Difficulty 3 (7 case(s))
+
+| id | name | source | features |
+|---|---|---|---|
+| `part3_curated/frama_c_wp_gallery/bsearch` | bsearch | frama_c_wp_gallery | loops, arrays_ro, linear_arith |
+| `part3_curated/frama_c_wp_gallery/euclid` | euclid | frama_c_wp_gallery | loops, axiomatic, logic_function, termination |
+| `part3_curated/frama_c_wp_gallery/euclid2` | euclid2 | frama_c_wp_gallery | loops, termination, logic_function |
+| `part3_curated/frama_c_wp_gallery/euclid3` | euclid3 | frama_c_wp_gallery | loops, termination, logic_function, callers |
+| `part3_curated/frama_c_wp_gallery/find` | find | frama_c_wp_gallery | loops, pointers, arrays_ro, predicate, linear_arith |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo1` | frama_c_exo1 | frama_c_wp_gallery | loops, arrays_ro, linear_arith, termination |
+| `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | frama_c_wp_gallery | loops, arrays_ro, behaviors, predicate |
 
 ## Difficulty 0 (506 case(s))
 

@@ -1,0 +1,44 @@
+Frama-C Attribution & License Reference
+=========================================
+
+Content under the following bench paths is derived from Frama-C
+(https://git.frama-c.com/pub/frama-c):
+
+  cases/part1_c_features/frama_c_syntax/**
+  cases/part1_c_features/frama_c_cil/**
+  cases/part2_acsl_features/frama_c_wp_acsl/**
+  cases/part2_acsl_features/frama_c_spec/**
+  cases/part3_curated/frama_c_wp_gallery/**
+  cases/part3_curated/frama_c_wp_models/**
+
+Copyright: CEA LIST and Inria
+License:   LGPL-2.1-only (SPDX identifier)
+
+Frama-C's top-level LICENSE file states:
+
+  "Frama-C sources are mostly covered by LGPLv2.1.
+   See licences/LGPL for details about this license.
+
+   Some files are distributed with the following licenses:
+   - BSD: see licenses/BSD
+   - CC0: see licenses/CC0
+   ...
+
+   Each source file contains its own header, indicating used license.
+   Documentation is licensed under CC-BY-SA 4.0."
+
+The wp_gallery and wp_acsl test files we ingest typically do not carry
+individual file headers; the project default (LGPL-2.1) applies.
+
+For the full LGPL-2.1 license text, see:
+  https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
+
+Or in Frama-C source tree: `licences/LGPL`
+
+This bench redistributes the files under LGPL-2.1-only per the project default.
+
+Citation:
+
+  Frama-C is developed by the Frama-C team at CEA LIST and Inria.
+  Project home: https://www.frama-c.com/
+  Bug tracker:  https://git.frama-c.com/pub/frama-c/-/issues

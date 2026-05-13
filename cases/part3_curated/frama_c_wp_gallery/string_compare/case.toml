@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/frama_c_wp_gallery/string_compare"
+name          = "string_compare"
+part          = 3
+features      = ["loops", "strings", "pointers", "behaviors", "termination"]
+
+[provenance]
+source             = "frama_c_wp_gallery"
+upstream_url       = "https://git.frama-c.com/pub/frama-c"
+upstream_path      = "string-compare.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "LGPL-2.1-only"
+license_file       = "LICENSES/LGPL-2.1-frama-c.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 4
+proof_size         = 2
+math_theory        = 2
+data_complexity    = 3
+control_complexity = 2
+spec_complexity    = 3
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional", "termination", "memory_safety"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [13, 32, 43, 48, 52, 62, 69, 78]
+source_hash = "sha256:587efd7af3b7a4a9df870e4cd6185fd5e1788d5cfb5dab4a89f0667060b160e8"
+rationale   = "wp_gallery 用例：函数 pre/post 视为过程规约（架构 v3+），ground_truth 含完整 ACSL，stripped 为纯 C；agent 任务隐式 = 让 WP+RTE 全过。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

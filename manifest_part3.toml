@@ -1,5 +1,161 @@
 schema_version = "0.1"
 part           = 3
 part_name      = "part3_curated"
-generated_at   = "2026-05-13T19:54:38Z"
-case_count     = 0
+generated_at   = "2026-05-13T20:23:19Z"
+case_count     = 13
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/binary_multiplication"
+path               = "cases/part3_curated/frama_c_wp_gallery/binary_multiplication"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "proof_technique"
+difficulty_overall = 4
+features           = ["loops", "bitwise", "linear_arith", "lemma", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow"
+path               = "cases/part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "proof_technique"
+difficulty_overall = 4
+features           = ["loops", "bitwise", "overflow_concern", "linear_arith", "lemma", "axiomatic"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/bsearch"
+path               = "cases/part3_curated/frama_c_wp_gallery/bsearch"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/euclid"
+path               = "cases/part3_curated/frama_c_wp_gallery/euclid"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "axiomatic", "logic_function", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/euclid2"
+path               = "cases/part3_curated/frama_c_wp_gallery/euclid2"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "termination", "logic_function"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/euclid3"
+path               = "cases/part3_curated/frama_c_wp_gallery/euclid3"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "termination", "logic_function", "callers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/find"
+path               = "cases/part3_curated/frama_c_wp_gallery/find"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "pointers", "arrays_ro", "predicate", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/frama_c_exo1"
+path               = "cases/part3_curated/frama_c_wp_gallery/frama_c_exo1"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "edge_case"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/frama_c_exo2"
+path               = "cases/part3_curated/frama_c_wp_gallery/frama_c_exo2"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "edge_case"
+difficulty_overall = 4
+features           = ["loops", "arrays_ro", "axiomatic", "ghost", "logic_function", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/frama_c_exo3_old"
+path               = "cases/part3_curated/frama_c_wp_gallery/frama_c_exo3_old"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "edge_case"
+difficulty_overall = 4
+features           = ["loops", "arrays_ro", "behaviors", "predicate", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2"
+path               = "cases/part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "edge_case"
+difficulty_overall = 4
+features           = ["loops", "arrays_ro", "behaviors", "predicate", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified"
+path               = "cases/part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "edge_case"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "behaviors", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_gallery/string_compare"
+path               = "cases/part3_curated/frama_c_wp_gallery/string_compare"
+source             = "frama_c_wp_gallery"
+license            = "LGPL-2.1-only"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "strings", "pointers", "behaviors", "termination"]
+has_ground_truth   = true
+has_stripped       = true
