@@ -1,0 +1,36 @@
+schema_version = "0.1"
+id            = "part1_c_features/goblintcil/small1/simon6"
+name          = "simon6"
+part          = 1
+features      = []
+
+[provenance]
+source             = "goblintcil"
+upstream_url       = "https://github.com/goblint/cil"
+upstream_path      = "test/small1/simon6.c"
+upstream_tool_hint = "goblintcil parser (BSD-3 fork of CIL)"
+license            = "BSD-3-Clause"
+license_file       = "LICENSES/BSD-3-goblint.txt"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+
+[files]
+entry_files = ["simon6.c"]
+
+[difficulty]
+overall            = 1
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 1
+control_complexity = 1
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[parse]
+constructs_used = []
+known_issues    = []
+notes           = "GoblintCil parser stress; 无 ACSL；constructs_used 由文件名启发式推导。"

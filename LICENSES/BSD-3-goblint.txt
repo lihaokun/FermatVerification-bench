@@ -1,0 +1,60 @@
+GoblintCil — Attribution & License Reference
+==============================================
+
+Content under the following bench paths is derived from GoblintCil
+(https://github.com/goblint/cil), a maintained BSD-3-Clause fork of CIL:
+
+  cases/part1_c_features/goblintcil/**
+
+Copyright: 2001-2020 George C. Necula, Scott McPeak, Wes Weimer, Ben Liblit, et al.;
+           Vogler, Schwarz, et al. (Goblint team)
+License:   BSD-3-Clause (SPDX identifier: BSD-3-Clause)
+
+The upstream LICENSE states (verbatim, abridged for brevity):
+
+  Copyright (c) 2001-2020,
+   George C. Necula    <necula@cs.berkeley.edu>
+   Scott McPeak        <smcpeak@cs.berkeley.edu>
+   Wes Weimer          <weimer@cs.berkeley.edu>
+   Ben Liblit          <liblit@cs.wisc.edu>
+   All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+  1. Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+
+  3. The names of the contributors may not be used to endorse or promote
+     products derived from this software without specific prior written
+     permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
+
+For the full upstream LICENSE text and history:
+  https://github.com/goblint/cil/blob/main/LICENSE
+
+Use of these test files in this bench:
+  GoblintCil's test/small1/ + test/small2/ historically exposed CIL parser
+  corner cases (GCC extensions, alignment, designated initializers, _Alignas,
+  _Generic, bitfields, VLA, etc.). These files have NO ACSL; they are pure C
+  frontend stress tests. Bench Part 1 (C language features) uses them to test
+  any frontend's coverage by exposing it to these constructs.
+
+  Expected outcomes will vary across consumers (e.g., frama-c may reject some
+  GCC-specific extensions that goblintcil accepts; recording this divergence
+  is the point of differential testing).
