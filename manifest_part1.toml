@@ -1,8 +1,4328 @@
 schema_version = "0.1"
 part           = 1
 part_name      = "part1_c_features"
-generated_at   = "2026-05-13T20:39:34Z"
-case_count     = 662
+generated_at   = "2026-05-13T20:47:50Z"
+case_count     = 1022
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/acsl_comments"
+path               = "cases/part1_c_features/frama_c_cil/acsl_comments"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/annot"
+path               = "cases/part1_c_features/frama_c_cil/annot"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/branch"
+path               = "cases/part1_c_features/frama_c_cil/branch"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/bts297"
+path               = "cases/part1_c_features/frama_c_cil/bts297"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/bts342"
+path               = "cases/part1_c_features/frama_c_cil/bts342"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/bts882"
+path               = "cases/part1_c_features/frama_c_cil/bts882"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/bts892"
+path               = "cases/part1_c_features/frama_c_cil/bts892"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/change_formals"
+path               = "cases/part1_c_features/frama_c_cil/change_formals"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/change_to_instr"
+path               = "cases/part1_c_features/frama_c_cil/change_to_instr"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/comments"
+path               = "cases/part1_c_features/frama_c_cil/comments"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/cpu_a"
+path               = "cases/part1_c_features/frama_c_cil/cpu_a"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/cpu_b"
+path               = "cases/part1_c_features/frama_c_cil/cpu_b"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/digraphs_c99"
+path               = "cases/part1_c_features/frama_c_cil/digraphs_c99"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/duplicate_labels"
+path               = "cases/part1_c_features/frama_c_cil/duplicate_labels"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/empty_cond"
+path               = "cases/part1_c_features/frama_c_cil/empty_cond"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/ghost_cfg"
+path               = "cases/part1_c_features/frama_c_cil/ghost_cfg"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/insert_formal"
+path               = "cases/part1_c_features/frama_c_cil/insert_formal"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/issues"
+path               = "cases/part1_c_features/frama_c_cil/issues"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/long_neg_cdiv"
+path               = "cases/part1_c_features/frama_c_cil/long_neg_cdiv"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/merge"
+path               = "cases/part1_c_features/frama_c_cil/merge"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/merge2"
+path               = "cases/part1_c_features/frama_c_cil/merge2"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/mkBinOp"
+path               = "cases/part1_c_features/frama_c_cil/mkBinOp"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/ocaml32bits3_11_0"
+path               = "cases/part1_c_features/frama_c_cil/ocaml32bits3_11_0"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/overlap"
+path               = "cases/part1_c_features/frama_c_cil/overlap"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/queue_ghost_instr"
+path               = "cases/part1_c_features/frama_c_cil/queue_ghost_instr"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_cil/union_to_union"
+path               = "cases/part1_c_features/frama_c_cil/union_to_union"
+source             = "frama_c_cil"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/Refresh_visitor"
+path               = "cases/part1_c_features/frama_c_syntax/Refresh_visitor"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/access_volatile_bts1589"
+path               = "cases/part1_c_features/frama_c_syntax/access_volatile_bts1589"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/acsl_type_expression_array"
+path               = "cases/part1_c_features/frama_c_syntax/acsl_type_expression_array"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/add_allocates"
+path               = "cases/part1_c_features/frama_c_syntax/add_allocates"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/aggressive_merging_1"
+path               = "cases/part1_c_features/frama_c_syntax/aggressive_merging_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/aggressive_merging_2"
+path               = "cases/part1_c_features/frama_c_syntax/aggressive_merging_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/alignas_typing_constrains"
+path               = "cases/part1_c_features/frama_c_syntax/alignas_typing_constrains"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/alignas_typing_constrains_companion"
+path               = "cases/part1_c_features/frama_c_syntax/alignas_typing_constrains_companion"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/aligned"
+path               = "cases/part1_c_features/frama_c_syntax/aligned"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/alignof_typing_constrains"
+path               = "cases/part1_c_features/frama_c_syntax/alignof_typing_constrains"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/alloc_order"
+path               = "cases/part1_c_features/frama_c_syntax/alloc_order"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/anon_enum_libc"
+path               = "cases/part1_c_features/frama_c_syntax/anon_enum_libc"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/anonymous_comp_init"
+path               = "cases/part1_c_features/frama_c_syntax/anonymous_comp_init"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/arg_type"
+path               = "cases/part1_c_features/frama_c_syntax/arg_type"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/array_cast_bts1099"
+path               = "cases/part1_c_features/frama_c_syntax/array_cast_bts1099"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/array_formals"
+path               = "cases/part1_c_features/frama_c_syntax/array_formals"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/array_size"
+path               = "cases/part1_c_features/frama_c_syntax/array_size"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/array_size_float"
+path               = "cases/part1_c_features/frama_c_syntax/array_size_float"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro", "floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/array_static_arg"
+path               = "cases/part1_c_features/frama_c_syntax/array_static_arg"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/asm_goto"
+path               = "cases/part1_c_features/frama_c_syntax/asm_goto"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/asm_with_contracts"
+path               = "cases/part1_c_features/frama_c_syntax/asm_with_contracts"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/assembly_gmp"
+path               = "cases/part1_c_features/frama_c_syntax/assembly_gmp"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/assert_location"
+path               = "cases/part1_c_features/frama_c_syntax/assert_location"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ast_diff_1"
+path               = "cases/part1_c_features/frama_c_syntax/ast_diff_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ast_diff_2"
+path               = "cases/part1_c_features/frama_c_syntax/ast_diff_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ast_init"
+path               = "cases/part1_c_features/frama_c_syntax/ast_init"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/attributes_declarations_definitions"
+path               = "cases/part1_c_features/frama_c_syntax/attributes_declarations_definitions"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/attributes_exotic"
+path               = "cases/part1_c_features/frama_c_syntax/attributes_exotic"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/autoreference_init_issue_563"
+path               = "cases/part1_c_features/frama_c_syntax/autoreference_init_issue_563"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/axiomatic_nested"
+path               = "cases/part1_c_features/frama_c_syntax/axiomatic_nested"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bad_return_bts_599"
+path               = "cases/part1_c_features/frama_c_syntax/bad_return_bts_599"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/basic_asm"
+path               = "cases/part1_c_features/frama_c_syntax/basic_asm"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/binary_op"
+path               = "cases/part1_c_features/frama_c_syntax/binary_op"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bool_conversion"
+path               = "cases/part1_c_features/frama_c_syntax/bool_conversion"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0323"
+path               = "cases/part1_c_features/frama_c_syntax/bts0323"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0323_2"
+path               = "cases/part1_c_features/frama_c_syntax/bts0323_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0442"
+path               = "cases/part1_c_features/frama_c_syntax/bts0442"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0442_2"
+path               = "cases/part1_c_features/frama_c_syntax/bts0442_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0519"
+path               = "cases/part1_c_features/frama_c_syntax/bts0519"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0577"
+path               = "cases/part1_c_features/frama_c_syntax/bts0577"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0588"
+path               = "cases/part1_c_features/frama_c_syntax/bts0588"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0672_link"
+path               = "cases/part1_c_features/frama_c_syntax/bts0672_link"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0672_link_2"
+path               = "cases/part1_c_features/frama_c_syntax/bts0672_link_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0769"
+path               = "cases/part1_c_features/frama_c_syntax/bts0769"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts0916"
+path               = "cases/part1_c_features/frama_c_syntax/bts0916"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts1553"
+path               = "cases/part1_c_features/frama_c_syntax/bts1553"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts1553_2"
+path               = "cases/part1_c_features/frama_c_syntax/bts1553_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/bts59"
+path               = "cases/part1_c_features/frama_c_syntax/bts59"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/built"
+path               = "cases/part1_c_features/frama_c_syntax/built"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/builtin_choose_expr"
+path               = "cases/part1_c_features/frama_c_syntax/builtin_choose_expr"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/builtin_constant_p"
+path               = "cases/part1_c_features/frama_c_syntax/builtin_constant_p"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/builtin_macro"
+path               = "cases/part1_c_features/frama_c_syntax/builtin_macro"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/builtin_types_compatible"
+path               = "cases/part1_c_features/frama_c_syntax/builtin_types_compatible"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/c11_keywords"
+path               = "cases/part1_c_features/frama_c_syntax/c11_keywords"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/c23_align_kw"
+path               = "cases/part1_c_features/frama_c_syntax/c23_align_kw"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/cast_struct_function_attr"
+path               = "cases/part1_c_features/frama_c_syntax/cast_struct_function_attr"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/censored_macros"
+path               = "cases/part1_c_features/frama_c_syntax/censored_macros"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/cert_dcl_36"
+path               = "cases/part1_c_features/frama_c_syntax/cert_dcl_36"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/cert_exp10"
+path               = "cases/part1_c_features/frama_c_syntax/cert_exp10"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/cert_exp46"
+path               = "cases/part1_c_features/frama_c_syntax/cert_exp46"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/cert_msc_38"
+path               = "cases/part1_c_features/frama_c_syntax/cert_msc_38"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/char_is_unsigned"
+path               = "cases/part1_c_features/frama_c_syntax/char_is_unsigned"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/check_builtin_bts1440"
+path               = "cases/part1_c_features/frama_c_syntax/check_builtin_bts1440"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/clabels_builtin_labels"
+path               = "cases/part1_c_features/frama_c_syntax/clabels_builtin_labels"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/clang_redef_warning"
+path               = "cases/part1_c_features/frama_c_syntax/clang_redef_warning"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/clone_test"
+path               = "cases/part1_c_features/frama_c_syntax/clone_test"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/compile_constant"
+path               = "cases/part1_c_features/frama_c_syntax/compile_constant"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/compiler_builtins"
+path               = "cases/part1_c_features/frama_c_syntax/compiler_builtins"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/composite_tags"
+path               = "cases/part1_c_features/frama_c_syntax/composite_tags"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/compound_literal"
+path               = "cases/part1_c_features/frama_c_syntax/compound_literal"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/conflict"
+path               = "cases/part1_c_features/frama_c_syntax/conflict"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/const_assignments"
+path               = "cases/part1_c_features/frama_c_syntax/const_assignments"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/const_formals"
+path               = "cases/part1_c_features/frama_c_syntax/const_formals"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/constfold"
+path               = "cases/part1_c_features/frama_c_syntax/constfold"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/copy_logic"
+path               = "cases/part1_c_features/frama_c_syntax/copy_logic"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/copy_visitor"
+path               = "cases/part1_c_features/frama_c_syntax/copy_visitor"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/copy_visitor_bts_1073"
+path               = "cases/part1_c_features/frama_c_syntax/copy_visitor_bts_1073"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/dangerous_expressions"
+path               = "cases/part1_c_features/frama_c_syntax/dangerous_expressions"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/dangling_else"
+path               = "cases/part1_c_features/frama_c_syntax/dangling_else"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/dangling_reference_bts1475"
+path               = "cases/part1_c_features/frama_c_syntax/dangling_reference_bts1475"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/decay"
+path               = "cases/part1_c_features/frama_c_syntax/decay"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/decl_function"
+path               = "cases/part1_c_features/frama_c_syntax/decl_function"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/define_string_logic_pp_bts2101"
+path               = "cases/part1_c_features/frama_c_syntax/define_string_logic_pp_bts2101"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/designated_init_pretty_print_bts1457"
+path               = "cases/part1_c_features/frama_c_syntax/designated_init_pretty_print_bts1457"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/double_definition"
+path               = "cases/part1_c_features/frama_c_syntax/double_definition"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/dowhilezero"
+path               = "cases/part1_c_features/frama_c_syntax/dowhilezero"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/duplicate_field"
+path               = "cases/part1_c_features/frama_c_syntax/duplicate_field"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/duplicated_global_bts1129"
+path               = "cases/part1_c_features/frama_c_syntax/duplicated_global_bts1129"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/empty_base"
+path               = "cases/part1_c_features/frama_c_syntax/empty_base"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/empty_initializer"
+path               = "cases/part1_c_features/frama_c_syntax/empty_initializer"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/empty_struct"
+path               = "cases/part1_c_features/frama_c_syntax/empty_struct"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/empty_union"
+path               = "cases/part1_c_features/frama_c_syntax/empty_union"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum1"
+path               = "cases/part1_c_features/frama_c_syntax/enum1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum2"
+path               = "cases/part1_c_features/frama_c_syntax/enum2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_attr_init"
+path               = "cases/part1_c_features/frama_c_syntax/enum_attr_init"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_call"
+path               = "cases/part1_c_features/frama_c_syntax/enum_call"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_forward"
+path               = "cases/part1_c_features/frama_c_syntax/enum_forward"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_redef_ko"
+path               = "cases/part1_c_features/frama_c_syntax/enum_redef_ko"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_redef_ok"
+path               = "cases/part1_c_features/frama_c_syntax/enum_redef_ok"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_repr"
+path               = "cases/part1_c_features/frama_c_syntax/enum_repr"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_size_array"
+path               = "cases/part1_c_features/frama_c_syntax/enum_size_array"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/enum_typedef_redef"
+path               = "cases/part1_c_features/frama_c_syntax/enum_typedef_redef"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/erased_label_bts1502"
+path               = "cases/part1_c_features/frama_c_syntax/erased_label_bts1502"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/error_end_decl"
+path               = "cases/part1_c_features/frama_c_syntax/error_end_decl"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/exit"
+path               = "cases/part1_c_features/frama_c_syntax/exit"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/extern_init"
+path               = "cases/part1_c_features/frama_c_syntax/extern_init"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/extern_init_1"
+path               = "cases/part1_c_features/frama_c_syntax/extern_init_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/extern_init_2"
+path               = "cases/part1_c_features/frama_c_syntax/extern_init_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/extinline"
+path               = "cases/part1_c_features/frama_c_syntax/extinline"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/fam"
+path               = "cases/part1_c_features/frama_c_syntax/fam"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/fc_filename"
+path               = "cases/part1_c_features/frama_c_syntax/fc_filename"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/fct_ptr"
+path               = "cases/part1_c_features/frama_c_syntax/fct_ptr"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/field_offsets"
+path               = "cases/part1_c_features/frama_c_syntax/field_offsets"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member_invalid1"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member_invalid1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member_invalid2"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member_invalid2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member_invalid3"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member_invalid3"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member_invalid4"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member_invalid4"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/flexible_array_member_invalid5"
+path               = "cases/part1_c_features/frama_c_syntax/flexible_array_member_invalid5"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/float"
+path               = "cases/part1_c_features/frama_c_syntax/float"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/float_parser_ddos"
+path               = "cases/part1_c_features/frama_c_syntax/float_parser_ddos"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/foo"
+path               = "cases/part1_c_features/frama_c_syntax/foo"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/for_unspecified_seq_in_inc"
+path               = "cases/part1_c_features/frama_c_syntax/for_unspecified_seq_in_inc"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/force_posix"
+path               = "cases/part1_c_features/frama_c_syntax/force_posix"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/forloophook"
+path               = "cases/part1_c_features/frama_c_syntax/forloophook"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/formals_decl_leak"
+path               = "cases/part1_c_features/frama_c_syntax/formals_decl_leak"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/formals_decl_leak_1"
+path               = "cases/part1_c_features/frama_c_syntax/formals_decl_leak_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/func_locs"
+path               = "cases/part1_c_features/frama_c_syntax/func_locs"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/func_spec_merge"
+path               = "cases/part1_c_features/frama_c_syntax/func_spec_merge"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/function_ptr_alignof"
+path               = "cases/part1_c_features/frama_c_syntax/function_ptr_alignof"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/function_ptr_lvalue_1"
+path               = "cases/part1_c_features/frama_c_syntax/function_ptr_lvalue_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/function_ptr_lvalue_2"
+path               = "cases/part1_c_features/frama_c_syntax/function_ptr_lvalue_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/function_ptr_sizeof"
+path               = "cases/part1_c_features/frama_c_syntax/function_ptr_sizeof"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/function_types_compatible"
+path               = "cases/part1_c_features/frama_c_syntax/function_types_compatible"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/gcc_builtins"
+path               = "cases/part1_c_features/frama_c_syntax/gcc_builtins"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/generic"
+path               = "cases/part1_c_features/frama_c_syntax/generic"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/get_astinfo_bts1136"
+path               = "cases/part1_c_features/frama_c_syntax/get_astinfo_bts1136"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_incompat"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_incompat"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_invalid_use"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_invalid_use"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_parsing_errors"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_parsing_errors"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_valid_ref"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_valid_ref"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_valid_use"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_valid_use"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_cv_var_decl"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_cv_var_decl"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_else"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_else"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_else_bad"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_else_bad"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_else_bad_oneline"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_else_bad_oneline"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_func_ptr"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_func_ptr"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_lexing"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_lexing"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_local_capture"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_local_capture"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_local_ill_formed"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_local_ill_formed"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_multiline_annot"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_multiline_annot"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_parameters"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_parameters"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_parameters_formals_status"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_parameters_formals_status"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_parameters_side_effect_arg"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_parameters_side_effect_arg"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ghost_vla"
+path               = "cases/part1_c_features/frama_c_syntax/ghost_vla"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/gnu_asm_aesni"
+path               = "cases/part1_c_features/frama_c_syntax/gnu_asm_aesni"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/implicit_args_bts1267"
+path               = "cases/part1_c_features/frama_c_syntax/implicit_args_bts1267"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/implicit_int"
+path               = "cases/part1_c_features/frama_c_syntax/implicit_int"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/incompatible_qualifiers"
+path               = "cases/part1_c_features/frama_c_syntax/incompatible_qualifiers"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/incomplete_array"
+path               = "cases/part1_c_features/frama_c_syntax/incomplete_array"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/incomplete_circular_struct_field"
+path               = "cases/part1_c_features/frama_c_syntax/incomplete_circular_struct_field"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/incomplete_initialization_issue_1510"
+path               = "cases/part1_c_features/frama_c_syntax/incomplete_initialization_issue_1510"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/incomplete_struct_field"
+path               = "cases/part1_c_features/frama_c_syntax/incomplete_struct_field"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inconsistent_decl"
+path               = "cases/part1_c_features/frama_c_syntax/inconsistent_decl"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inconsistent_decl_2"
+path               = "cases/part1_c_features/frama_c_syntax/inconsistent_decl_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inconsistent_global_ghost_spec"
+path               = "cases/part1_c_features/frama_c_syntax/inconsistent_global_ghost_spec"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/init_array_string"
+path               = "cases/part1_c_features/frama_c_syntax/init_array_string"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro", "strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/init_bts1352"
+path               = "cases/part1_c_features/frama_c_syntax/init_bts1352"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/init_call_ko"
+path               = "cases/part1_c_features/frama_c_syntax/init_call_ko"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/init_call_ok"
+path               = "cases/part1_c_features/frama_c_syntax/init_call_ok"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/initializer"
+path               = "cases/part1_c_features/frama_c_syntax/initializer"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/initializers"
+path               = "cases/part1_c_features/frama_c_syntax/initializers"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline"
+path               = "cases/part1_c_features/frama_c_syntax/inline"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_calls"
+path               = "cases/part1_c_features/frama_c_syntax/inline_calls"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_def_1"
+path               = "cases/part1_c_features/frama_c_syntax/inline_def_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_def_2"
+path               = "cases/part1_c_features/frama_c_syntax/inline_def_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_def_bad_1"
+path               = "cases/part1_c_features/frama_c_syntax/inline_def_bad_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_def_bad_2"
+path               = "cases/part1_c_features/frama_c_syntax/inline_def_bad_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inline_stmt_contract"
+path               = "cases/part1_c_features/frama_c_syntax/inline_stmt_contract"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/inserted_casts"
+path               = "cases/part1_c_features/frama_c_syntax/inserted_casts"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/invalid_constant"
+path               = "cases/part1_c_features/frama_c_syntax/invalid_constant"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/invalid_implicit_cast_issue_1346"
+path               = "cases/part1_c_features/frama_c_syntax/invalid_implicit_cast_issue_1346"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/issue_641_implicit_calls"
+path               = "cases/part1_c_features/frama_c_syntax/issue_641_implicit_calls"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/keep"
+path               = "cases/part1_c_features/frama_c_syntax/keep"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/keep_defs_on_incompatibility"
+path               = "cases/part1_c_features/frama_c_syntax/keep_defs_on_incompatibility"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/keep_defs_on_incompatibility_companion"
+path               = "cases/part1_c_features/frama_c_syntax/keep_defs_on_incompatibility_companion"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/keep_logical_operators"
+path               = "cases/part1_c_features/frama_c_syntax/keep_logical_operators"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ko_globals"
+path               = "cases/part1_c_features/frama_c_syntax/ko_globals"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/label_decl"
+path               = "cases/part1_c_features/frama_c_syntax/label_decl"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/libc_defs"
+path               = "cases/part1_c_features/frama_c_syntax/libc_defs"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/line_directives"
+path               = "cases/part1_c_features/frama_c_syntax/line_directives"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/line_number"
+path               = "cases/part1_c_features/frama_c_syntax/line_number"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/literal_question_no_trigraph"
+path               = "cases/part1_c_features/frama_c_syntax/literal_question_no_trigraph"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/local_init_const"
+path               = "cases/part1_c_features/frama_c_syntax/local_init_const"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/local_uninitialized_bts_1081"
+path               = "cases/part1_c_features/frama_c_syntax/local_uninitialized_bts_1081"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/local_variable"
+path               = "cases/part1_c_features/frama_c_syntax/local_variable"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/localisation_error"
+path               = "cases/part1_c_features/frama_c_syntax/localisation_error"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/logic_env"
+path               = "cases/part1_c_features/frama_c_syntax/logic_env"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/loop_annot"
+path               = "cases/part1_c_features/frama_c_syntax/loop_annot"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/loop_case_switch_for_unroll"
+path               = "cases/part1_c_features/frama_c_syntax/loop_case_switch_for_unroll"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/lvalvoid"
+path               = "cases/part1_c_features/frama_c_syntax/lvalvoid"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/macro_escape_chars"
+path               = "cases/part1_c_features/frama_c_syntax/macro_escape_chars"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_attrs_align"
+path               = "cases/part1_c_features/frama_c_syntax/merge_attrs_align"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_attrs_align1"
+path               = "cases/part1_c_features/frama_c_syntax/merge_attrs_align1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_attrs_align2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_attrs_align2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_attrs_align3"
+path               = "cases/part1_c_features/frama_c_syntax/merge_attrs_align3"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_attrs_align4"
+path               = "cases/part1_c_features/frama_c_syntax/merge_attrs_align4"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_bts0948"
+path               = "cases/part1_c_features/frama_c_syntax/merge_bts0948"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_bts0948_1"
+path               = "cases/part1_c_features/frama_c_syntax/merge_bts0948_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_bts0948_2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_bts0948_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_inline_1"
+path               = "cases/part1_c_features/frama_c_syntax/merge_inline_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_inline_2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_inline_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_loc"
+path               = "cases/part1_c_features/frama_c_syntax/merge_loc"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_triple_1"
+path               = "cases/part1_c_features/frama_c_syntax/merge_triple_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_triple_2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_triple_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_triple_3"
+path               = "cases/part1_c_features/frama_c_syntax/merge_triple_3"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_union"
+path               = "cases/part1_c_features/frama_c_syntax/merge_union"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_union_2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_union_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_union_3"
+path               = "cases/part1_c_features/frama_c_syntax/merge_union_3"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_unused"
+path               = "cases/part1_c_features/frama_c_syntax/merge_unused"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_unused_2"
+path               = "cases/part1_c_features/frama_c_syntax/merge_unused_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_variadic"
+path               = "cases/part1_c_features/frama_c_syntax/merge_variadic"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/merge_variadic_aux"
+path               = "cases/part1_c_features/frama_c_syntax/merge_variadic_aux"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiline_macro"
+path               = "cases/part1_c_features/frama_c_syntax/multiline_macro"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiple_assigns"
+path               = "cases/part1_c_features/frama_c_syntax/multiple_assigns"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiple_decls_contracts"
+path               = "cases/part1_c_features/frama_c_syntax/multiple_decls_contracts"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiple_froms"
+path               = "cases/part1_c_features/frama_c_syntax/multiple_froms"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiple_static"
+path               = "cases/part1_c_features/frama_c_syntax/multiple_static"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/multiple_static_2"
+path               = "cases/part1_c_features/frama_c_syntax/multiple_static_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/mutable_test"
+path               = "cases/part1_c_features/frama_c_syntax/mutable_test"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/mutually_recursive_struct"
+path               = "cases/part1_c_features/frama_c_syntax/mutually_recursive_struct"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct", "recursion"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/no_print_libc_reparse"
+path               = "cases/part1_c_features/frama_c_syntax/no_print_libc_reparse"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/no_prototype"
+path               = "cases/part1_c_features/frama_c_syntax/no_prototype"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/noret"
+path               = "cases/part1_c_features/frama_c_syntax/noret"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/nullable"
+path               = "cases/part1_c_features/frama_c_syntax/nullable"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/nullptr_fct"
+path               = "cases/part1_c_features/frama_c_syntax/nullptr_fct"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/offset"
+path               = "cases/part1_c_features/frama_c_syntax/offset"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/offsetof"
+path               = "cases/part1_c_features/frama_c_syntax/offsetof"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ok_globals"
+path               = "cases/part1_c_features/frama_c_syntax/ok_globals"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/one_ret_assert"
+path               = "cases/part1_c_features/frama_c_syntax/one_ret_assert"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/orig_name"
+path               = "cases/part1_c_features/frama_c_syntax/orig_name"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/osx_attribute"
+path               = "cases/part1_c_features/frama_c_syntax/osx_attribute"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/override_comp"
+path               = "cases/part1_c_features/frama_c_syntax/override_comp"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/pragma"
+path               = "cases/part1_c_features/frama_c_syntax/pragma"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/pragma_operator"
+path               = "cases/part1_c_features/frama_c_syntax/pragma_operator"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/print_spurious_block"
+path               = "cases/part1_c_features/frama_c_syntax/print_spurious_block"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ptr_null_cmp_bts1027"
+path               = "cases/part1_c_features/frama_c_syntax/ptr_null_cmp_bts1027"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/reject_use_decl_mismatch_bts728"
+path               = "cases/part1_c_features/frama_c_syntax/reject_use_decl_mismatch_bts728"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/rename"
+path               = "cases/part1_c_features/frama_c_syntax/rename"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/reorder"
+path               = "cases/part1_c_features/frama_c_syntax/reorder"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/rettype"
+path               = "cases/part1_c_features/frama_c_syntax/rettype"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/rmtmps_static"
+path               = "cases/part1_c_features/frama_c_syntax/rmtmps_static"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/signal"
+path               = "cases/part1_c_features/frama_c_syntax/signal"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/simp_switch"
+path               = "cases/part1_c_features/frama_c_syntax/simp_switch"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/sizeof"
+path               = "cases/part1_c_features/frama_c_syntax/sizeof"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/sizeof_bts1414"
+path               = "cases/part1_c_features/frama_c_syntax/sizeof_bts1414"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/sizeof_incomplete_type"
+path               = "cases/part1_c_features/frama_c_syntax/sizeof_incomplete_type"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/sizeof_void"
+path               = "cases/part1_c_features/frama_c_syntax/sizeof_void"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/slash_end"
+path               = "cases/part1_c_features/frama_c_syntax/slash_end"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/spurious_brace_bts_1273"
+path               = "cases/part1_c_features/frama_c_syntax/spurious_brace_bts_1273"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/static_assert"
+path               = "cases/part1_c_features/frama_c_syntax/static_assert"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/static_assert_wrong"
+path               = "cases/part1_c_features/frama_c_syntax/static_assert_wrong"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/static_formals_1"
+path               = "cases/part1_c_features/frama_c_syntax/static_formals_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/static_formals_2"
+path               = "cases/part1_c_features/frama_c_syntax/static_formals_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/stdalign"
+path               = "cases/part1_c_features/frama_c_syntax/stdalign"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/stmt_attributes"
+path               = "cases/part1_c_features/frama_c_syntax/stmt_attributes"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/string_concat"
+path               = "cases/part1_c_features/frama_c_syntax/string_concat"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/string_literal"
+path               = "cases/part1_c_features/frama_c_syntax/string_literal"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/struct_copy"
+path               = "cases/part1_c_features/frama_c_syntax/struct_copy"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/struct_linking"
+path               = "cases/part1_c_features/frama_c_syntax/struct_linking"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/struct_linking_2"
+path               = "cases/part1_c_features/frama_c_syntax/struct_linking_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/struct_with_invalid_field"
+path               = "cases/part1_c_features/frama_c_syntax/struct_with_invalid_field"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/switch_default"
+path               = "cases/part1_c_features/frama_c_syntax/switch_default"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/switch_float"
+path               = "cases/part1_c_features/frama_c_syntax/switch_float"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/syntactic_hook"
+path               = "cases/part1_c_features/frama_c_syntax/syntactic_hook"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/syntax_error"
+path               = "cases/part1_c_features/frama_c_syntax/syntax_error"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/temporary_location"
+path               = "cases/part1_c_features/frama_c_syntax/temporary_location"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/temporary_object_issue_1037_1220"
+path               = "cases/part1_c_features/frama_c_syntax/temporary_object_issue_1037_1220"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/tentative_definition"
+path               = "cases/part1_c_features/frama_c_syntax/tentative_definition"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/tentative_definition_aux"
+path               = "cases/part1_c_features/frama_c_syntax/tentative_definition_aux"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ternary_brace"
+path               = "cases/part1_c_features/frama_c_syntax/ternary_brace"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ternary_bts1503"
+path               = "cases/part1_c_features/frama_c_syntax/ternary_bts1503"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/ternary_cleanup_issue_1516"
+path               = "cases/part1_c_features/frama_c_syntax/ternary_cleanup_issue_1516"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/thread"
+path               = "cases/part1_c_features/frama_c_syntax/thread"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/too_large_array"
+path               = "cases/part1_c_features/frama_c_syntax/too_large_array"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/transient_block"
+path               = "cases/part1_c_features/frama_c_syntax/transient_block"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/type_branch_bts_1081"
+path               = "cases/part1_c_features/frama_c_syntax/type_branch_bts_1081"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/type_compat_call"
+path               = "cases/part1_c_features/frama_c_syntax/type_compat_call"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/type_redef"
+path               = "cases/part1_c_features/frama_c_syntax/type_redef"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_incorrect_pretty_print_bts1518"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_incorrect_pretty_print_bts1518"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_multi_1"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_multi_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_multi_2"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_multi_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_namespace_bts1500"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_namespace_bts1500"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_struct"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_struct"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typedef_struct_2"
+path               = "cases/part1_c_features/frama_c_syntax/typedef_struct_2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typename"
+path               = "cases/part1_c_features/frama_c_syntax/typename"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/typeof"
+path               = "cases/part1_c_features/frama_c_syntax/typeof"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/undeclared_local_bts1113"
+path               = "cases/part1_c_features/frama_c_syntax/undeclared_local_bts1113"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/undeclared_local_bts1126"
+path               = "cases/part1_c_features/frama_c_syntax/undeclared_local_bts1126"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unnamed_bitfields"
+path               = "cases/part1_c_features/frama_c_syntax/unnamed_bitfields"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unroll_const"
+path               = "cases/part1_c_features/frama_c_syntax/unroll_const"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unroll_labels"
+path               = "cases/part1_c_features/frama_c_syntax/unroll_labels"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unroll_property_status_bts1442"
+path               = "cases/part1_c_features/frama_c_syntax/unroll_property_status_bts1442"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unroll_visit"
+path               = "cases/part1_c_features/frama_c_syntax/unroll_visit"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unspecified_access_address"
+path               = "cases/part1_c_features/frama_c_syntax/unspecified_access_address"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unspecified_access_call_bts0888"
+path               = "cases/part1_c_features/frama_c_syntax/unspecified_access_call_bts0888"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unspecified_access_if_bts01114"
+path               = "cases/part1_c_features/frama_c_syntax/unspecified_access_if_bts01114"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unspecified_access_ptr_bts1519"
+path               = "cases/part1_c_features/frama_c_syntax/unspecified_access_ptr_bts1519"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unspecified_access_struct"
+path               = "cases/part1_c_features/frama_c_syntax/unspecified_access_struct"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/unterminated_comment"
+path               = "cases/part1_c_features/frama_c_syntax/unterminated_comment"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/va"
+path               = "cases/part1_c_features/frama_c_syntax/va"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/variadic"
+path               = "cases/part1_c_features/frama_c_syntax/variadic"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/variadic_fresh_names"
+path               = "cases/part1_c_features/frama_c_syntax/variadic_fresh_names"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vdefined_bts1241"
+path               = "cases/part1_c_features/frama_c_syntax/vdefined_bts1241"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vdefined_bts1241_1"
+path               = "cases/part1_c_features/frama_c_syntax/vdefined_bts1241_1"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vdescr_bts1387"
+path               = "cases/part1_c_features/frama_c_syntax/vdescr_bts1387"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/very_large_integers"
+path               = "cases/part1_c_features/frama_c_syntax/very_large_integers"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/visit_create_local"
+path               = "cases/part1_c_features/frama_c_syntax/visit_create_local"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_goto"
+path               = "cases/part1_c_features/frama_c_syntax/vla_goto"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_goto2"
+path               = "cases/part1_c_features/frama_c_syntax/vla_goto2"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_goto3"
+path               = "cases/part1_c_features/frama_c_syntax/vla_goto3"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_goto_same_block_above"
+path               = "cases/part1_c_features/frama_c_syntax/vla_goto_same_block_above"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_goto_same_block_below"
+path               = "cases/part1_c_features/frama_c_syntax/vla_goto_same_block_below"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_loop"
+path               = "cases/part1_c_features/frama_c_syntax/vla_loop"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_multidim"
+path               = "cases/part1_c_features/frama_c_syntax/vla_multidim"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_strlen"
+path               = "cases/part1_c_features/frama_c_syntax/vla_strlen"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/vla_switch"
+path               = "cases/part1_c_features/frama_c_syntax/vla_switch"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/void_parameter"
+path               = "cases/part1_c_features/frama_c_syntax/void_parameter"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/volatile_clause"
+path               = "cases/part1_c_features/frama_c_syntax/volatile_clause"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/wide_string"
+path               = "cases/part1_c_features/frama_c_syntax/wide_string"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/wrong_assignment"
+path               = "cases/part1_c_features/frama_c_syntax/wrong_assignment"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/wrong_label"
+path               = "cases/part1_c_features/frama_c_syntax/wrong_label"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/wrong_statement_expression"
+path               = "cases/part1_c_features/frama_c_syntax/wrong_statement_expression"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/frama_c_syntax/wstring_concat"
+path               = "cases/part1_c_features/frama_c_syntax/wstring_concat"
+source             = "frama_c_syntax"
+license            = "LGPL-2.1-only"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
 
 [[case]]
 id                 = "part1_c_features/goblintcil/small1/GRT"

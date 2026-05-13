@@ -1,16 +1,16 @@
 # Bench Statistics
 
-> Generated: 2026-05-13T20:39:34Z
+> Generated: 2026-05-13T20:47:50Z
 > Bench version: 0.1.0 (schema: 0.1)
 
-**Total cases**: 1345
+**Total cases**: 1932
 
 ## By Part
 
 | Part | Name | Count |
 |---|---|---|
-| 1 | part1_c_features | 662 |
-| 2 | part2_acsl_features | 88 |
+| 1 | part1_c_features | 1022 |
+| 2 | part2_acsl_features | 315 |
 | 3 | part3_curated | 89 |
 | 4 | part4_real_targets | 0 |
 | 5 | part5_mined | 506 |
@@ -21,26 +21,29 @@
 |---|---|
 | `goblintcil` | 662 |
 | `casp` | 506 |
+| `frama_c_syntax` | 334 |
+| `frama_c_spec` | 227 |
 | `frama_c_wp_acsl` | 88 |
 | `acsl_by_example` | 76 |
+| `frama_c_cil` | 26 |
 | `frama_c_wp_gallery` | 13 |
 
 ## By Quality
 
 | Value | Count |
 |---|---|
-| `frontend_stress` | 662 |
+| `frontend_stress` | 1022 |
 | `algorithm` | 519 |
-| `acsl_feature_demo` | 88 |
+| `acsl_feature_demo` | 315 |
 | `textbook` | 76 |
 
 ## By Intent
 
 | Value | Count |
 |---|---|
-| `parser_stress` | 662 |
+| `parser_stress` | 1022 |
 | `functional_correctness` | 588 |
-| `feature_demo` | 88 |
+| `feature_demo` | 315 |
 | `edge_case` | 5 |
 | `proof_technique` | 2 |
 
@@ -48,9 +51,9 @@
 
 | Value | Count |
 |---|---|
+| `LGPL-2.1-only` | 688 |
 | `BSD-3-Clause` | 662 |
 | `NOASSERTION` | 506 |
-| `LGPL-2.1-only` | 101 |
 | `MIT` | 76 |
 
 ## Difficulty Distribution (overall)
@@ -58,38 +61,39 @@
 | Level | Count |
 |---|---|
 | 0 | 506 |
-| 1 | 662 |
-| 2 | 109 |
+| 1 | 1022 |
+| 2 | 336 |
 | 3 | 47 |
 | 4 | 21 |
 | 5 | 0 |
 
-## Feature Tags (20 distinct)
+## Feature Tags (21 distinct)
 
 | Feature | Count |
 |---|---|
-| `loops` | 84 |
-| `predicate` | 67 |
-| `arrays_ro` | 56 |
-| `pointers` | 50 |
-| `nested_struct` | 48 |
+| `loops` | 92 |
+| `arrays_ro` | 79 |
+| `predicate` | 69 |
+| `nested_struct` | 67 |
+| `pointers` | 63 |
 | `arrays_mut` | 36 |
+| `axiomatic` | 24 |
 | `linear_arith` | 24 |
-| `axiomatic` | 15 |
-| `behaviors` | 14 |
-| `floats` | 13 |
-| `termination` | 13 |
-| `logic_function` | 12 |
-| `strings` | 7 |
+| `logic_function` | 23 |
+| `behaviors` | 20 |
+| `floats` | 19 |
+| `termination` | 16 |
+| `strings` | 13 |
 | `nested_loops` | 7 |
+| `ghost` | 6 |
 | `bitwise` | 6 |
 | `pure_arith` | 4 |
 | `lemma` | 3 |
+| `recursion` | 1 |
 | `overflow_concern` | 1 |
 | `callers` | 1 |
-| `ghost` | 1 |
 
 ## Variants Coverage
 
-- Cases with `ground_truth`: 595 / 1345
-- Cases with `stripped`:     595 / 1345
+- Cases with `ground_truth`: 595 / 1932
+- Cases with `stripped`:     595 / 1932

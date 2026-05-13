@@ -40,9 +40,9 @@
 
 - **Bench 版本**：0.1.0
 - **Schema 版本**：0.1
-- **总用例数**：1345
-  - Part 1 (C 特性)：662 GoblintCil
-  - Part 2 (ACSL 特性)：88 Frama-C wp_acsl
+- **总用例数**：1932
+  - Part 1 (C 特性)：1022（662 GoblintCil + 334 frama-c tests/syntax + 26 frama-c tests/cil）
+  - Part 2 (ACSL 特性)：315（88 Frama-C wp_acsl + 227 frama-c tests/spec）
   - Part 3 (curated)：89（13 Frama-C wp_gallery + 76 ACSL by Example）
   - Part 5 (mined corpus)：506 CASP
   - Part 4：填充中
@@ -172,9 +172,10 @@ POC 阶段（v0.1）：
 - ✅ ACSL by Example 76 case 入库（part 3，#include 递归展平为单文件）
 - ✅ Frama-C wp_acsl 88 case 入库（part 2，ACSL 特性单元测试）
 - ✅ GoblintCil 662 case 入库（part 1，C parser 压力源）
+- ✅ Frama-C tests/syntax (334) + tests/cil (26) + tests/spec (227) = 587 case 入库
 - ⏳ classify_case.py（LLM 判读 strip_policy + difficulty）
-- ⏳ Frama-C tests/syntax / spec / cil 入库
 - ⏳ ANSSI x509 (Part 4) submodule + transformations
+- ⏳ FM-Bench ACSL slice fetch
 - ⏳ ANSSI x509 (Part 4) submodule + transformations
 - ⏳ FM-Bench ACSL slice fetch
 

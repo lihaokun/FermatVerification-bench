@@ -1,14 +1,14 @@
 schema_version = "0.1"
 bench_version  = "0.1.0"
-generated_at   = "2026-05-13T20:39:34Z"
+generated_at   = "2026-05-13T20:47:50Z"
 
 [parts.part1_c_features]
 manifest   = "manifest_part1.toml"
-case_count = 662
+case_count = 1022
 
 [parts.part2_acsl_features]
 manifest   = "manifest_part2.toml"
-case_count = 88
+case_count = 315
 
 [parts.part3_curated]
 manifest   = "manifest_part3.toml"

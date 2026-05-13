@@ -1,8 +1,2732 @@
 schema_version = "0.1"
 part           = 2
 part_name      = "part2_acsl_features"
-generated_at   = "2026-05-13T20:39:34Z"
-case_count     = 88
+generated_at   = "2026-05-13T20:47:50Z"
+case_count     = 315
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/Extend"
+path               = "cases/part2_acsl_features/frama_c_spec/Extend"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/Extend_errors"
+path               = "cases/part2_acsl_features/frama_c_spec/Extend_errors"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/Extend_preprocess"
+path               = "cases/part2_acsl_features/frama_c_spec/Extend_preprocess"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/Extend_recursive_preprocess"
+path               = "cases/part2_acsl_features/frama_c_spec/Extend_recursive_preprocess"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/Extend_short_print"
+path               = "cases/part2_acsl_features/frama_c_spec/Extend_short_print"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/_Bool"
+path               = "cases/part2_acsl_features/frama_c_spec/_Bool"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/abrupt"
+path               = "cases/part2_acsl_features/frama_c_spec/abrupt"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/acsl_allocator"
+path               = "cases/part2_acsl_features/frama_c_spec/acsl_allocator"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/acsl_basic_allocator"
+path               = "cases/part2_acsl_features/frama_c_spec/acsl_basic_allocator"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/acsl_by_example"
+path               = "cases/part2_acsl_features/frama_c_spec/acsl_by_example"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/add_global"
+path               = "cases/part2_acsl_features/frama_c_spec/add_global"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/all"
+path               = "cases/part2_acsl_features/frama_c_spec/all"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/alloc_string_marshall"
+path               = "cases/part2_acsl_features/frama_c_spec/alloc_string_marshall"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/allocates"
+path               = "cases/part2_acsl_features/frama_c_spec/allocates"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/annot_decl_bts1009"
+path               = "cases/part2_acsl_features/frama_c_spec/annot_decl_bts1009"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/annot_main"
+path               = "cases/part2_acsl_features/frama_c_spec/annot_main"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/anon_arg_1"
+path               = "cases/part2_acsl_features/frama_c_spec/anon_arg_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/anon_arg_2"
+path               = "cases/part2_acsl_features/frama_c_spec/anon_arg_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/array_conversion"
+path               = "cases/part2_acsl_features/frama_c_spec/array_conversion"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/array_length"
+path               = "cases/part2_acsl_features/frama_c_spec/array_length"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/array_prm"
+path               = "cases/part2_acsl_features/frama_c_spec/array_prm"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/array_typedef"
+path               = "cases/part2_acsl_features/frama_c_spec/array_typedef"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assert_label"
+path               = "cases/part2_acsl_features/frama_c_spec/assert_label"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assign_in_spec"
+path               = "cases/part2_acsl_features/frama_c_spec/assign_in_spec"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assignable_location"
+path               = "cases/part2_acsl_features/frama_c_spec/assignable_location"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns_array"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns_array"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns_const"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns_const"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns_from_kf"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns_from_kf"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns_result"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns_result"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assigns_void"
+path               = "cases/part2_acsl_features/frama_c_spec/assigns_void"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/assume"
+path               = "cases/part2_acsl_features/frama_c_spec/assume"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/at"
+path               = "cases/part2_acsl_features/frama_c_spec/at"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/at_exit"
+path               = "cases/part2_acsl_features/frama_c_spec/at_exit"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/axiom_ignored_bts1116"
+path               = "cases/part2_acsl_features/frama_c_spec/axiom_ignored_bts1116"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/axiom_included"
+path               = "cases/part2_acsl_features/frama_c_spec/axiom_included"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/axiom_included_1"
+path               = "cases/part2_acsl_features/frama_c_spec/axiom_included_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/axiom_redef_bts1005"
+path               = "cases/part2_acsl_features/frama_c_spec/axiom_redef_bts1005"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/axiomatic_same_name"
+path               = "cases/part2_acsl_features/frama_c_spec/axiomatic_same_name"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bar"
+path               = "cases/part2_acsl_features/frama_c_spec/bar"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/behavior_assert"
+path               = "cases/part2_acsl_features/frama_c_spec/behavior_assert"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/behavior_names"
+path               = "cases/part2_acsl_features/frama_c_spec/behavior_names"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/behaviors_decl_def"
+path               = "cases/part2_acsl_features/frama_c_spec/behaviors_decl_def"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bool"
+path               = "cases/part2_acsl_features/frama_c_spec/bool"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/boolean_conversion"
+path               = "cases/part2_acsl_features/frama_c_spec/boolean_conversion"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/boolean_ops"
+path               = "cases/part2_acsl_features/frama_c_spec/boolean_ops"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/breaks_continues_unroll"
+path               = "cases/part2_acsl_features/frama_c_spec/breaks_continues_unroll"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bsearch"
+path               = "cases/part2_acsl_features/frama_c_spec/bsearch"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0254"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0254"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0283"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0283"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0440"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0440"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0549"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0549"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0570"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0570"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0578"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0578"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0589"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0589"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0655"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0655"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0698"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0698"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts0812"
+path               = "cases/part2_acsl_features/frama_c_spec/bts0812"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts1068"
+path               = "cases/part2_acsl_features/frama_c_spec/bts1068"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts1262"
+path               = "cases/part2_acsl_features/frama_c_spec/bts1262"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts2187_no_empty_contract"
+path               = "cases/part2_acsl_features/frama_c_spec/bts2187_no_empty_contract"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bts_1789"
+path               = "cases/part2_acsl_features/frama_c_spec/bts_1789"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/bug96"
+path               = "cases/part2_acsl_features/frama_c_spec/bug96"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/builtins"
+path               = "cases/part2_acsl_features/frama_c_spec/builtins"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/cast_enum_bts1546"
+path               = "cases/part2_acsl_features/frama_c_spec/cast_enum_bts1546"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/cast_int"
+path               = "cases/part2_acsl_features/frama_c_spec/cast_int"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/char_cst"
+path               = "cases/part2_acsl_features/frama_c_spec/char_cst"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/clash_double_file_bts1598"
+path               = "cases/part2_acsl_features/frama_c_spec/clash_double_file_bts1598"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/comparison"
+path               = "cases/part2_acsl_features/frama_c_spec/comparison"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/complete_behaviors"
+path               = "cases/part2_acsl_features/frama_c_spec/complete_behaviors"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/concrete_type"
+path               = "cases/part2_acsl_features/frama_c_spec/concrete_type"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/const"
+path               = "cases/part2_acsl_features/frama_c_spec/const"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/const_fold_term"
+path               = "cases/part2_acsl_features/frama_c_spec/const_fold_term"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/const_ptr_bts1729"
+path               = "cases/part2_acsl_features/frama_c_spec/const_ptr_bts1729"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/constant_predicate"
+path               = "cases/part2_acsl_features/frama_c_spec/constant_predicate"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["predicate"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/contract_assert_bts1470"
+path               = "cases/part2_acsl_features/frama_c_spec/contract_assert_bts1470"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/conversion"
+path               = "cases/part2_acsl_features/frama_c_spec/conversion"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/declspec"
+path               = "cases/part2_acsl_features/frama_c_spec/declspec"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/default_assigns_bts0966"
+path               = "cases/part2_acsl_features/frama_c_spec/default_assigns_bts0966"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/default_spec_combine"
+path               = "cases/part2_acsl_features/frama_c_spec/default_spec_combine"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/default_spec_custom"
+path               = "cases/part2_acsl_features/frama_c_spec/default_spec_custom"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/default_spec_mode"
+path               = "cases/part2_acsl_features/frama_c_spec/default_spec_mode"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/doxygen"
+path               = "cases/part2_acsl_features/frama_c_spec/doxygen"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/enum"
+path               = "cases/part2_acsl_features/frama_c_spec/enum"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/error_msg"
+path               = "cases/part2_acsl_features/frama_c_spec/error_msg"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/exit_clause"
+path               = "cases/part2_acsl_features/frama_c_spec/exit_clause"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/expr_to_term"
+path               = "cases/part2_acsl_features/frama_c_spec/expr_to_term"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/extend_extern"
+path               = "cases/part2_acsl_features/frama_c_spec/extend_extern"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/fct_ptr"
+path               = "cases/part2_acsl_features/frama_c_spec/fct_ptr"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/first"
+path               = "cases/part2_acsl_features/frama_c_spec/first"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/float_acsl"
+path               = "cases/part2_acsl_features/frama_c_spec/float_acsl"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["floats"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/foo"
+path               = "cases/part2_acsl_features/frama_c_spec/foo"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/footprint"
+path               = "cases/part2_acsl_features/frama_c_spec/footprint"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/for_scope"
+path               = "cases/part2_acsl_features/frama_c_spec/for_scope"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/fptr"
+path               = "cases/part2_acsl_features/frama_c_spec/fptr"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/generalized_check"
+path               = "cases/part2_acsl_features/frama_c_spec/generalized_check"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ghost"
+path               = "cases/part2_acsl_features/frama_c_spec/ghost"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ghost_array"
+path               = "cases/part2_acsl_features/frama_c_spec/ghost_array"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro", "ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ghost_attribute"
+path               = "cases/part2_acsl_features/frama_c_spec/ghost_attribute"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ghost_result_type"
+path               = "cases/part2_acsl_features/frama_c_spec/ghost_result_type"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/global_invariant"
+path               = "cases/part2_acsl_features/frama_c_spec/global_invariant"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/heterogeneous_set_bts1146"
+path               = "cases/part2_acsl_features/frama_c_spec/heterogeneous_set_bts1146"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/homax"
+path               = "cases/part2_acsl_features/frama_c_spec/homax"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/hosum"
+path               = "cases/part2_acsl_features/frama_c_spec/hosum"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/if"
+path               = "cases/part2_acsl_features/frama_c_spec/if"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/import"
+path               = "cases/part2_acsl_features/frama_c_spec/import"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/import_errors"
+path               = "cases/part2_acsl_features/frama_c_spec/import_errors"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/inductive_horn_clauses"
+path               = "cases/part2_acsl_features/frama_c_spec/inductive_horn_clauses"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/init_in_glob_annot"
+path               = "cases/part2_acsl_features/frama_c_spec/init_in_glob_annot"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/kw"
+path               = "cases/part2_acsl_features/frama_c_spec/kw"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/label_scope_bts1536"
+path               = "cases/part2_acsl_features/frama_c_spec/label_scope_bts1536"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/lib"
+path               = "cases/part2_acsl_features/frama_c_spec/lib"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/liens"
+path               = "cases/part2_acsl_features/frama_c_spec/liens"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/list"
+path               = "cases/part2_acsl_features/frama_c_spec/list"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/local"
+path               = "cases/part2_acsl_features/frama_c_spec/local"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/local_lambda"
+path               = "cases/part2_acsl_features/frama_c_spec/local_lambda"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/localization"
+path               = "cases/part2_acsl_features/frama_c_spec/localization"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/location_char"
+path               = "cases/part2_acsl_features/frama_c_spec/location_char"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_array"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_array"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["arrays_ro", "logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_coerce"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_coerce"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_compare"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_compare"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_def"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_def"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_functions_sets"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_functions_sets"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_label"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_label"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_labels_wrong"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_labels_wrong"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/logic_type"
+path               = "cases/part2_acsl_features/frama_c_spec/logic_type"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/loop_assigns_generated"
+path               = "cases/part2_acsl_features/frama_c_spec/loop_assigns_generated"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/loop_labels"
+path               = "cases/part2_acsl_features/frama_c_spec/loop_labels"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/loop_labels_unroll"
+path               = "cases/part2_acsl_features/frama_c_spec/loop_labels_unroll"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/max"
+path               = "cases/part2_acsl_features/frama_c_spec/max"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_1"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_2"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_assigns_bts1253"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_assigns_bts1253"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_bts938"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_bts938"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_bts938_1"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_bts938_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_different_assigns"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_different_assigns"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_different_assigns_bis"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_different_assigns_bis"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_logic_globals_1"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_logic_globals_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/merge_logic_globals_2"
+path               = "cases/part2_acsl_features/frama_c_spec/merge_logic_globals_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/model"
+path               = "cases/part2_acsl_features/frama_c_spec/model"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/model1"
+path               = "cases/part2_acsl_features/frama_c_spec/model1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/model2"
+path               = "cases/part2_acsl_features/frama_c_spec/model2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/module"
+path               = "cases/part2_acsl_features/frama_c_spec/module"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multi_axiomatic_1"
+path               = "cases/part2_acsl_features/frama_c_spec/multi_axiomatic_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multi_axiomatic_2"
+path               = "cases/part2_acsl_features/frama_c_spec/multi_axiomatic_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multi_behavior"
+path               = "cases/part2_acsl_features/frama_c_spec/multi_behavior"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multi_labels"
+path               = "cases/part2_acsl_features/frama_c_spec/multi_labels"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multidecl"
+path               = "cases/part2_acsl_features/frama_c_spec/multidecl"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multidim"
+path               = "cases/part2_acsl_features/frama_c_spec/multidim"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_decl_def_1"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_decl_def_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_decl_def_2"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_decl_def_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_file_1"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_file_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_file_2"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_file_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_include_1"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_include_1"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_include_2"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_include_2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/multiple_spec"
+path               = "cases/part2_acsl_features/frama_c_spec/multiple_spec"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/nested"
+path               = "cases/part2_acsl_features/frama_c_spec/nested"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/non_ast_spec_copy"
+path               = "cases/part2_acsl_features/frama_c_spec/non_ast_spec_copy"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/null_ptr"
+path               = "cases/part2_acsl_features/frama_c_spec/null_ptr"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/old_prm"
+path               = "cases/part2_acsl_features/frama_c_spec/old_prm"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/onelineghost"
+path               = "cases/part2_acsl_features/frama_c_spec/onelineghost"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/overload_resolution"
+path               = "cases/part2_acsl_features/frama_c_spec/overload_resolution"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/parsing"
+path               = "cases/part2_acsl_features/frama_c_spec/parsing"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/permut"
+path               = "cases/part2_acsl_features/frama_c_spec/permut"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pi"
+path               = "cases/part2_acsl_features/frama_c_spec/pi"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pointer_cast"
+path               = "cases/part2_acsl_features/frama_c_spec/pointer_cast"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pointer_comparable"
+path               = "cases/part2_acsl_features/frama_c_spec/pointer_comparable"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["pointers"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/polymorph"
+path               = "cases/part2_acsl_features/frama_c_spec/polymorph"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/polymorphic_inductive"
+path               = "cases/part2_acsl_features/frama_c_spec/polymorphic_inductive"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["axiomatic"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pp_empty_spec"
+path               = "cases/part2_acsl_features/frama_c_spec/pp_empty_spec"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pragma"
+path               = "cases/part2_acsl_features/frama_c_spec/pragma"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/precedence"
+path               = "cases/part2_acsl_features/frama_c_spec/precedence"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/pred_def"
+path               = "cases/part2_acsl_features/frama_c_spec/pred_def"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/predicates"
+path               = "cases/part2_acsl_features/frama_c_spec/predicates"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["predicate"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/preprocess"
+path               = "cases/part2_acsl_features/frama_c_spec/preprocess"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/preprocess_dos"
+path               = "cases/part2_acsl_features/frama_c_spec/preprocess_dos"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/preprocess_string"
+path               = "cases/part2_acsl_features/frama_c_spec/preprocess_string"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/printf_assigns"
+path               = "cases/part2_acsl_features/frama_c_spec/printf_assigns"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/property_test"
+path               = "cases/part2_acsl_features/frama_c_spec/property_test"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/prototype_assigns"
+path               = "cases/part2_acsl_features/frama_c_spec/prototype_assigns"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ptr_cast"
+path               = "cases/part2_acsl_features/frama_c_spec/ptr_cast"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/purse"
+path               = "cases/part2_acsl_features/frama_c_spec/purse"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/qarrsize"
+path               = "cases/part2_acsl_features/frama_c_spec/qarrsize"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/range"
+path               = "cases/part2_acsl_features/frama_c_spec/range"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/real_typing_bts1309"
+path               = "cases/part2_acsl_features/frama_c_spec/real_typing_bts1309"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/recursive_with_label"
+path               = "cases/part2_acsl_features/frama_c_spec/recursive_with_label"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/regions"
+path               = "cases/part2_acsl_features/frama_c_spec/regions"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/regions2"
+path               = "cases/part2_acsl_features/frama_c_spec/regions2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/reset_env"
+path               = "cases/part2_acsl_features/frama_c_spec/reset_env"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/returns"
+path               = "cases/part2_acsl_features/frama_c_spec/returns"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/rm_qualifiers"
+path               = "cases/part2_acsl_features/frama_c_spec/rm_qualifiers"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/second"
+path               = "cases/part2_acsl_features/frama_c_spec/second"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/separated"
+path               = "cases/part2_acsl_features/frama_c_spec/separated"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/set_integer"
+path               = "cases/part2_acsl_features/frama_c_spec/set_integer"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/shifts"
+path               = "cases/part2_acsl_features/frama_c_spec/shifts"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/sizeof"
+path               = "cases/part2_acsl_features/frama_c_spec/sizeof"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/sizeof_incomplete_bts1538"
+path               = "cases/part2_acsl_features/frama_c_spec/sizeof_incomplete_bts1538"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/sizeof_logic"
+path               = "cases/part2_acsl_features/frama_c_spec/sizeof_logic"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/source_annot"
+path               = "cases/part2_acsl_features/frama_c_spec/source_annot"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/spec_zero_arg"
+path               = "cases/part2_acsl_features/frama_c_spec/spec_zero_arg"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/statement_behavior"
+path               = "cases/part2_acsl_features/frama_c_spec/statement_behavior"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/status_by_call_issue_890"
+path               = "cases/part2_acsl_features/frama_c_spec/status_by_call_issue_890"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/stmt_contract"
+path               = "cases/part2_acsl_features/frama_c_spec/stmt_contract"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/string"
+path               = "cases/part2_acsl_features/frama_c_spec/string"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/struct_invariant"
+path               = "cases/part2_acsl_features/frama_c_spec/struct_invariant"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct", "termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/submodule"
+path               = "cases/part2_acsl_features/frama_c_spec/submodule"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/tableau_zones"
+path               = "cases/part2_acsl_features/frama_c_spec/tableau_zones"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/temporal"
+path               = "cases/part2_acsl_features/frama_c_spec/temporal"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/terminates"
+path               = "cases/part2_acsl_features/frama_c_spec/terminates"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["termination"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/third"
+path               = "cases/part2_acsl_features/frama_c_spec/third"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/transitive_rel"
+path               = "cases/part2_acsl_features/frama_c_spec/transitive_rel"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/tsets"
+path               = "cases/part2_acsl_features/frama_c_spec/tsets"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/type_constructors_in_env"
+path               = "cases/part2_acsl_features/frama_c_spec/type_constructors_in_env"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/type_of_term"
+path               = "cases/part2_acsl_features/frama_c_spec/type_of_term"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/typedef"
+path               = "cases/part2_acsl_features/frama_c_spec/typedef"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/ucn"
+path               = "cases/part2_acsl_features/frama_c_spec/ucn"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/unfinished_oneline_acsl_comment"
+path               = "cases/part2_acsl_features/frama_c_spec/unfinished_oneline_acsl_comment"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/unification"
+path               = "cases/part2_acsl_features/frama_c_spec/unification"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/unused"
+path               = "cases/part2_acsl_features/frama_c_spec/unused"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/unused_parameter_attribute"
+path               = "cases/part2_acsl_features/frama_c_spec/unused_parameter_attribute"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/updater"
+path               = "cases/part2_acsl_features/frama_c_spec/updater"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/use"
+path               = "cases/part2_acsl_features/frama_c_spec/use"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/use2"
+path               = "cases/part2_acsl_features/frama_c_spec/use2"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/used_before_decl_bts0109"
+path               = "cases/part2_acsl_features/frama_c_spec/used_before_decl_bts0109"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/volatile"
+path               = "cases/part2_acsl_features/frama_c_spec/volatile"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/volatile_aux"
+path               = "cases/part2_acsl_features/frama_c_spec/volatile_aux"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/frama_c_spec/volatile_const"
+path               = "cases/part2_acsl_features/frama_c_spec/volatile_const"
+source             = "frama_c_spec"
+license            = "LGPL-2.1-only"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = false
+has_stripped       = false
 
 [[case]]
 id                 = "part2_acsl_features/frama_c_wp_acsl/arith"

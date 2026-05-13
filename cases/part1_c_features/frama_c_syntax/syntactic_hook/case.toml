@@ -1,0 +1,36 @@
+schema_version = "0.1"
+id            = "part1_c_features/frama_c_syntax/syntactic_hook"
+name          = "syntactic_hook"
+part          = 1
+features      = []
+
+[provenance]
+source             = "frama_c_syntax"
+upstream_url       = "https://git.frama-c.com/pub/frama-c"
+upstream_path      = "tests/syntax/syntactic_hook.i"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "LGPL-2.1-only"
+license_file       = "LICENSES/LGPL-2.1-frama-c.txt"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+
+[files]
+entry_files = ["syntactic_hook.i"]
+
+[difficulty]
+overall            = 1
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 1
+control_complexity = 1
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[parse]
+constructs_used = []
+known_issues    = []
+notes           = "Frama-C tests/syntax — frontend 用例。features / constructs_used 由文件名启发式推导。"
