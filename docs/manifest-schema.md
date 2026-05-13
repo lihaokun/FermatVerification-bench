@@ -34,14 +34,16 @@
 ## 2. case.toml 总体结构
 
 ```toml
+# Prelude: 顶层标量字段必须放在所有 [...] 表头之前
+# （TOML 规则：表头之后的字段归属该表）
 schema_version = "0.1"
-id            = "..."
-name          = "..."
-part          = 1..5
+id             = "..."
+name           = "..."
+part           = 1..5
+features       = [...]                # §6，所有 part 必填
 
 [provenance]                          # §4，所有 part 必填
 [files]                               # §5，所有 part 必填
-features = [...]                      # §6，所有 part 必填
 [difficulty]                          # §7，所有 part 必填
 [difficulty.scored_by]                # §7.5
 
@@ -56,6 +58,10 @@ features = [...]                      # §6，所有 part 必填
 
 [mined]                               # §13，仅 part 5
 ```
+
+**重要**：`features = [...]` 字段必须放在 prelude（所有表头之前），否则会被 TOML
+解析为前一个 `[table]` 的字段。建议位置：紧邻 `part` 之后。同理 `schema_version`、
+`id`、`name`、`part` 都是顶层字段，必须在 prelude。
 
 段间约束（哪些段必须配合）见 §14。
 
@@ -997,6 +1003,7 @@ schema_version = "0.1"
 id            = "part3_curated/acsl_by_example/binary_search"
 name          = "binary_search"
 part          = 3
+features      = ["loops", "arrays_ro", "linear_arith"]
 
 [provenance]
 source             = "acsl_by_example"
@@ -1011,8 +1018,6 @@ intent             = "functional_correctness"
 
 [files]
 entry_files = ["binary_search.c"]
-
-features = ["loops", "arrays_ro", "linear_arith"]
 
 [difficulty]
 overall            = 3
@@ -1055,9 +1060,10 @@ classified_at = "2026-05-13"
 
 ```toml
 schema_version = "0.1"
-id   = "part5_mined/casp/00042-clamp"
-name = "clamp"
-part = 5
+id            = "part5_mined/casp/00042-clamp"
+name          = "clamp"
+part          = 5
+features      = ["pure_arith"]
 
 [provenance]
 source             = "casp"
@@ -1071,8 +1077,6 @@ intent             = "functional_correctness"
 
 [files]
 entry_files = ["ground_truth.c"]              # CASP case 物理文件名约定
-
-features = ["pure_arith"]
 
 [difficulty]
 overall            = 1

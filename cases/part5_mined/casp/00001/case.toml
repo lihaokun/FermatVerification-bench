@@ -2,6 +2,7 @@ schema_version = "0.1"
 id            = "part5_mined/casp/00001"
 name          = "00001"
 part          = 5
+features      = []
 
 [provenance]
 source             = "casp"
@@ -15,8 +16,6 @@ intent             = "functional_correctness"
 
 [files]
 entry_files = ["ground_truth.c"]
-
-features = []
 
 [difficulty]
 overall            = 0

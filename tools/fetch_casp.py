@@ -139,6 +139,7 @@ def emit_case_toml(
 id            = "{case_id}"
 name          = {format_toml_string(name)}
 part          = 5
+features      = []
 
 [provenance]
 source             = "casp"
@@ -152,8 +153,6 @@ intent             = "functional_correctness"
 
 [files]
 entry_files = ["ground_truth.c"]
-
-features = []
 
 [difficulty]
 overall            = 0
