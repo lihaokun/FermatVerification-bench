@@ -7,6 +7,9 @@ __pycache__/
 venv/
 .venv/
 
+# Tool caches (downloaded data, etc.)
+tools/.cache/
+
 # fetch 工具下载产物（不重分发的 mined corpus）
 cases/part5_mined/casp/**/ground_truth.c
 cases/part5_mined/casp/**/stripped.c

@@ -1,0 +1,42 @@
+CASP Attribution Note
+======================
+
+The cases under cases/part5_mined/casp/ are derived from the CASP dataset:
+
+  CASP: An Evaluation Dataset for Formal Verification of C Code
+  Niclas Hertzberg, Marek Sevenhuijsen, Aron Kåreborn, Joel Lokrantz
+  arXiv:2508.18798 (2025)
+  Springer LNCS chapter 10.1007/978-3-032-07132-3_5
+
+  Dataset location: https://huggingface.co/datasets/nicher92/CASP_dataset
+
+The CASP dataset itself is derived from The Stack v1 + The Stack v2. Each
+C source file in CASP retains the original per-file license from The Stack.
+
+PER-FILE LICENSE NOTICE:
+
+  - CASP does NOT publish a uniform license for its 506 cases.
+  - This benchmark repository (FermatVerification-bench) does NOT redistribute
+    CASP source content; it only provides `tools/fetch_casp.py` which
+    downloads `train.parquet` on demand from the HuggingFace mirror.
+  - Each case.toml's `[provenance].license` field is set to "NOASSERTION".
+    Users who need to determine the actual per-file license must consult
+    The Stack v1/v2 license registry for the file in question
+    (see `[mined].upstream_id` for the CASP filename mapping; The Stack
+    full path is not preserved by CASP).
+
+CITATION:
+
+If you use these cases, please cite:
+
+  @article{hertzberg2025casp,
+    title={{CASP}: An Evaluation Dataset for Formal Verification of {C} Code},
+    author={Hertzberg, Niclas and Sevenhuijsen, Marek and K{\aa}reborn, Aron
+            and Lokrantz, Joel},
+    journal={arXiv preprint arXiv:2508.18798},
+    year={2025}
+  }
+
+CONTACT:
+
+For questions about the CASP dataset itself: niclas.hertzberg@ai.se
