@@ -78,15 +78,20 @@ Note:      CASP source content is NOT redistributed in this repository.
 
 
 ===========================================================================
-[fm_bench_acsl]
+[fm_bench_acsl]  — EXCLUDED from v0.1 (see CHANGELOG)
 ===========================================================================
 URL:       https://huggingface.co/datasets/fm-universe/FM-bench
 Paper:     arXiv:2501.16207
 License:   Apache-2.0
-File:      LICENSES/Apache-2.0-fm-bench.txt (TBD when ingesting)
-Affected:  cases/part5_mined/fm_bench_acsl/**
-Note:      Only the ACSL slice (119 examples) is consumed.
-           NOT yet ingested — fetch_fm_bench.py is a §12.0 follow-up.
+Status:    NOT INGESTED
+Reason:    FM-Bench's ACSL slice (119 examples) is derived from the same
+           ACSL by Example algorithms we already ingest (76 cases under
+           cases/part3_curated/acsl_by_example/**). FM-Bench's contribution
+           is task reformulation (SegGen / ReqAna / ProofGen / Code2Proof /
+           ProofInfill) for LLM evaluation, not independent C+ACSL pairs.
+           Including would duplicate content and confuse the bench's role
+           as a C+ACSL artifact store. Reconsider for v0.2+ if a use case
+           emerges.
 
 
 ===========================================================================
