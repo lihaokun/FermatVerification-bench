@@ -1,0 +1,63 @@
+schema_version = "0.1"
+id            = "part5_mined/casp/00080"
+name          = "00080"
+part          = 5
+features      = []
+
+[provenance]
+source             = "casp"
+upstream_url       = "https://huggingface.co/datasets/nicher92/CASP_dataset"
+upstream_path      = "frama_c_files_v2/test_frama_c_1923.c"
+upstream_tool_hint = "frama-c (version unknown; see CASP paper arXiv:2508.18798)"
+license            = "NOASSERTION"
+license_file       = "LICENSES/CASP-attribution.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 0
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "upstream_split"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [2, 11, 21]
+source_hash = "sha256:80935dabeb9e8a5f37320bd065c3b05eb41d34d39be8ecbd2a6f602e84a96d40"
+rationale   = "CASP 上游 split: stripped = c_code_snippet, ground_truth = verified_c_file_content."
+
+[variants.strip_policy.classified_by]
+type              = "upstream_split"
+reviewed_by_human = false
+classified_at     = "2026-05-14"
+
+[mined]
+source_dataset       = "casp"
+upstream_id          = "frama_c_files_v2/test_frama_c_1923.c"
+ultimate_origin      = "the_stack_v2"
+ultimate_origin_path = ""
+per_file_license     = ""
+
+[mined.casp]
+upstream_verified = true
+total_goals       = 16
+verified_goals    = 16
+error_cause       = ""

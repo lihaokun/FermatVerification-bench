@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 5
 part_name      = "part5_mined"
-generated_at   = "2026-05-13T19:53:53Z"
-case_count     = 2
+generated_at   = "2026-05-13T19:54:38Z"
+case_count     = 506
 
 [[case]]
 id                 = "part5_mined/casp/00001"
@@ -19,6 +19,6054 @@ has_stripped       = true
 [[case]]
 id                 = "part5_mined/casp/00002"
 path               = "cases/part5_mined/casp/00002"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00003"
+path               = "cases/part5_mined/casp/00003"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00004"
+path               = "cases/part5_mined/casp/00004"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00005"
+path               = "cases/part5_mined/casp/00005"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00006"
+path               = "cases/part5_mined/casp/00006"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00007"
+path               = "cases/part5_mined/casp/00007"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00008"
+path               = "cases/part5_mined/casp/00008"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00009"
+path               = "cases/part5_mined/casp/00009"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00010"
+path               = "cases/part5_mined/casp/00010"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00011"
+path               = "cases/part5_mined/casp/00011"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00012"
+path               = "cases/part5_mined/casp/00012"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00013"
+path               = "cases/part5_mined/casp/00013"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00014"
+path               = "cases/part5_mined/casp/00014"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00015"
+path               = "cases/part5_mined/casp/00015"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00016"
+path               = "cases/part5_mined/casp/00016"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00017"
+path               = "cases/part5_mined/casp/00017"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00018"
+path               = "cases/part5_mined/casp/00018"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00019"
+path               = "cases/part5_mined/casp/00019"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00020"
+path               = "cases/part5_mined/casp/00020"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00021"
+path               = "cases/part5_mined/casp/00021"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00022"
+path               = "cases/part5_mined/casp/00022"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00023"
+path               = "cases/part5_mined/casp/00023"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00024"
+path               = "cases/part5_mined/casp/00024"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00025"
+path               = "cases/part5_mined/casp/00025"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00026"
+path               = "cases/part5_mined/casp/00026"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00027"
+path               = "cases/part5_mined/casp/00027"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00028"
+path               = "cases/part5_mined/casp/00028"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00029"
+path               = "cases/part5_mined/casp/00029"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00030"
+path               = "cases/part5_mined/casp/00030"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00031"
+path               = "cases/part5_mined/casp/00031"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00032"
+path               = "cases/part5_mined/casp/00032"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00033"
+path               = "cases/part5_mined/casp/00033"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00034"
+path               = "cases/part5_mined/casp/00034"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00035"
+path               = "cases/part5_mined/casp/00035"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00036"
+path               = "cases/part5_mined/casp/00036"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00037"
+path               = "cases/part5_mined/casp/00037"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00038"
+path               = "cases/part5_mined/casp/00038"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00039"
+path               = "cases/part5_mined/casp/00039"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00040"
+path               = "cases/part5_mined/casp/00040"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00041"
+path               = "cases/part5_mined/casp/00041"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00042"
+path               = "cases/part5_mined/casp/00042"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00043"
+path               = "cases/part5_mined/casp/00043"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00044"
+path               = "cases/part5_mined/casp/00044"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00045"
+path               = "cases/part5_mined/casp/00045"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00046"
+path               = "cases/part5_mined/casp/00046"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00047"
+path               = "cases/part5_mined/casp/00047"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00048"
+path               = "cases/part5_mined/casp/00048"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00049"
+path               = "cases/part5_mined/casp/00049"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00050"
+path               = "cases/part5_mined/casp/00050"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00051"
+path               = "cases/part5_mined/casp/00051"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00052"
+path               = "cases/part5_mined/casp/00052"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00053"
+path               = "cases/part5_mined/casp/00053"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00054"
+path               = "cases/part5_mined/casp/00054"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00055"
+path               = "cases/part5_mined/casp/00055"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00056"
+path               = "cases/part5_mined/casp/00056"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00057"
+path               = "cases/part5_mined/casp/00057"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00058"
+path               = "cases/part5_mined/casp/00058"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00059"
+path               = "cases/part5_mined/casp/00059"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00060"
+path               = "cases/part5_mined/casp/00060"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00061"
+path               = "cases/part5_mined/casp/00061"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00062"
+path               = "cases/part5_mined/casp/00062"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00063"
+path               = "cases/part5_mined/casp/00063"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00064"
+path               = "cases/part5_mined/casp/00064"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00065"
+path               = "cases/part5_mined/casp/00065"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00066"
+path               = "cases/part5_mined/casp/00066"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00067"
+path               = "cases/part5_mined/casp/00067"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00068"
+path               = "cases/part5_mined/casp/00068"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00069"
+path               = "cases/part5_mined/casp/00069"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00070"
+path               = "cases/part5_mined/casp/00070"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00071"
+path               = "cases/part5_mined/casp/00071"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00072"
+path               = "cases/part5_mined/casp/00072"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00073"
+path               = "cases/part5_mined/casp/00073"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00074"
+path               = "cases/part5_mined/casp/00074"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00075"
+path               = "cases/part5_mined/casp/00075"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00076"
+path               = "cases/part5_mined/casp/00076"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00077"
+path               = "cases/part5_mined/casp/00077"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00078"
+path               = "cases/part5_mined/casp/00078"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00079"
+path               = "cases/part5_mined/casp/00079"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00080"
+path               = "cases/part5_mined/casp/00080"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00081"
+path               = "cases/part5_mined/casp/00081"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00082"
+path               = "cases/part5_mined/casp/00082"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00083"
+path               = "cases/part5_mined/casp/00083"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00084"
+path               = "cases/part5_mined/casp/00084"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00085"
+path               = "cases/part5_mined/casp/00085"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00086"
+path               = "cases/part5_mined/casp/00086"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00087"
+path               = "cases/part5_mined/casp/00087"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00088"
+path               = "cases/part5_mined/casp/00088"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00089"
+path               = "cases/part5_mined/casp/00089"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00090"
+path               = "cases/part5_mined/casp/00090"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00091"
+path               = "cases/part5_mined/casp/00091"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00092"
+path               = "cases/part5_mined/casp/00092"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00093"
+path               = "cases/part5_mined/casp/00093"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00094"
+path               = "cases/part5_mined/casp/00094"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00095"
+path               = "cases/part5_mined/casp/00095"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00096"
+path               = "cases/part5_mined/casp/00096"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00097"
+path               = "cases/part5_mined/casp/00097"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00098"
+path               = "cases/part5_mined/casp/00098"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00099"
+path               = "cases/part5_mined/casp/00099"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00100"
+path               = "cases/part5_mined/casp/00100"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00101"
+path               = "cases/part5_mined/casp/00101"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00102"
+path               = "cases/part5_mined/casp/00102"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00103"
+path               = "cases/part5_mined/casp/00103"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00104"
+path               = "cases/part5_mined/casp/00104"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00105"
+path               = "cases/part5_mined/casp/00105"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00106"
+path               = "cases/part5_mined/casp/00106"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00107"
+path               = "cases/part5_mined/casp/00107"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00108"
+path               = "cases/part5_mined/casp/00108"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00109"
+path               = "cases/part5_mined/casp/00109"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00110"
+path               = "cases/part5_mined/casp/00110"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00111"
+path               = "cases/part5_mined/casp/00111"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00112"
+path               = "cases/part5_mined/casp/00112"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00113"
+path               = "cases/part5_mined/casp/00113"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00114"
+path               = "cases/part5_mined/casp/00114"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00115"
+path               = "cases/part5_mined/casp/00115"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00116"
+path               = "cases/part5_mined/casp/00116"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00117"
+path               = "cases/part5_mined/casp/00117"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00118"
+path               = "cases/part5_mined/casp/00118"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00119"
+path               = "cases/part5_mined/casp/00119"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00120"
+path               = "cases/part5_mined/casp/00120"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00121"
+path               = "cases/part5_mined/casp/00121"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00122"
+path               = "cases/part5_mined/casp/00122"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00123"
+path               = "cases/part5_mined/casp/00123"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00124"
+path               = "cases/part5_mined/casp/00124"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00125"
+path               = "cases/part5_mined/casp/00125"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00126"
+path               = "cases/part5_mined/casp/00126"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00127"
+path               = "cases/part5_mined/casp/00127"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00128"
+path               = "cases/part5_mined/casp/00128"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00129"
+path               = "cases/part5_mined/casp/00129"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00130"
+path               = "cases/part5_mined/casp/00130"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00131"
+path               = "cases/part5_mined/casp/00131"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00132"
+path               = "cases/part5_mined/casp/00132"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00133"
+path               = "cases/part5_mined/casp/00133"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00134"
+path               = "cases/part5_mined/casp/00134"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00135"
+path               = "cases/part5_mined/casp/00135"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00136"
+path               = "cases/part5_mined/casp/00136"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00137"
+path               = "cases/part5_mined/casp/00137"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00138"
+path               = "cases/part5_mined/casp/00138"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00139"
+path               = "cases/part5_mined/casp/00139"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00140"
+path               = "cases/part5_mined/casp/00140"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00141"
+path               = "cases/part5_mined/casp/00141"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00142"
+path               = "cases/part5_mined/casp/00142"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00143"
+path               = "cases/part5_mined/casp/00143"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00144"
+path               = "cases/part5_mined/casp/00144"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00145"
+path               = "cases/part5_mined/casp/00145"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00146"
+path               = "cases/part5_mined/casp/00146"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00147"
+path               = "cases/part5_mined/casp/00147"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00148"
+path               = "cases/part5_mined/casp/00148"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00149"
+path               = "cases/part5_mined/casp/00149"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00150"
+path               = "cases/part5_mined/casp/00150"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00151"
+path               = "cases/part5_mined/casp/00151"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00152"
+path               = "cases/part5_mined/casp/00152"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00153"
+path               = "cases/part5_mined/casp/00153"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00154"
+path               = "cases/part5_mined/casp/00154"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00155"
+path               = "cases/part5_mined/casp/00155"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00156"
+path               = "cases/part5_mined/casp/00156"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00157"
+path               = "cases/part5_mined/casp/00157"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00158"
+path               = "cases/part5_mined/casp/00158"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00159"
+path               = "cases/part5_mined/casp/00159"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00160"
+path               = "cases/part5_mined/casp/00160"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00161"
+path               = "cases/part5_mined/casp/00161"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00162"
+path               = "cases/part5_mined/casp/00162"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00163"
+path               = "cases/part5_mined/casp/00163"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00164"
+path               = "cases/part5_mined/casp/00164"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00165"
+path               = "cases/part5_mined/casp/00165"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00166"
+path               = "cases/part5_mined/casp/00166"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00167"
+path               = "cases/part5_mined/casp/00167"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00168"
+path               = "cases/part5_mined/casp/00168"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00169"
+path               = "cases/part5_mined/casp/00169"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00170"
+path               = "cases/part5_mined/casp/00170"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00171"
+path               = "cases/part5_mined/casp/00171"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00172"
+path               = "cases/part5_mined/casp/00172"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00173"
+path               = "cases/part5_mined/casp/00173"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00174"
+path               = "cases/part5_mined/casp/00174"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00175"
+path               = "cases/part5_mined/casp/00175"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00176"
+path               = "cases/part5_mined/casp/00176"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00177"
+path               = "cases/part5_mined/casp/00177"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00178"
+path               = "cases/part5_mined/casp/00178"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00179"
+path               = "cases/part5_mined/casp/00179"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00180"
+path               = "cases/part5_mined/casp/00180"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00181"
+path               = "cases/part5_mined/casp/00181"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00182"
+path               = "cases/part5_mined/casp/00182"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00183"
+path               = "cases/part5_mined/casp/00183"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00184"
+path               = "cases/part5_mined/casp/00184"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00185"
+path               = "cases/part5_mined/casp/00185"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00186"
+path               = "cases/part5_mined/casp/00186"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00187"
+path               = "cases/part5_mined/casp/00187"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00188"
+path               = "cases/part5_mined/casp/00188"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00189"
+path               = "cases/part5_mined/casp/00189"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00190"
+path               = "cases/part5_mined/casp/00190"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00191"
+path               = "cases/part5_mined/casp/00191"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00192"
+path               = "cases/part5_mined/casp/00192"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00193"
+path               = "cases/part5_mined/casp/00193"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00194"
+path               = "cases/part5_mined/casp/00194"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00195"
+path               = "cases/part5_mined/casp/00195"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00196"
+path               = "cases/part5_mined/casp/00196"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00197"
+path               = "cases/part5_mined/casp/00197"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00198"
+path               = "cases/part5_mined/casp/00198"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00199"
+path               = "cases/part5_mined/casp/00199"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00200"
+path               = "cases/part5_mined/casp/00200"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00201"
+path               = "cases/part5_mined/casp/00201"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00202"
+path               = "cases/part5_mined/casp/00202"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00203"
+path               = "cases/part5_mined/casp/00203"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00204"
+path               = "cases/part5_mined/casp/00204"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00205"
+path               = "cases/part5_mined/casp/00205"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00206"
+path               = "cases/part5_mined/casp/00206"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00207"
+path               = "cases/part5_mined/casp/00207"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00208"
+path               = "cases/part5_mined/casp/00208"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00209"
+path               = "cases/part5_mined/casp/00209"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00210"
+path               = "cases/part5_mined/casp/00210"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00211"
+path               = "cases/part5_mined/casp/00211"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00212"
+path               = "cases/part5_mined/casp/00212"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00213"
+path               = "cases/part5_mined/casp/00213"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00214"
+path               = "cases/part5_mined/casp/00214"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00215"
+path               = "cases/part5_mined/casp/00215"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00216"
+path               = "cases/part5_mined/casp/00216"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00217"
+path               = "cases/part5_mined/casp/00217"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00218"
+path               = "cases/part5_mined/casp/00218"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00219"
+path               = "cases/part5_mined/casp/00219"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00220"
+path               = "cases/part5_mined/casp/00220"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00221"
+path               = "cases/part5_mined/casp/00221"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00222"
+path               = "cases/part5_mined/casp/00222"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00223"
+path               = "cases/part5_mined/casp/00223"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00224"
+path               = "cases/part5_mined/casp/00224"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00225"
+path               = "cases/part5_mined/casp/00225"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00226"
+path               = "cases/part5_mined/casp/00226"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00227"
+path               = "cases/part5_mined/casp/00227"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00228"
+path               = "cases/part5_mined/casp/00228"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00229"
+path               = "cases/part5_mined/casp/00229"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00230"
+path               = "cases/part5_mined/casp/00230"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00231"
+path               = "cases/part5_mined/casp/00231"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00232"
+path               = "cases/part5_mined/casp/00232"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00233"
+path               = "cases/part5_mined/casp/00233"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00234"
+path               = "cases/part5_mined/casp/00234"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00235"
+path               = "cases/part5_mined/casp/00235"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00236"
+path               = "cases/part5_mined/casp/00236"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00237"
+path               = "cases/part5_mined/casp/00237"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00238"
+path               = "cases/part5_mined/casp/00238"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00239"
+path               = "cases/part5_mined/casp/00239"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00240"
+path               = "cases/part5_mined/casp/00240"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00241"
+path               = "cases/part5_mined/casp/00241"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00242"
+path               = "cases/part5_mined/casp/00242"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00243"
+path               = "cases/part5_mined/casp/00243"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00244"
+path               = "cases/part5_mined/casp/00244"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00245"
+path               = "cases/part5_mined/casp/00245"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00246"
+path               = "cases/part5_mined/casp/00246"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00247"
+path               = "cases/part5_mined/casp/00247"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00248"
+path               = "cases/part5_mined/casp/00248"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00249"
+path               = "cases/part5_mined/casp/00249"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00250"
+path               = "cases/part5_mined/casp/00250"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00251"
+path               = "cases/part5_mined/casp/00251"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00252"
+path               = "cases/part5_mined/casp/00252"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00253"
+path               = "cases/part5_mined/casp/00253"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00254"
+path               = "cases/part5_mined/casp/00254"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00255"
+path               = "cases/part5_mined/casp/00255"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00256"
+path               = "cases/part5_mined/casp/00256"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00257"
+path               = "cases/part5_mined/casp/00257"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00258"
+path               = "cases/part5_mined/casp/00258"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00259"
+path               = "cases/part5_mined/casp/00259"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00260"
+path               = "cases/part5_mined/casp/00260"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00261"
+path               = "cases/part5_mined/casp/00261"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00262"
+path               = "cases/part5_mined/casp/00262"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00263"
+path               = "cases/part5_mined/casp/00263"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00264"
+path               = "cases/part5_mined/casp/00264"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00265"
+path               = "cases/part5_mined/casp/00265"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00266"
+path               = "cases/part5_mined/casp/00266"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00267"
+path               = "cases/part5_mined/casp/00267"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00268"
+path               = "cases/part5_mined/casp/00268"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00269"
+path               = "cases/part5_mined/casp/00269"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00270"
+path               = "cases/part5_mined/casp/00270"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00271"
+path               = "cases/part5_mined/casp/00271"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00272"
+path               = "cases/part5_mined/casp/00272"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00273"
+path               = "cases/part5_mined/casp/00273"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00274"
+path               = "cases/part5_mined/casp/00274"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00275"
+path               = "cases/part5_mined/casp/00275"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00276"
+path               = "cases/part5_mined/casp/00276"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00277"
+path               = "cases/part5_mined/casp/00277"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00278"
+path               = "cases/part5_mined/casp/00278"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00279"
+path               = "cases/part5_mined/casp/00279"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00280"
+path               = "cases/part5_mined/casp/00280"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00281"
+path               = "cases/part5_mined/casp/00281"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00282"
+path               = "cases/part5_mined/casp/00282"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00283"
+path               = "cases/part5_mined/casp/00283"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00284"
+path               = "cases/part5_mined/casp/00284"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00285"
+path               = "cases/part5_mined/casp/00285"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00286"
+path               = "cases/part5_mined/casp/00286"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00287"
+path               = "cases/part5_mined/casp/00287"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00288"
+path               = "cases/part5_mined/casp/00288"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00289"
+path               = "cases/part5_mined/casp/00289"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00290"
+path               = "cases/part5_mined/casp/00290"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00291"
+path               = "cases/part5_mined/casp/00291"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00292"
+path               = "cases/part5_mined/casp/00292"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00293"
+path               = "cases/part5_mined/casp/00293"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00294"
+path               = "cases/part5_mined/casp/00294"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00295"
+path               = "cases/part5_mined/casp/00295"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00296"
+path               = "cases/part5_mined/casp/00296"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00297"
+path               = "cases/part5_mined/casp/00297"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00298"
+path               = "cases/part5_mined/casp/00298"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00299"
+path               = "cases/part5_mined/casp/00299"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00300"
+path               = "cases/part5_mined/casp/00300"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00301"
+path               = "cases/part5_mined/casp/00301"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00302"
+path               = "cases/part5_mined/casp/00302"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00303"
+path               = "cases/part5_mined/casp/00303"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00304"
+path               = "cases/part5_mined/casp/00304"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00305"
+path               = "cases/part5_mined/casp/00305"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00306"
+path               = "cases/part5_mined/casp/00306"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00307"
+path               = "cases/part5_mined/casp/00307"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00308"
+path               = "cases/part5_mined/casp/00308"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00309"
+path               = "cases/part5_mined/casp/00309"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00310"
+path               = "cases/part5_mined/casp/00310"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00311"
+path               = "cases/part5_mined/casp/00311"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00312"
+path               = "cases/part5_mined/casp/00312"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00313"
+path               = "cases/part5_mined/casp/00313"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00314"
+path               = "cases/part5_mined/casp/00314"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00315"
+path               = "cases/part5_mined/casp/00315"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00316"
+path               = "cases/part5_mined/casp/00316"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00317"
+path               = "cases/part5_mined/casp/00317"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00318"
+path               = "cases/part5_mined/casp/00318"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00319"
+path               = "cases/part5_mined/casp/00319"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00320"
+path               = "cases/part5_mined/casp/00320"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00321"
+path               = "cases/part5_mined/casp/00321"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00322"
+path               = "cases/part5_mined/casp/00322"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00323"
+path               = "cases/part5_mined/casp/00323"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00324"
+path               = "cases/part5_mined/casp/00324"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00325"
+path               = "cases/part5_mined/casp/00325"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00326"
+path               = "cases/part5_mined/casp/00326"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00327"
+path               = "cases/part5_mined/casp/00327"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00328"
+path               = "cases/part5_mined/casp/00328"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00329"
+path               = "cases/part5_mined/casp/00329"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00330"
+path               = "cases/part5_mined/casp/00330"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00331"
+path               = "cases/part5_mined/casp/00331"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00332"
+path               = "cases/part5_mined/casp/00332"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00333"
+path               = "cases/part5_mined/casp/00333"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00334"
+path               = "cases/part5_mined/casp/00334"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00335"
+path               = "cases/part5_mined/casp/00335"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00336"
+path               = "cases/part5_mined/casp/00336"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00337"
+path               = "cases/part5_mined/casp/00337"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00338"
+path               = "cases/part5_mined/casp/00338"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00339"
+path               = "cases/part5_mined/casp/00339"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00340"
+path               = "cases/part5_mined/casp/00340"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00341"
+path               = "cases/part5_mined/casp/00341"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00342"
+path               = "cases/part5_mined/casp/00342"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00343"
+path               = "cases/part5_mined/casp/00343"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00344"
+path               = "cases/part5_mined/casp/00344"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00345"
+path               = "cases/part5_mined/casp/00345"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00346"
+path               = "cases/part5_mined/casp/00346"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00347"
+path               = "cases/part5_mined/casp/00347"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00348"
+path               = "cases/part5_mined/casp/00348"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00349"
+path               = "cases/part5_mined/casp/00349"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00350"
+path               = "cases/part5_mined/casp/00350"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00351"
+path               = "cases/part5_mined/casp/00351"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00352"
+path               = "cases/part5_mined/casp/00352"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00353"
+path               = "cases/part5_mined/casp/00353"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00354"
+path               = "cases/part5_mined/casp/00354"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00355"
+path               = "cases/part5_mined/casp/00355"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00356"
+path               = "cases/part5_mined/casp/00356"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00357"
+path               = "cases/part5_mined/casp/00357"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00358"
+path               = "cases/part5_mined/casp/00358"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00359"
+path               = "cases/part5_mined/casp/00359"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00360"
+path               = "cases/part5_mined/casp/00360"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00361"
+path               = "cases/part5_mined/casp/00361"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00362"
+path               = "cases/part5_mined/casp/00362"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00363"
+path               = "cases/part5_mined/casp/00363"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00364"
+path               = "cases/part5_mined/casp/00364"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00365"
+path               = "cases/part5_mined/casp/00365"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00366"
+path               = "cases/part5_mined/casp/00366"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00367"
+path               = "cases/part5_mined/casp/00367"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00368"
+path               = "cases/part5_mined/casp/00368"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00369"
+path               = "cases/part5_mined/casp/00369"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00370"
+path               = "cases/part5_mined/casp/00370"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00371"
+path               = "cases/part5_mined/casp/00371"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00372"
+path               = "cases/part5_mined/casp/00372"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00373"
+path               = "cases/part5_mined/casp/00373"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00374"
+path               = "cases/part5_mined/casp/00374"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00375"
+path               = "cases/part5_mined/casp/00375"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00376"
+path               = "cases/part5_mined/casp/00376"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00377"
+path               = "cases/part5_mined/casp/00377"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00378"
+path               = "cases/part5_mined/casp/00378"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00379"
+path               = "cases/part5_mined/casp/00379"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00380"
+path               = "cases/part5_mined/casp/00380"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00381"
+path               = "cases/part5_mined/casp/00381"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00382"
+path               = "cases/part5_mined/casp/00382"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00383"
+path               = "cases/part5_mined/casp/00383"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00384"
+path               = "cases/part5_mined/casp/00384"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00385"
+path               = "cases/part5_mined/casp/00385"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00386"
+path               = "cases/part5_mined/casp/00386"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00387"
+path               = "cases/part5_mined/casp/00387"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00388"
+path               = "cases/part5_mined/casp/00388"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00389"
+path               = "cases/part5_mined/casp/00389"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00390"
+path               = "cases/part5_mined/casp/00390"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00391"
+path               = "cases/part5_mined/casp/00391"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00392"
+path               = "cases/part5_mined/casp/00392"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00393"
+path               = "cases/part5_mined/casp/00393"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00394"
+path               = "cases/part5_mined/casp/00394"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00395"
+path               = "cases/part5_mined/casp/00395"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00396"
+path               = "cases/part5_mined/casp/00396"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00397"
+path               = "cases/part5_mined/casp/00397"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00398"
+path               = "cases/part5_mined/casp/00398"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00399"
+path               = "cases/part5_mined/casp/00399"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00400"
+path               = "cases/part5_mined/casp/00400"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00401"
+path               = "cases/part5_mined/casp/00401"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00402"
+path               = "cases/part5_mined/casp/00402"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00403"
+path               = "cases/part5_mined/casp/00403"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00404"
+path               = "cases/part5_mined/casp/00404"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00405"
+path               = "cases/part5_mined/casp/00405"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00406"
+path               = "cases/part5_mined/casp/00406"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00407"
+path               = "cases/part5_mined/casp/00407"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00408"
+path               = "cases/part5_mined/casp/00408"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00409"
+path               = "cases/part5_mined/casp/00409"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00410"
+path               = "cases/part5_mined/casp/00410"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00411"
+path               = "cases/part5_mined/casp/00411"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00412"
+path               = "cases/part5_mined/casp/00412"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00413"
+path               = "cases/part5_mined/casp/00413"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00414"
+path               = "cases/part5_mined/casp/00414"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00415"
+path               = "cases/part5_mined/casp/00415"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00416"
+path               = "cases/part5_mined/casp/00416"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00417"
+path               = "cases/part5_mined/casp/00417"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00418"
+path               = "cases/part5_mined/casp/00418"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00419"
+path               = "cases/part5_mined/casp/00419"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00420"
+path               = "cases/part5_mined/casp/00420"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00421"
+path               = "cases/part5_mined/casp/00421"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00422"
+path               = "cases/part5_mined/casp/00422"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00423"
+path               = "cases/part5_mined/casp/00423"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00424"
+path               = "cases/part5_mined/casp/00424"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00425"
+path               = "cases/part5_mined/casp/00425"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00426"
+path               = "cases/part5_mined/casp/00426"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00427"
+path               = "cases/part5_mined/casp/00427"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00428"
+path               = "cases/part5_mined/casp/00428"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00429"
+path               = "cases/part5_mined/casp/00429"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00430"
+path               = "cases/part5_mined/casp/00430"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00431"
+path               = "cases/part5_mined/casp/00431"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00432"
+path               = "cases/part5_mined/casp/00432"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00433"
+path               = "cases/part5_mined/casp/00433"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00434"
+path               = "cases/part5_mined/casp/00434"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00435"
+path               = "cases/part5_mined/casp/00435"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00436"
+path               = "cases/part5_mined/casp/00436"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00437"
+path               = "cases/part5_mined/casp/00437"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00438"
+path               = "cases/part5_mined/casp/00438"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00439"
+path               = "cases/part5_mined/casp/00439"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00440"
+path               = "cases/part5_mined/casp/00440"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00441"
+path               = "cases/part5_mined/casp/00441"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00442"
+path               = "cases/part5_mined/casp/00442"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00443"
+path               = "cases/part5_mined/casp/00443"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00444"
+path               = "cases/part5_mined/casp/00444"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00445"
+path               = "cases/part5_mined/casp/00445"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00446"
+path               = "cases/part5_mined/casp/00446"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00447"
+path               = "cases/part5_mined/casp/00447"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00448"
+path               = "cases/part5_mined/casp/00448"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00449"
+path               = "cases/part5_mined/casp/00449"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00450"
+path               = "cases/part5_mined/casp/00450"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00451"
+path               = "cases/part5_mined/casp/00451"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00452"
+path               = "cases/part5_mined/casp/00452"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00453"
+path               = "cases/part5_mined/casp/00453"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00454"
+path               = "cases/part5_mined/casp/00454"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00455"
+path               = "cases/part5_mined/casp/00455"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00456"
+path               = "cases/part5_mined/casp/00456"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00457"
+path               = "cases/part5_mined/casp/00457"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00458"
+path               = "cases/part5_mined/casp/00458"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00459"
+path               = "cases/part5_mined/casp/00459"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00460"
+path               = "cases/part5_mined/casp/00460"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00461"
+path               = "cases/part5_mined/casp/00461"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00462"
+path               = "cases/part5_mined/casp/00462"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00463"
+path               = "cases/part5_mined/casp/00463"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00464"
+path               = "cases/part5_mined/casp/00464"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00465"
+path               = "cases/part5_mined/casp/00465"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00466"
+path               = "cases/part5_mined/casp/00466"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00467"
+path               = "cases/part5_mined/casp/00467"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00468"
+path               = "cases/part5_mined/casp/00468"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00469"
+path               = "cases/part5_mined/casp/00469"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00470"
+path               = "cases/part5_mined/casp/00470"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00471"
+path               = "cases/part5_mined/casp/00471"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00472"
+path               = "cases/part5_mined/casp/00472"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00473"
+path               = "cases/part5_mined/casp/00473"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00474"
+path               = "cases/part5_mined/casp/00474"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00475"
+path               = "cases/part5_mined/casp/00475"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00476"
+path               = "cases/part5_mined/casp/00476"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00477"
+path               = "cases/part5_mined/casp/00477"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00478"
+path               = "cases/part5_mined/casp/00478"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00479"
+path               = "cases/part5_mined/casp/00479"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00480"
+path               = "cases/part5_mined/casp/00480"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00481"
+path               = "cases/part5_mined/casp/00481"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00482"
+path               = "cases/part5_mined/casp/00482"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00483"
+path               = "cases/part5_mined/casp/00483"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00484"
+path               = "cases/part5_mined/casp/00484"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00485"
+path               = "cases/part5_mined/casp/00485"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00486"
+path               = "cases/part5_mined/casp/00486"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00487"
+path               = "cases/part5_mined/casp/00487"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00488"
+path               = "cases/part5_mined/casp/00488"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00489"
+path               = "cases/part5_mined/casp/00489"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00490"
+path               = "cases/part5_mined/casp/00490"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00491"
+path               = "cases/part5_mined/casp/00491"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00492"
+path               = "cases/part5_mined/casp/00492"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00493"
+path               = "cases/part5_mined/casp/00493"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00494"
+path               = "cases/part5_mined/casp/00494"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00495"
+path               = "cases/part5_mined/casp/00495"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00496"
+path               = "cases/part5_mined/casp/00496"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00497"
+path               = "cases/part5_mined/casp/00497"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00498"
+path               = "cases/part5_mined/casp/00498"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00499"
+path               = "cases/part5_mined/casp/00499"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00500"
+path               = "cases/part5_mined/casp/00500"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00501"
+path               = "cases/part5_mined/casp/00501"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00502"
+path               = "cases/part5_mined/casp/00502"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00503"
+path               = "cases/part5_mined/casp/00503"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00504"
+path               = "cases/part5_mined/casp/00504"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00505"
+path               = "cases/part5_mined/casp/00505"
+source             = "casp"
+license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/casp/00506"
+path               = "cases/part5_mined/casp/00506"
 source             = "casp"
 license            = "NOASSERTION"
 quality            = "algorithm"

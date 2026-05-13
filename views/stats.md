@@ -1,9 +1,9 @@
 # Bench Statistics
 
-> Generated: 2026-05-13T19:53:53Z
+> Generated: 2026-05-13T19:54:38Z
 > Bench version: 0.1.0 (schema: 0.1)
 
-**Total cases**: 2
+**Total cases**: 506
 
 ## By Part
 
@@ -13,37 +13,37 @@
 | 2 | part2_acsl_features | 0 |
 | 3 | part3_curated | 0 |
 | 4 | part4_real_targets | 0 |
-| 5 | part5_mined | 2 |
+| 5 | part5_mined | 506 |
 
 ## By Source
 
 | Value | Count |
 |---|---|
-| `casp` | 2 |
+| `casp` | 506 |
 
 ## By Quality
 
 | Value | Count |
 |---|---|
-| `algorithm` | 2 |
+| `algorithm` | 506 |
 
 ## By Intent
 
 | Value | Count |
 |---|---|
-| `functional_correctness` | 2 |
+| `functional_correctness` | 506 |
 
 ## By License
 
 | Value | Count |
 |---|---|
-| `NOASSERTION` | 2 |
+| `NOASSERTION` | 506 |
 
 ## Difficulty Distribution (overall)
 
 | Level | Count |
 |---|---|
-| 0 | 2 |
+| 0 | 506 |
 | 1 | 0 |
 | 2 | 0 |
 | 3 | 0 |
@@ -56,5 +56,5 @@ _(none tagged yet)_
 
 ## Variants Coverage
 
-- Cases with `ground_truth`: 2 / 2
-- Cases with `stripped`:     2 / 2
+- Cases with `ground_truth`: 506 / 506
+- Cases with `stripped`:     506 / 506

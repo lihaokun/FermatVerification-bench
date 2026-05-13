@@ -1,0 +1,63 @@
+schema_version = "0.1"
+id            = "part5_mined/casp/00050"
+name          = "00050"
+part          = 5
+features      = []
+
+[provenance]
+source             = "casp"
+upstream_url       = "https://huggingface.co/datasets/nicher92/CASP_dataset"
+upstream_path      = "frama_c_files_v2/test_frama_c_2032.c"
+upstream_tool_hint = "frama-c (version unknown; see CASP paper arXiv:2508.18798)"
+license            = "NOASSERTION"
+license_file       = "LICENSES/CASP-attribution.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 0
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "upstream_split"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [4, 15, 29, 41, 55, 67, 81, 92, 107, 108, 111, 126, 134, 135, 136, 137, 138, 139, 144, 160, 161, 164, 180, 181, 182, 183, 184, 185, 188, 203, 204, 205, 206, 207, 210, 224, 225, 226, 227, 228, 231, 245, 246, 271, 272, 273, 276, 277, 280, 283, 284, 286, 288, 291, 293, 294, 297, 298, 299, 300, 301, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 315, 318, 321]
+source_hash = "sha256:70a05c556357932a8697ee09e85cfb427223fadefa9ef182e6a69979f1ed4bb7"
+rationale   = "CASP 上游 split: stripped = c_code_snippet, ground_truth = verified_c_file_content."
+
+[variants.strip_policy.classified_by]
+type              = "upstream_split"
+reviewed_by_human = false
+classified_at     = "2026-05-14"
+
+[mined]
+source_dataset       = "casp"
+upstream_id          = "frama_c_files_v2/test_frama_c_2032.c"
+ultimate_origin      = "the_stack_v2"
+ultimate_origin_path = ""
+per_file_license     = ""
+
+[mined.casp]
+upstream_verified = true
+total_goals       = 115
+verified_goals    = 115
+error_cause       = ""
