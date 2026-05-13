@@ -1,0 +1,94 @@
+NOTICE — FermatVerification-bench
+
+This benchmark aggregates content from multiple upstream sources, each
+carrying its own license. Tool code and metadata authored in this repository
+are licensed under MIT (see LICENSE).
+
+License resolution priority (per case):
+  1. case.toml `[provenance].license` field — definitive per-case SPDX expression
+  2. NOTICE entry below for the source — collective info
+  3. LICENSES/<file>.txt — verbatim upstream license text
+
+
+===========================================================================
+[fraunhofer_fokus_acsl_by_example]
+===========================================================================
+URL:       https://github.com/fraunhoferfokus/acsl-by-example
+Copyright: 2020-2026 Fraunhofer FOKUS
+License:   MIT
+File:      LICENSES/MIT-fraunhofer-fokus.txt (TBD: copy upstream when ingesting)
+Affected:  cases/part3_curated/acsl_by_example/**
+
+
+===========================================================================
+[goblint_cil]
+===========================================================================
+URL:       https://github.com/goblint/cil
+Copyright: 2001-2020 George C. Necula et al.; Vogler/Schwarz et al.
+License:   BSD-3-Clause
+File:      LICENSES/BSD-3-goblint.txt (TBD)
+Affected:  cases/part1_c_features/goblintcil/**
+
+
+===========================================================================
+[frama_c_wp]
+===========================================================================
+URL:       https://git.frama-c.com/pub/frama-c
+Copyright: CEA LIST and Inria
+License:   LGPL-2.1
+File:      LICENSES/LGPL-2.1-frama-c.txt (TBD)
+Affected:  cases/part2_acsl_features/frama_c_wp_acsl/**
+           cases/part2_acsl_features/frama_c_spec/**
+           cases/part1_c_features/frama_c_syntax/**
+           cases/part1_c_features/frama_c_cil/**
+           cases/part3_curated/frama_c_wp_gallery/**
+           cases/part3_curated/frama_c_wp_models/**
+
+
+===========================================================================
+[anssi_x509_parser]
+===========================================================================
+URL:       https://github.com/ANSSI-FR/x509-parser
+Copyright: 2019-2022 ANSSI (Arnaud EBALARD, Ryad BENADJILA, Patricia MOUY)
+License:   Dual GPL-2.0 / BSD-2-Clause; we redistribute under BSD-2-Clause
+File:      LICENSES/BSD-2-anssi.txt (TBD)
+Affected:  cases/part4_real_targets/anssi_x509_parser/upstream/**
+           (note: upstream/ is a git submodule, license stays with upstream)
+
+
+===========================================================================
+[casp]
+===========================================================================
+URL:       https://huggingface.co/datasets/nicher92/CASP_dataset
+Paper:     arXiv:2508.18798
+Citation:  Hertzberg, Sevenhuijsen, Kåreborn, Lokrantz —
+           "CASP: An Evaluation Dataset for Formal Verification of C Code"
+License:   Per-file from The Stack v1 + The Stack v2 (NOASSERTION at bench level)
+File:      LICENSES/CASP-attribution.txt
+Affected:  cases/part5_mined/casp/**
+Note:      CASP source content is NOT redistributed in this repository.
+           Each case's `ground_truth.c` and `stripped.c` are .gitignored;
+           run `tools/fetch_casp.py` to download them on first use.
+           CASP's HuggingFace dataset card states:
+           "This dataset is partly a derivative of The Stack 1 and The Stack 2.
+            Please look up the legal license from The Stack 1 and The Stack 2
+            before using."
+           Users wanting the original per-file license must consult The Stack
+           registry for the file identified by `[mined].upstream_id`.
+
+
+===========================================================================
+[fm_bench_acsl]
+===========================================================================
+URL:       https://huggingface.co/datasets/fm-universe/FM-bench
+Paper:     arXiv:2501.16207
+License:   Apache-2.0
+File:      LICENSES/Apache-2.0-fm-bench.txt (TBD when ingesting)
+Affected:  cases/part5_mined/fm_bench_acsl/**
+Note:      Only the ACSL slice (119 examples) is consumed.
+           NOT yet ingested — fetch_fm_bench.py is a §12.0 follow-up.
+
+
+===========================================================================
+End of NOTICE.
+===========================================================================
