@@ -1,6 +1,7 @@
 # FermatVerification-bench 架构设计
 
-> 状态：架构阶段 v3 (2026-05-12) — 终稿候选
+> 状态：架构阶段 v4 (2026-05-13) — A1 POC 完成后小修订
+> v3 → v4：strip 工具后置条件修正（删严格幂等声明，改为 determinism + 输出单调）；§12.0 A1 标 ✅ 通过
 > v2 → v3：吸收 v2 审查反馈，C1*(parse 段去主体性) / M5*(strip source_hash) / M2*(difficulty 由 classify 输出) 三项 Critical 落实，11 项 Major/Minor 一并修订
 > 适用：本仓库 `FermatVerification-bench` 的总体结构、case manifest、工具体系、许可策略
 
@@ -287,9 +288,12 @@ strip_acsl.py --input <file> --output <file> --delete-blocks <line-list> --expec
 - 输入的实际 hash 与 `--expect-hash` 匹配（不匹配立即报错，不输出 stripped）
 
 **后置条件**：
-- 输出的 **C 部分字节级一致**（删除的 ACSL 注释整块连同前导空白替换为单换行）
+- 输出的 **C 部分字节级一致**（仅删除被列出的 ACSL 块字节范围，C 代码字节不变）
 - 输出的 ACSL 块仅保留**未被 `--delete-blocks` 列出**的
-- 幂等：`strip(strip(x, L), L) == strip(x, L)`
+- **Determinism**：同输入 + 同 `--delete-blocks` + 同 `--expect-hash` → 输出字节完全相同
+- **输出单调**：输出字节数 ≤ 输入字节数（strip 仅删除，不插入）
+
+**注意（v3 → v4 修订）**：v3 曾声明"幂等：`strip(strip(x, L), L) == strip(x, L)`"。**该声明不成立**，因为多行 ACSL 块内含 `\n`，删除后 line numbers 下移，第二次 strip 时 L 列表里的行号不再对应 ACSL 块起始（触发"missing block"错误）。在当前设计（错误而非静默跳过 missing block）下，严格幂等不可能。**实际成立的属性是上面两条 Determinism + 单调。** Strip 是单向操作（ground_truth → stripped），不会被二次 strip，幂等不是需求。
 
 **边界处理**：
 - 字符串字面量内的 `/*@` 必须**不**被当作 ACSL 块
@@ -694,8 +698,9 @@ Bench 仓库**不依赖**任何主仓库代码。
 #### A1：Strip 工具文本扫描器边界情况
 
 - 步骤：实现 strip_acsl.py POC → 在 wp_gallery 13 个用例上跑
-- 验证标准：C 部分 byte-faithful + 幂等 + source_hash 检测 + 不误删字符串字面量内的 `/*@`
+- 验证标准：C 部分 byte-faithful + determinism + 输出单调 + source_hash 检测 + 不误删字符串字面量内的 `/*@`
 - 失败处理：调整 strip 实现
+- **状态**：✅ 已通过（commit 191bc73，46/46 tests pass）
 
 #### A2：CASP fetch + parquet 解码
 
@@ -750,6 +755,13 @@ Bench 仓库**不依赖**任何主仓库代码。
 ---
 
 ## 附录：版本变更摘要
+
+### v3 → v4
+
+| 类别 | 主要变化 |
+|---|---|
+| Strip 工具后置条件 | §5.2 Layer 1：删除"幂等：strip(strip(x, L), L) == strip(x, L)"声明；改为 Determinism（同输入+同参数→同输出）+ 输出单调（输出字节 ≤ 输入字节）。理由：多行 ACSL 块删除后 line numbers 下移，再 strip 同一行号会触发 missing block error。Strip 单向 ground_truth → stripped，不会二次 strip，幂等不是真实需求 |
+| §12.0 A1 状态 | 标记 ✅ 已通过（commit 191bc73, 46/46 tests pass） |
 
 ### v2 → v3
 
