@@ -19,10 +19,28 @@ Bench versioning follows SemVer:
   - 单文件 concat 适配 v0.1 schema（strip_lines 单 list），未引入 multi-file 扩展
   - `LICENSES/BSD-2-anssi.txt` attribution + dual GPLv2/BSD 选 BSD-2-Clause
 
+### 已添加（v0.2.0 dev）
+
+- ✅ `tools/classify_case.py` v0.1 实现
+  - Anthropic SDK 集成（claude-opus-4-7 默认）
+  - `--case <id>` 单 case / `--batch <prefix>` 批处理 / `--limit N` 限量
+  - `--dry-run` 模式：仅渲染 prompt，无 API key 调用，无成本
+  - JSON 输出 schema 校验（goal_type 词表 / difficulty 0-5 / auxiliary_needed 词表）
+  - 默认 `.classify-suggested.json` 副输出（待人工 review）
+  - `--apply` 直接 patch case.toml：v0.2.x 工作
+  - dry-run 已在 CASP 00001 上验证 prompt 渲染正确（2208 字符）
+- ✅ `docs/classify-prompts.md`：Prompt v0.1 完整文档
+  - System + User prompt 模板
+  - 输出 schema + 词表对照
+  - 标度锚点引用 manifest-schema.md §7.3
+  - 已知局限：truncate 策略 / 成本估计 / 重复一致性
+- `.gitignore`: 加 `.classify-suggested.json` / `.classify-prompt-dryrun.txt`
+
 ### 待添加
 
-- (C) `tools/classify_case.py` —— LLM 自动判读 strip_policy + difficulty
-- 现有 1933 case 的 difficulty / features LLM 重打分（取代 v0.1 的 human/heuristic）
+- 现有 1933 case 的 difficulty / features 通过 classify_case 实际重打分
+  （需 ANTHROPIC_API_KEY + 估 $20-50 成本；建议先 part 5 CASP 506 抽 50 验证 prompt）
+- `classify_case.py --apply` 实现（直接 patch case.toml 而非生成 .json）
 
 ---
 

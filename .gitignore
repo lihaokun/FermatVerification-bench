@@ -19,6 +19,8 @@ cases/part5_mined/fm_bench_acsl/**/stripped.c
 # 工具运行临时
 **/.in_progress
 **/.classify-suggested.toml
+**/.classify-suggested.json
+**/.classify-prompt-dryrun.txt
 **/.classify-archive/
 
 # IDE
