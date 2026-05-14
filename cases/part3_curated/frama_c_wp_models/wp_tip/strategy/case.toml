@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/frama_c_wp_models/wp_tip/strategy"
+name          = "strategy"
+part          = 3
+features      = []
+
+[provenance]
+source             = "frama_c_wp_models"
+upstream_url       = "https://git.frama-c.com/pub/frama-c"
+upstream_path      = "src/plugins/wp/tests/wp_tip/strategy.c"
+upstream_tool_hint = "frama-c 32 (Gallium)"
+license            = "LGPL-2.1-only"
+license_file       = "LICENSES/LGPL-2.1-frama-c.txt"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 2
+proof_size         = 1
+math_theory        = 1
+data_complexity    = 2
+control_complexity = 1
+spec_complexity    = 2
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [12, 18, 44]
+source_hash = "sha256:4153c20802c9387e1c29280eceaa6437b9fdbae6eea89ddebf38168c5bd0ee94"
+rationale   = "Frama-C WP 内部回归 (wp_tip)：TIP 交互式证明回归 (ACSL strategy/proof 扩展)。架构 v3+ #4 决策：表面是 C+ACSL pair 但本质是 WP 模型回归，纳入 part 3 但用 quality=wp_internal_regression 让 consumer 过滤。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

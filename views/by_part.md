@@ -1,9 +1,9 @@
 # Bench Cases — by Part
 
-> Generated: 2026-05-14T04:11:29Z
+> Generated: 2026-05-14T05:55:51Z
 > Bench version: 0.1.0
 
-## Part 1 — C 语言特性 (1022 case(s))
+## Part 1 — C 语言特性 (1042 case(s))
 
 | id | name | source | difficulty | features |
 |---|---|---|---|---|
@@ -1029,8 +1029,28 @@
 | `part1_c_features/goblintcil/small2/wes_rbtest` | wes_rbtest | goblintcil | 1 | — |
 | `part1_c_features/goblintcil/small2/writev` | writev | goblintcil | 1 | — |
 | `part1_c_features/goblintcil/small2/xcheckers` | xcheckers | goblintcil | 1 | — |
+| `part1_c_features/inhouse/array_formals` | array_formals | inhouse | 1 | arrays_ro |
+| `part1_c_features/inhouse/array_size` | array_size | inhouse | 1 | arrays_ro |
+| `part1_c_features/inhouse/array_typedef` | array_typedef | inhouse | 1 | arrays_ro, nested_struct |
+| `part1_c_features/inhouse/binary_logic_op` | binary_logic_op | inhouse | 1 | pure_arith |
+| `part1_c_features/inhouse/binary_op` | binary_op | inhouse | 1 | pure_arith |
+| `part1_c_features/inhouse/bool` | bool | inhouse | 1 | — |
+| `part1_c_features/inhouse/boolean_ops` | boolean_ops | inhouse | 1 | — |
+| `part1_c_features/inhouse/branch` | branch | inhouse | 1 | — |
+| `part1_c_features/inhouse/char_ampamp` | char_ampamp | inhouse | 1 | strings |
+| `part1_c_features/inhouse/dowhilezero` | dowhilezero | inhouse | 1 | loops |
+| `part1_c_features/inhouse/empty_cond` | empty_cond | inhouse | 1 | loops |
+| `part1_c_features/inhouse/export_test` | export_test | inhouse | 1 | — |
+| `part1_c_features/inhouse/find_enclosing_loop` | find_enclosing_loop | inhouse | 1 | loops |
+| `part1_c_features/inhouse/parenthesis` | parenthesis | inhouse | 1 | pure_arith |
+| `part1_c_features/inhouse/relations` | relations | inhouse | 1 | pure_arith |
+| `part1_c_features/inhouse/struct_with_invalid_field` | struct_with_invalid_field | inhouse | 1 | nested_struct |
+| `part1_c_features/inhouse/test_iterative_raw` | test_iterative_raw | inhouse | 1 | loops |
+| `part1_c_features/inhouse/test_sandbox` | test_sandbox | inhouse | 1 | — |
+| `part1_c_features/inhouse_regression/extract_globals_order` | extract_globals_order | inhouse | 1 | — |
+| `part1_c_features/inhouse_regression/sandbox_clobber` | sandbox_clobber | inhouse | 1 | — |
 
-## Part 2 — ACSL 语言特性 (315 case(s))
+## Part 2 — ACSL 语言特性 (324 case(s))
 
 | id | name | source | difficulty | features |
 |---|---|---|---|---|
@@ -1349,8 +1369,17 @@
 | `part2_acsl_features/frama_c_wp_acsl/user_def_type_guard` | user_def_type_guard | frama_c_wp_acsl | 2 | — |
 | `part2_acsl_features/frama_c_wp_acsl/vset` | vset | frama_c_wp_acsl | 2 | — |
 | `part2_acsl_features/frama_c_wp_acsl/zero` | zero | frama_c_wp_acsl | 2 | — |
+| `part2_acsl_features/inhouse/annot` | annot | inhouse | 1 | behaviors |
+| `part2_acsl_features/inhouse/assigns` | assigns | inhouse | 1 | behaviors |
+| `part2_acsl_features/inhouse/assume` | assume | inhouse | 1 | behaviors |
+| `part2_acsl_features/inhouse/behavior_assert` | behavior_assert | inhouse | 2 | behaviors |
+| `part2_acsl_features/inhouse/complete_behaviors` | complete_behaviors | inhouse | 2 | behaviors |
+| `part2_acsl_features/inhouse/enum` | enum | inhouse | 1 | logic_function |
+| `part2_acsl_features/inhouse/ghost` | ghost | inhouse | 2 | ghost |
+| `part2_acsl_features/inhouse/logic_def` | logic_def | inhouse | 2 | logic_function, predicate |
+| `part2_acsl_features/inhouse/terminates` | terminates | inhouse | 1 | termination |
 
-## Part 3 — 短小算法 (curated) (89 case(s))
+## Part 3 — 短小算法 (curated) (207 case(s))
 
 | id | name | source | difficulty | features |
 |---|---|---|---|---|
@@ -1443,6 +1472,124 @@
 | `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` | frama_c_exo3_old_v2 | frama_c_wp_gallery | 4 | loops, arrays_ro, behaviors, predicate, termination |
 | `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | frama_c_wp_gallery | 3 | loops, arrays_ro, behaviors, predicate |
 | `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | frama_c_wp_gallery | 4 | loops, strings, pointers, behaviors, termination |
+| `part3_curated/frama_c_wp_models/wp_bytes/assigns_sep` | assigns_sep | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/endianness` | endianness | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/floats` | floats | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/integers` | integers | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/pointers` | pointers | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/structs` | structs | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_bytes/union` | union | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/alias_assigns_hypotheses` | alias_assigns_hypotheses | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/alias_escapes_hypotheses` | alias_escapes_hypotheses | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/byref` | byref | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/dispatch_var` | dispatch_var | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/dispatch_var2` | dispatch_var2 | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/isHoare` | isHoare | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicarr` | logicarr | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicref` | logicref | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicref_simple` | logicref_simple | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/memory_hypotheses_checking` | memory_hypotheses_checking | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/model_lookup` | model_lookup | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference` | reference | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_and_struct` | reference_and_struct | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_array` | reference_array | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_array_simple` | reference_array_simple | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_hoare/refguards` | refguards | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/affectations` | affectations | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/array` | array | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/copy_array` | copy_array | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/heterogenous_cast` | heterogenous_cast | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/record` | record | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/swap` | swap | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_region/union` | union | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/bits` | bits | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/chunk_printing` | chunk_printing | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/clear` | clear | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/induction` | induction | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/induction_typing` | induction_typing | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/logical` | logical | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/modmask` | modmask | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/overflow` | overflow | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/pac` | pac | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/pp_trailing` | pp_trailing | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/proof` | proof | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/split` | split | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/strat_list_concat_repeat` | strat_list_concat_repeat | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/strat_ops_pattern` | strat_ops_pattern | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/strategy` | strategy | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/tac_split_quantifiers` | tac_split_quantifiers | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/terminating` | terminating | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_tip/unroll` | unroll | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/array_initialized` | array_initialized | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/avar` | avar | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/bug_9` | bug_9 | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/cast_fits` | cast_fits | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/frame` | frame | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/loader` | loader | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/multi_matrix_types` | multi_matrix_types | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/mvar` | mvar | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/shift_lemma` | shift_lemma | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/struct_array_type` | struct_array_type | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/tuple` | tuple | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_alloc` | unit_alloc | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_bitwise` | unit_bitwise | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_call` | unit_call | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_cast` | unit_cast | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_cst` | unit_cst | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_float` | unit_float | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_hard` | unit_hard | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_ite` | unit_ite | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_labels` | unit_labels | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_lemma` | unit_lemma | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_local` | unit_local | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_loopscope` | unit_loopscope | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_matrix` | unit_matrix | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_string` | unit_string | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_tset` | unit_tset | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_bitwise` | user_bitwise | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_collect` | user_collect | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_init` | user_init | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_injector` | user_injector | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_rec` | user_rec | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_string` | user_string | frama_c_wp_models | 2 | — |
+| `part3_curated/frama_c_wp_models/wp_typed/user_swap` | user_swap | frama_c_wp_models | 2 | — |
+| `part3_curated/inhouse_acsl_by_example` | acsl_by_example | inhouse | 3 | loops, arrays_ro, predicate |
+| `part3_curated/inhouse_array_utils` | array_utils | inhouse | 3 | loops, arrays_mut, pointers |
+| `part3_curated/inhouse_bsearch` | bsearch | inhouse | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l1_pure/abs` | abs | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l1_pure/add` | add | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l1_pure/area` | area | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l1_pure/diff` | diff | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l1_pure/max` | max | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l1_pure/triangle_check` | triangle_check | inhouse_l1_pure | 1 | pure_arith |
+| `part3_curated/inhouse_l2_loops/copy_counter` | copy_counter | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l2_loops/factorial` | factorial | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l2_loops/loop_counter` | loop_counter | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l2_loops/sum_digits` | sum_digits | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l2_loops/sum_even` | sum_even | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l2_loops/sum_n` | sum_n | inhouse_l2_loops | 2 | loops, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/array_find` | array_find | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/array_max` | array_max | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/array_search` | array_search | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/array_sum` | array_sum | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/binary_search` | binary_search | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l3_readonly_arrays/check_evens` | check_evens | inhouse_l3_readonly_arrays | 3 | loops, arrays_ro, linear_arith |
+| `part3_curated/inhouse_l4_mutable_arrays/array_double` | array_double | inhouse_l4_mutable_arrays | 3 | loops, arrays_mut, linear_arith |
+| `part3_curated/inhouse_l4_mutable_arrays/bubble_sort` | bubble_sort | inhouse_l4_mutable_arrays | 3 | loops, arrays_mut, linear_arith |
+| `part3_curated/inhouse_l4_mutable_arrays/increment_arr` | increment_arr | inhouse_l4_mutable_arrays | 3 | loops, arrays_mut, linear_arith |
+| `part3_curated/inhouse_l4_mutable_arrays/replace_evens` | replace_evens | inhouse_l4_mutable_arrays | 3 | loops, arrays_mut, linear_arith |
+| `part3_curated/inhouse_l4_mutable_arrays/reverse` | reverse | inhouse_l4_mutable_arrays | 3 | loops, arrays_mut, linear_arith |
+| `part3_curated/inhouse_l5_pointers/add_ptr` | add_ptr | inhouse_l5_pointers | 4 | pointers |
+| `part3_curated/inhouse_l5_pointers/div_rem` | div_rem | inhouse_l5_pointers | 4 | pointers |
+| `part3_curated/inhouse_l5_pointers/incr_a_by_b` | incr_a_by_b | inhouse_l5_pointers | 4 | pointers |
+| `part3_curated/inhouse_l5_pointers/swap` | swap | inhouse_l5_pointers | 4 | pointers |
+| `part3_curated/inhouse_l6_callers/caller_abs` | caller_abs | inhouse_l6_callers | 3 | callers |
+| `part3_curated/inhouse_l6_callers/caller_swap` | caller_swap | inhouse_l6_callers | 3 | callers |
+| `part3_curated/inhouse_mini_sort` | mini_sort | inhouse | 4 | loops, nested_loops, arrays_mut |
+| `part3_curated/inhouse_string_utils` | string_utils | inhouse | 3 | loops, strings, pointers |
+| `part3_curated/inhouse_test_abs` | test_abs | inhouse | 1 | pure_arith |
+| `part3_curated/inhouse_test_comprehensive` | test_comprehensive | inhouse | 3 | loops, arrays_mut |
+| `part3_curated/inhouse_test_phase2` | test_phase2 | inhouse | 2 | loops, arrays_ro |
 
 ## Part 4 — 真实验证目标项目 (1 case(s))
 

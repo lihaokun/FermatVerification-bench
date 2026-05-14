@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/inhouse_string_utils"
+name          = "string_utils"
+part          = 3
+features      = ["loops", "strings", "pointers"]
+
+[provenance]
+source             = "inhouse"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/cil_features/string_utils.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 3
+proof_size         = 3
+math_theory        = 1
+data_complexity    = 2
+control_complexity = 2
+spec_complexity    = 2
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = []
+source_hash = "sha256:6a8fdb77b2995c9ab806120763036e8408150e6f78c8cc0327de291c4618500c"
+rationale   = "fv-core inhouse case，从原 FermatVerification 主仓库迁移。架构 v3+ 函数 pre/post 视为过程规约。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

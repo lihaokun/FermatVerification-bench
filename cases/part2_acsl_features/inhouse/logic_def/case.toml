@@ -1,0 +1,36 @@
+schema_version = "0.1"
+id            = "part2_acsl_features/inhouse/logic_def"
+name          = "logic_def"
+part          = 2
+features      = ["logic_function", "predicate"]
+
+[provenance]
+source             = "inhouse"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/cil_features/logic_def.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+
+[files]
+entry_files = ["logic_def.c"]
+
+[difficulty]
+overall            = 2
+proof_size         = 1
+math_theory        = 1
+data_complexity    = 1
+control_complexity = 1
+spec_complexity    = 2
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[parse]
+constructs_used = []
+known_issues    = []
+notes           = "fv-core inhouse ACSL feature case，从原 FermatVerification 主仓库迁移。"

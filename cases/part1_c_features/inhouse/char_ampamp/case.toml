@@ -1,0 +1,36 @@
+schema_version = "0.1"
+id            = "part1_c_features/inhouse/char_ampamp"
+name          = "char_ampamp"
+part          = 1
+features      = ["strings"]
+
+[provenance]
+source             = "inhouse"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/cil_features/char_ampamp.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+
+[files]
+entry_files = ["char_ampamp.c"]
+
+[difficulty]
+overall            = 1
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 1
+control_complexity = 1
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[parse]
+constructs_used = []
+known_issues    = []
+notes           = "fv-core inhouse C feature case，从原 FermatVerification 主仓库迁移。"

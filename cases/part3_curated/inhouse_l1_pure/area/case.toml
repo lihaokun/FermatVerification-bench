@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/inhouse_l1_pure/area"
+name          = "area"
+part          = 3
+features      = ["pure_arith"]
+
+[provenance]
+source             = "inhouse_l1_pure"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/verification/L1_pure/area.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 1
+proof_size         = 0
+math_theory        = 1
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 1
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [3, 4]
+source_hash = "sha256:8a5fb7bf3f862414e8f8406f6478d8e2b4f0c9e5698dead4cc3a20002e8e3ae3"
+rationale   = "fv-core inhouse case，从原 FermatVerification 主仓库迁移。架构 v3+ 函数 pre/post 视为过程规约。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

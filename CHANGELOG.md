@@ -36,10 +36,28 @@ Bench versioning follows SemVer:
   - 已知局限：truncate 策略 / 成本估计 / 重复一致性
 - `.gitignore`: 加 `.classify-suggested.json` / `.classify-prompt-dryrun.txt`
 
+### 已添加（v0.2.0 dev，续）
+
+- ✅ Frama-C WP 内部回归 81 case 入库 (wp_hoare 16 + wp_typed 33 + wp_bytes 7 +
+  wp_region 7 + wp_tip 18)
+  - 全部 quality=wp_internal_regression（架构 v3+ 决策 #4）
+  - intent=memory_model_stress（wp_hoare/typed/bytes/region）或
+    proof_technique（wp_tip）
+  - tools/ingest_wp_models.py
+- ✅ fv-core 内部 benchmark 迁移 66 case（架构 §10.2 迁移规则）
+  - verification/L1-L6 → part3_curated/inhouse_l<N>_<name>/ × 29
+  - cil_features/ → 按内容拆 part 1/2/3 × 35（8 真算法到 part 3，9 ACSL feature
+    到 part 2，18 C feature 到 part 1）
+  - regression/ → part1_c_features/inhouse_regression/ × 2
+  - x509-submodule-2_no_assert.c 跳过（ANSSI part 4 已覆盖）
+  - tools/ingest_fv_core_inhouse.py
+
+总 case 1933 → **2080**（+147）。
+
 ### 待添加
 
-- 现有 1933 case 的 difficulty / features 通过 classify_case 实际重打分
-  （需 ANTHROPIC_API_KEY + 估 $20-50 成本；建议先 part 5 CASP 506 抽 50 验证 prompt）
+- 现有 2080 case 的 difficulty / features 通过 classify_case 实际重打分
+  （需 ANTHROPIC_API_KEY + 估 $20-50 成本；建议先抽 50 case 验证 prompt）
 - `classify_case.py --apply` 实现（直接 patch case.toml 而非生成 .json）
 
 ---

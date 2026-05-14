@@ -40,11 +40,11 @@
 
 - **Bench 版本**：0.1.0
 - **Schema 版本**：0.1
-- **总用例数**：1933
-  - Part 1 (C 特性)：1022（662 GoblintCil + 334 frama-c tests/syntax + 26 frama-c tests/cil）
-  - Part 2 (ACSL 特性)：315（88 Frama-C wp_acsl + 227 frama-c tests/spec）
-  - Part 3 (curated)：89（13 Frama-C wp_gallery + 76 ACSL by Example）
-  - Part 4 (real targets)：1（ANSSI x509-parser，submodule + concat MVP）
+- **总用例数**：2080
+  - Part 1 (C 特性)：1042（662 GoblintCil + 334 frama-c tests/syntax + 26 frama-c tests/cil + 20 inhouse）
+  - Part 2 (ACSL 特性)：324（88 Frama-C wp_acsl + 227 frama-c tests/spec + 9 inhouse）
+  - Part 3 (curated)：207（13 wp_gallery + 76 ACSL by Example + 81 frama_c_wp_models + 29 inhouse L1-L6 + 8 inhouse cil_features 真验证）
+  - Part 4 (real targets)：1（ANSSI x509-parser）
   - Part 5 (mined corpus)：506 CASP
 
 详见 [`views/stats.md`](views/stats.md) / [`views/by_part.md`](views/by_part.md)。

@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 2
 part_name      = "part2_acsl_features"
-generated_at   = "2026-05-14T04:11:29Z"
-case_count     = 315
+generated_at   = "2026-05-14T05:55:51Z"
+case_count     = 324
 
 [[case]]
 id                 = "part2_acsl_features/frama_c_spec/Extend"
@@ -3781,5 +3781,113 @@ quality            = "acsl_feature_demo"
 intent             = "feature_demo"
 difficulty_overall = 2
 features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/annot"
+path               = "cases/part2_acsl_features/inhouse/annot"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 1
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/assigns"
+path               = "cases/part2_acsl_features/inhouse/assigns"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 1
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/assume"
+path               = "cases/part2_acsl_features/inhouse/assume"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 1
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/behavior_assert"
+path               = "cases/part2_acsl_features/inhouse/behavior_assert"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/complete_behaviors"
+path               = "cases/part2_acsl_features/inhouse/complete_behaviors"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["behaviors"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/enum"
+path               = "cases/part2_acsl_features/inhouse/enum"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 1
+features           = ["logic_function"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/ghost"
+path               = "cases/part2_acsl_features/inhouse/ghost"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["ghost"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/logic_def"
+path               = "cases/part2_acsl_features/inhouse/logic_def"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 2
+features           = ["logic_function", "predicate"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part2_acsl_features/inhouse/terminates"
+path               = "cases/part2_acsl_features/inhouse/terminates"
+source             = "inhouse"
+license            = "MIT"
+quality            = "acsl_feature_demo"
+intent             = "feature_demo"
+difficulty_overall = 1
+features           = ["termination"]
 has_ground_truth   = false
 has_stripped       = false

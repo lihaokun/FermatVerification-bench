@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/inhouse_acsl_by_example"
+name          = "acsl_by_example"
+part          = 3
+features      = ["loops", "arrays_ro", "predicate"]
+
+[provenance]
+source             = "inhouse"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/cil_features/acsl_by_example.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 3
+proof_size         = 3
+math_theory        = 1
+data_complexity    = 2
+control_complexity = 2
+spec_complexity    = 2
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [1, 11, 30, 42, 62, 74, 79, 99, 111, 116, 137, 149, 171, 186, 200, 220, 230, 243, 260, 273, 289, 298, 307, 317, 327, 341, 355, 371, 390, 400, 410, 416, 438, 451, 471]
+source_hash = "sha256:91e3fa75e2d43237f18f8afdf46cbc9bfa393524d77986a6585b2bd66fc6c9f4"
+rationale   = "fv-core inhouse case，从原 FermatVerification 主仓库迁移。架构 v3+ 函数 pre/post 视为过程规约。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 3
 part_name      = "part3_curated"
-generated_at   = "2026-05-14T04:11:29Z"
-case_count     = 89
+generated_at   = "2026-05-14T05:55:51Z"
+case_count     = 207
 
 [[case]]
 id                 = "part3_curated/acsl_by_example/BinarySearch/binary_search"
@@ -1069,5 +1069,1421 @@ quality            = "algorithm"
 intent             = "functional_correctness"
 difficulty_overall = 4
 features           = ["loops", "strings", "pointers", "behaviors", "termination"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/assigns_sep"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/assigns_sep"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/endianness"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/endianness"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/floats"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/floats"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/integers"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/integers"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/pointers"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/pointers"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/structs"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/structs"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_bytes/union"
+path               = "cases/part3_curated/frama_c_wp_models/wp_bytes/union"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/alias_assigns_hypotheses"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/alias_assigns_hypotheses"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/alias_escapes_hypotheses"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/alias_escapes_hypotheses"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/byref"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/byref"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/dispatch_var"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/dispatch_var"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/dispatch_var2"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/dispatch_var2"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/isHoare"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/isHoare"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/logicarr"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/logicarr"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/logicref"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/logicref"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/logicref_simple"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/logicref_simple"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/memory_hypotheses_checking"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/memory_hypotheses_checking"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/model_lookup"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/model_lookup"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/reference"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/reference"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/reference_and_struct"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/reference_and_struct"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/reference_array"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/reference_array"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/reference_array_simple"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/reference_array_simple"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_hoare/refguards"
+path               = "cases/part3_curated/frama_c_wp_models/wp_hoare/refguards"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/affectations"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/affectations"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/array"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/array"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/copy_array"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/copy_array"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/heterogenous_cast"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/heterogenous_cast"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/record"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/record"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/swap"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/swap"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_region/union"
+path               = "cases/part3_curated/frama_c_wp_models/wp_region/union"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/bits"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/bits"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/chunk_printing"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/chunk_printing"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/clear"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/clear"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/induction"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/induction"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/induction_typing"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/induction_typing"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/logical"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/logical"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/modmask"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/modmask"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/overflow"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/overflow"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/pac"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/pac"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/pp_trailing"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/pp_trailing"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/proof"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/proof"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/split"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/split"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/strat_list_concat_repeat"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/strat_list_concat_repeat"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/strat_ops_pattern"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/strat_ops_pattern"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/strategy"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/strategy"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/tac_split_quantifiers"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/tac_split_quantifiers"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/terminating"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/terminating"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_tip/unroll"
+path               = "cases/part3_curated/frama_c_wp_models/wp_tip/unroll"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "proof_technique"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/array_initialized"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/array_initialized"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/avar"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/avar"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/bug_9"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/bug_9"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/cast_fits"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/cast_fits"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/frame"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/frame"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/loader"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/loader"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/multi_matrix_types"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/multi_matrix_types"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/mvar"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/mvar"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/shift_lemma"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/shift_lemma"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/struct_array_type"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/struct_array_type"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/tuple"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/tuple"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_alloc"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_alloc"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_bitwise"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_bitwise"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_call"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_call"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_cast"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_cast"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_cst"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_cst"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_float"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_float"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_hard"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_hard"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_ite"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_ite"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_labels"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_labels"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_lemma"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_lemma"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_local"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_local"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_loopscope"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_loopscope"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_matrix"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_matrix"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_string"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_string"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/unit_tset"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/unit_tset"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_bitwise"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_bitwise"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_collect"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_collect"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_init"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_init"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_injector"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_injector"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_rec"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_rec"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_string"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_string"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/frama_c_wp_models/wp_typed/user_swap"
+path               = "cases/part3_curated/frama_c_wp_models/wp_typed/user_swap"
+source             = "frama_c_wp_models"
+license            = "LGPL-2.1-only"
+quality            = "wp_internal_regression"
+intent             = "memory_model_stress"
+difficulty_overall = 2
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_acsl_by_example"
+path               = "cases/part3_curated/inhouse_acsl_by_example"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "predicate"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_array_utils"
+path               = "cases/part3_curated/inhouse_array_utils"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_bsearch"
+path               = "cases/part3_curated/inhouse_bsearch"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/abs"
+path               = "cases/part3_curated/inhouse_l1_pure/abs"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/add"
+path               = "cases/part3_curated/inhouse_l1_pure/add"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/area"
+path               = "cases/part3_curated/inhouse_l1_pure/area"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/diff"
+path               = "cases/part3_curated/inhouse_l1_pure/diff"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/max"
+path               = "cases/part3_curated/inhouse_l1_pure/max"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l1_pure/triangle_check"
+path               = "cases/part3_curated/inhouse_l1_pure/triangle_check"
+source             = "inhouse_l1_pure"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/copy_counter"
+path               = "cases/part3_curated/inhouse_l2_loops/copy_counter"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/factorial"
+path               = "cases/part3_curated/inhouse_l2_loops/factorial"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/loop_counter"
+path               = "cases/part3_curated/inhouse_l2_loops/loop_counter"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/sum_digits"
+path               = "cases/part3_curated/inhouse_l2_loops/sum_digits"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/sum_even"
+path               = "cases/part3_curated/inhouse_l2_loops/sum_even"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l2_loops/sum_n"
+path               = "cases/part3_curated/inhouse_l2_loops/sum_n"
+source             = "inhouse_l2_loops"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/array_find"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/array_find"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/array_max"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/array_max"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/array_search"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/array_search"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/array_sum"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/array_sum"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/binary_search"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/binary_search"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l3_readonly_arrays/check_evens"
+path               = "cases/part3_curated/inhouse_l3_readonly_arrays/check_evens"
+source             = "inhouse_l3_readonly_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_ro", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l4_mutable_arrays/array_double"
+path               = "cases/part3_curated/inhouse_l4_mutable_arrays/array_double"
+source             = "inhouse_l4_mutable_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l4_mutable_arrays/bubble_sort"
+path               = "cases/part3_curated/inhouse_l4_mutable_arrays/bubble_sort"
+source             = "inhouse_l4_mutable_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l4_mutable_arrays/increment_arr"
+path               = "cases/part3_curated/inhouse_l4_mutable_arrays/increment_arr"
+source             = "inhouse_l4_mutable_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l4_mutable_arrays/replace_evens"
+path               = "cases/part3_curated/inhouse_l4_mutable_arrays/replace_evens"
+source             = "inhouse_l4_mutable_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l4_mutable_arrays/reverse"
+path               = "cases/part3_curated/inhouse_l4_mutable_arrays/reverse"
+source             = "inhouse_l4_mutable_arrays"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l5_pointers/add_ptr"
+path               = "cases/part3_curated/inhouse_l5_pointers/add_ptr"
+source             = "inhouse_l5_pointers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l5_pointers/div_rem"
+path               = "cases/part3_curated/inhouse_l5_pointers/div_rem"
+source             = "inhouse_l5_pointers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l5_pointers/incr_a_by_b"
+path               = "cases/part3_curated/inhouse_l5_pointers/incr_a_by_b"
+source             = "inhouse_l5_pointers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l5_pointers/swap"
+path               = "cases/part3_curated/inhouse_l5_pointers/swap"
+source             = "inhouse_l5_pointers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l6_callers/caller_abs"
+path               = "cases/part3_curated/inhouse_l6_callers/caller_abs"
+source             = "inhouse_l6_callers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["callers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_l6_callers/caller_swap"
+path               = "cases/part3_curated/inhouse_l6_callers/caller_swap"
+source             = "inhouse_l6_callers"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["callers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_mini_sort"
+path               = "cases/part3_curated/inhouse_mini_sort"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 4
+features           = ["loops", "nested_loops", "arrays_mut"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_string_utils"
+path               = "cases/part3_curated/inhouse_string_utils"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "strings", "pointers"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_test_abs"
+path               = "cases/part3_curated/inhouse_test_abs"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_test_comprehensive"
+path               = "cases/part3_curated/inhouse_test_comprehensive"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part3_curated/inhouse_test_phase2"
+path               = "cases/part3_curated/inhouse_test_phase2"
+source             = "inhouse"
+license            = "MIT"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "arrays_ro"]
 has_ground_truth   = true
 has_stripped       = true

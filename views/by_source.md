@@ -1,7 +1,7 @@
 # Bench Cases — by Source
 
-> Generated: 2026-05-14T04:11:29Z
-> Total: 1933 case(s) across 9 source(s)
+> Generated: 2026-05-14T05:55:51Z
+> Total: 2080 case(s) across 17 source(s)
 
 ## `acsl_by_example` (76 case(s))
 
@@ -1314,6 +1314,92 @@
 | `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | 3 | 3 | LGPL-2.1-only |
 | `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | 3 | 4 | LGPL-2.1-only |
 
+## `frama_c_wp_models` (81 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/frama_c_wp_models/wp_bytes/assigns_sep` | assigns_sep | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/endianness` | endianness | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/floats` | floats | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/integers` | integers | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/pointers` | pointers | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/structs` | structs | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_bytes/union` | union | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/alias_assigns_hypotheses` | alias_assigns_hypotheses | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/alias_escapes_hypotheses` | alias_escapes_hypotheses | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/byref` | byref | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/dispatch_var` | dispatch_var | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/dispatch_var2` | dispatch_var2 | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/isHoare` | isHoare | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicarr` | logicarr | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicref` | logicref | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/logicref_simple` | logicref_simple | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/memory_hypotheses_checking` | memory_hypotheses_checking | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/model_lookup` | model_lookup | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference` | reference | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_and_struct` | reference_and_struct | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_array` | reference_array | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/reference_array_simple` | reference_array_simple | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_hoare/refguards` | refguards | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/affectations` | affectations | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/array` | array | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/copy_array` | copy_array | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/heterogenous_cast` | heterogenous_cast | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/record` | record | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/swap` | swap | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_region/union` | union | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/bits` | bits | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/chunk_printing` | chunk_printing | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/clear` | clear | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/induction` | induction | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/induction_typing` | induction_typing | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/logical` | logical | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/modmask` | modmask | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/overflow` | overflow | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/pac` | pac | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/pp_trailing` | pp_trailing | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/proof` | proof | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/split` | split | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/strat_list_concat_repeat` | strat_list_concat_repeat | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/strat_ops_pattern` | strat_ops_pattern | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/strategy` | strategy | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/tac_split_quantifiers` | tac_split_quantifiers | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/terminating` | terminating | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_tip/unroll` | unroll | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/array_initialized` | array_initialized | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/avar` | avar | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/bug_9` | bug_9 | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/cast_fits` | cast_fits | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/frame` | frame | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/loader` | loader | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/multi_matrix_types` | multi_matrix_types | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/mvar` | mvar | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/shift_lemma` | shift_lemma | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/struct_array_type` | struct_array_type | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/tuple` | tuple | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_alloc` | unit_alloc | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_bitwise` | unit_bitwise | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_call` | unit_call | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_cast` | unit_cast | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_cst` | unit_cst | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_float` | unit_float | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_hard` | unit_hard | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_ite` | unit_ite | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_labels` | unit_labels | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_lemma` | unit_lemma | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_local` | unit_local | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_loopscope` | unit_loopscope | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_matrix` | unit_matrix | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_string` | unit_string | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/unit_tset` | unit_tset | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_bitwise` | user_bitwise | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_collect` | user_collect | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_init` | user_init | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_injector` | user_injector | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_rec` | user_rec | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_string` | user_string | 3 | 2 | LGPL-2.1-only |
+| `part3_curated/frama_c_wp_models/wp_typed/user_swap` | user_swap | 3 | 2 | LGPL-2.1-only |
+
 ## `goblintcil` (662 case(s))
 
 | id | name | part | difficulty | license |
@@ -1980,3 +2066,104 @@
 | `part1_c_features/goblintcil/small2/wes_rbtest` | wes_rbtest | 1 | 1 | BSD-3-Clause |
 | `part1_c_features/goblintcil/small2/writev` | writev | 1 | 1 | BSD-3-Clause |
 | `part1_c_features/goblintcil/small2/xcheckers` | xcheckers | 1 | 1 | BSD-3-Clause |
+
+## `inhouse` (37 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part1_c_features/inhouse/array_formals` | array_formals | 1 | 1 | MIT |
+| `part1_c_features/inhouse/array_size` | array_size | 1 | 1 | MIT |
+| `part1_c_features/inhouse/array_typedef` | array_typedef | 1 | 1 | MIT |
+| `part1_c_features/inhouse/binary_logic_op` | binary_logic_op | 1 | 1 | MIT |
+| `part1_c_features/inhouse/binary_op` | binary_op | 1 | 1 | MIT |
+| `part1_c_features/inhouse/bool` | bool | 1 | 1 | MIT |
+| `part1_c_features/inhouse/boolean_ops` | boolean_ops | 1 | 1 | MIT |
+| `part1_c_features/inhouse/branch` | branch | 1 | 1 | MIT |
+| `part1_c_features/inhouse/char_ampamp` | char_ampamp | 1 | 1 | MIT |
+| `part1_c_features/inhouse/dowhilezero` | dowhilezero | 1 | 1 | MIT |
+| `part1_c_features/inhouse/empty_cond` | empty_cond | 1 | 1 | MIT |
+| `part1_c_features/inhouse/export_test` | export_test | 1 | 1 | MIT |
+| `part1_c_features/inhouse/find_enclosing_loop` | find_enclosing_loop | 1 | 1 | MIT |
+| `part1_c_features/inhouse/parenthesis` | parenthesis | 1 | 1 | MIT |
+| `part1_c_features/inhouse/relations` | relations | 1 | 1 | MIT |
+| `part1_c_features/inhouse/struct_with_invalid_field` | struct_with_invalid_field | 1 | 1 | MIT |
+| `part1_c_features/inhouse/test_iterative_raw` | test_iterative_raw | 1 | 1 | MIT |
+| `part1_c_features/inhouse/test_sandbox` | test_sandbox | 1 | 1 | MIT |
+| `part1_c_features/inhouse_regression/extract_globals_order` | extract_globals_order | 1 | 1 | MIT |
+| `part1_c_features/inhouse_regression/sandbox_clobber` | sandbox_clobber | 1 | 1 | MIT |
+| `part2_acsl_features/inhouse/annot` | annot | 2 | 1 | MIT |
+| `part2_acsl_features/inhouse/assigns` | assigns | 2 | 1 | MIT |
+| `part2_acsl_features/inhouse/assume` | assume | 2 | 1 | MIT |
+| `part2_acsl_features/inhouse/behavior_assert` | behavior_assert | 2 | 2 | MIT |
+| `part2_acsl_features/inhouse/complete_behaviors` | complete_behaviors | 2 | 2 | MIT |
+| `part2_acsl_features/inhouse/enum` | enum | 2 | 1 | MIT |
+| `part2_acsl_features/inhouse/ghost` | ghost | 2 | 2 | MIT |
+| `part2_acsl_features/inhouse/logic_def` | logic_def | 2 | 2 | MIT |
+| `part2_acsl_features/inhouse/terminates` | terminates | 2 | 1 | MIT |
+| `part3_curated/inhouse_acsl_by_example` | acsl_by_example | 3 | 3 | MIT |
+| `part3_curated/inhouse_array_utils` | array_utils | 3 | 3 | MIT |
+| `part3_curated/inhouse_bsearch` | bsearch | 3 | 3 | MIT |
+| `part3_curated/inhouse_mini_sort` | mini_sort | 3 | 4 | MIT |
+| `part3_curated/inhouse_string_utils` | string_utils | 3 | 3 | MIT |
+| `part3_curated/inhouse_test_abs` | test_abs | 3 | 1 | MIT |
+| `part3_curated/inhouse_test_comprehensive` | test_comprehensive | 3 | 3 | MIT |
+| `part3_curated/inhouse_test_phase2` | test_phase2 | 3 | 2 | MIT |
+
+## `inhouse_l1_pure` (6 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l1_pure/abs` | abs | 3 | 1 | MIT |
+| `part3_curated/inhouse_l1_pure/add` | add | 3 | 1 | MIT |
+| `part3_curated/inhouse_l1_pure/area` | area | 3 | 1 | MIT |
+| `part3_curated/inhouse_l1_pure/diff` | diff | 3 | 1 | MIT |
+| `part3_curated/inhouse_l1_pure/max` | max | 3 | 1 | MIT |
+| `part3_curated/inhouse_l1_pure/triangle_check` | triangle_check | 3 | 1 | MIT |
+
+## `inhouse_l2_loops` (6 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l2_loops/copy_counter` | copy_counter | 3 | 2 | MIT |
+| `part3_curated/inhouse_l2_loops/factorial` | factorial | 3 | 2 | MIT |
+| `part3_curated/inhouse_l2_loops/loop_counter` | loop_counter | 3 | 2 | MIT |
+| `part3_curated/inhouse_l2_loops/sum_digits` | sum_digits | 3 | 2 | MIT |
+| `part3_curated/inhouse_l2_loops/sum_even` | sum_even | 3 | 2 | MIT |
+| `part3_curated/inhouse_l2_loops/sum_n` | sum_n | 3 | 2 | MIT |
+
+## `inhouse_l3_readonly_arrays` (6 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l3_readonly_arrays/array_find` | array_find | 3 | 3 | MIT |
+| `part3_curated/inhouse_l3_readonly_arrays/array_max` | array_max | 3 | 3 | MIT |
+| `part3_curated/inhouse_l3_readonly_arrays/array_search` | array_search | 3 | 3 | MIT |
+| `part3_curated/inhouse_l3_readonly_arrays/array_sum` | array_sum | 3 | 3 | MIT |
+| `part3_curated/inhouse_l3_readonly_arrays/binary_search` | binary_search | 3 | 3 | MIT |
+| `part3_curated/inhouse_l3_readonly_arrays/check_evens` | check_evens | 3 | 3 | MIT |
+
+## `inhouse_l4_mutable_arrays` (5 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l4_mutable_arrays/array_double` | array_double | 3 | 3 | MIT |
+| `part3_curated/inhouse_l4_mutable_arrays/bubble_sort` | bubble_sort | 3 | 3 | MIT |
+| `part3_curated/inhouse_l4_mutable_arrays/increment_arr` | increment_arr | 3 | 3 | MIT |
+| `part3_curated/inhouse_l4_mutable_arrays/replace_evens` | replace_evens | 3 | 3 | MIT |
+| `part3_curated/inhouse_l4_mutable_arrays/reverse` | reverse | 3 | 3 | MIT |
+
+## `inhouse_l5_pointers` (4 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l5_pointers/add_ptr` | add_ptr | 3 | 4 | MIT |
+| `part3_curated/inhouse_l5_pointers/div_rem` | div_rem | 3 | 4 | MIT |
+| `part3_curated/inhouse_l5_pointers/incr_a_by_b` | incr_a_by_b | 3 | 4 | MIT |
+| `part3_curated/inhouse_l5_pointers/swap` | swap | 3 | 4 | MIT |
+
+## `inhouse_l6_callers` (2 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part3_curated/inhouse_l6_callers/caller_abs` | caller_abs | 3 | 3 | MIT |
+| `part3_curated/inhouse_l6_callers/caller_swap` | caller_swap | 3 | 3 | MIT |

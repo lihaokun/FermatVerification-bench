@@ -1,0 +1,50 @@
+schema_version = "0.1"
+id            = "part3_curated/inhouse_l1_pure/triangle_check"
+name          = "triangle_check"
+part          = 3
+features      = ["pure_arith"]
+
+[provenance]
+source             = "inhouse_l1_pure"
+upstream_url       = "https://github.com/lihaokun/FermatVerification"
+upstream_path      = "fv-core/tests/benchmark/verification/L1_pure/triangle_check.c"
+upstream_tool_hint = "fv-core (本仓库 inhouse)"
+license            = "MIT"
+license_file       = "LICENSE"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 1
+proof_size         = 0
+math_theory        = 1
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 1
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = [4, 5, 6, 7]
+source_hash = "sha256:f4167528feca767d12727f296b887401c71101263f42ef1a320e0eba699ceabb"
+rationale   = "fv-core inhouse case，从原 FermatVerification 主仓库迁移。架构 v3+ 函数 pre/post 视为过程规约。"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"

@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 1
 part_name      = "part1_c_features"
-generated_at   = "2026-05-14T04:11:29Z"
-case_count     = 1022
+generated_at   = "2026-05-14T05:55:51Z"
+case_count     = 1042
 
 [[case]]
 id                 = "part1_c_features/frama_c_cil/acsl_comments"
@@ -12263,6 +12263,246 @@ source             = "goblintcil"
 license            = "BSD-3-Clause"
 quality            = "frontend_stress"
 intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/array_formals"
+path               = "cases/part1_c_features/inhouse/array_formals"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/array_size"
+path               = "cases/part1_c_features/inhouse/array_size"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/array_typedef"
+path               = "cases/part1_c_features/inhouse/array_typedef"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["arrays_ro", "nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/binary_logic_op"
+path               = "cases/part1_c_features/inhouse/binary_logic_op"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/binary_op"
+path               = "cases/part1_c_features/inhouse/binary_op"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/bool"
+path               = "cases/part1_c_features/inhouse/bool"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/boolean_ops"
+path               = "cases/part1_c_features/inhouse/boolean_ops"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/branch"
+path               = "cases/part1_c_features/inhouse/branch"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/char_ampamp"
+path               = "cases/part1_c_features/inhouse/char_ampamp"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["strings"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/dowhilezero"
+path               = "cases/part1_c_features/inhouse/dowhilezero"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/empty_cond"
+path               = "cases/part1_c_features/inhouse/empty_cond"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/export_test"
+path               = "cases/part1_c_features/inhouse/export_test"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/find_enclosing_loop"
+path               = "cases/part1_c_features/inhouse/find_enclosing_loop"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/parenthesis"
+path               = "cases/part1_c_features/inhouse/parenthesis"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/relations"
+path               = "cases/part1_c_features/inhouse/relations"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["pure_arith"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/struct_with_invalid_field"
+path               = "cases/part1_c_features/inhouse/struct_with_invalid_field"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["nested_struct"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/test_iterative_raw"
+path               = "cases/part1_c_features/inhouse/test_iterative_raw"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = ["loops"]
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse/test_sandbox"
+path               = "cases/part1_c_features/inhouse/test_sandbox"
+source             = "inhouse"
+license            = "MIT"
+quality            = "frontend_stress"
+intent             = "parser_stress"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse_regression/extract_globals_order"
+path               = "cases/part1_c_features/inhouse_regression/extract_globals_order"
+source             = "inhouse"
+license            = "MIT"
+quality            = "synthetic_corner"
+intent             = "edge_case"
+difficulty_overall = 1
+features           = []
+has_ground_truth   = false
+has_stripped       = false
+
+[[case]]
+id                 = "part1_c_features/inhouse_regression/sandbox_clobber"
+path               = "cases/part1_c_features/inhouse_regression/sandbox_clobber"
+source             = "inhouse"
+license            = "MIT"
+quality            = "synthetic_corner"
+intent             = "edge_case"
 difficulty_overall = 1
 features           = []
 has_ground_truth   = false
