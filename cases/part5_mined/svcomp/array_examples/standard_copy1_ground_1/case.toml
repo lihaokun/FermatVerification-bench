@@ -1,0 +1,57 @@
+schema_version = "0.1"
+id            = "part5_mined/svcomp/array_examples/standard_copy1_ground_1"
+name          = "standard_copy1_ground_1"
+part          = 5
+features      = ["loops", "arrays_mut", "linear_arith"]
+
+[provenance]
+source             = "svcomp"
+upstream_url       = "https://gitlab.com/sosy-lab/benchmarking/sv-benchmarks"
+upstream_path      = "c/array-examples/standard_copy1_ground-1.i"
+upstream_tool_hint = "SV-COMP (multi-verifier benchmark)"
+license            = "Apache-2.0"
+license_file       = "LICENSES/Apache-2.0-svcomp.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 3
+proof_size         = 0
+math_theory        = 2
+data_complexity    = 2
+control_complexity = 2
+spec_complexity    = 0
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = []
+source_hash = "sha256:5b1ea2b89c0210def4460c68ce885cb310645908c528d57c04841cf488f85c6b"
+rationale   = "SV-COMP array-examples: no ACSL annotations to strip; goal is `__VERIFIER_assert(P)` inline + .yml property file. ground_truth.c 与 stripped.c 内容相同。SV-COMP array-examples: array reasoning benchmarks."
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"
+
+[mined]
+source_dataset       = "svcomp"
+upstream_id          = "c/array-examples/standard_copy1_ground-1.i"
+ultimate_origin      = "svcomp"
+ultimate_origin_path = "c/array-examples/standard_copy1_ground-1.i"
+per_file_license     = "Apache-2.0"

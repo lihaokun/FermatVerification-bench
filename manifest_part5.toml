@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 5
 part_name      = "part5_mined"
-generated_at   = "2026-05-14T05:55:51Z"
-case_count     = 506
+generated_at   = "2026-05-14T06:21:12Z"
+case_count     = 664
 
 [[case]]
 id                 = "part5_mined/casp/00001"
@@ -6073,5 +6073,1901 @@ quality            = "algorithm"
 intent             = "functional_correctness"
 difficulty_overall = 0
 features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/data_structures_set_multi_proc_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/data_structures_set_multi_proc_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/data_structures_set_multi_proc_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/data_structures_set_multi_proc_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/data_structures_set_multi_proc_trivial_ground"
+path               = "cases/part5_mined/svcomp/array_examples/data_structures_set_multi_proc_trivial_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/relax_1"
+path               = "cases/part5_mined/svcomp/array_examples/relax_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/relax_2"
+path               = "cases/part5_mined/svcomp/array_examples/relax_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/relax_2_2"
+path               = "cases/part5_mined/svcomp/array_examples/relax_2_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_02_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_02_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_10_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_10_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_24_1"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_24_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_24_2"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_24_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_27_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_27_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sanfoundry_43_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sanfoundry_43_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_bubblesort_2_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_bubblesort_2_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_bubblesort_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_bubblesort_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_bubblesort_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_bubblesort_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_selectionsort_2_ground"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_selectionsort_2_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_selectionsort_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_selectionsort_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/sorting_selectionsort_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/sorting_selectionsort_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_allDiff2_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_allDiff2_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_compareModified_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_compareModified_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_compare_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_compare_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy1_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy1_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy1_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy1_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy2_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy2_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy2_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy2_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy3_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy3_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy3_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy3_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy4_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy4_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy4_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy4_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy5_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy5_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy5_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy5_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy6_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy6_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy6_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy6_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy7_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy7_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy7_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy7_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy8_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy8_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy8_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy8_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy9_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy9_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copy9_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copy9_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copyInitSum2_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copyInitSum2_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copyInitSum2_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copyInitSum2_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copyInitSum3_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copyInitSum3_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copyInitSum_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copyInitSum_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_copyInit_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_copyInit_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_find_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_find_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_find_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_find_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init1_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init1_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init1_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init1_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init2_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init2_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init2_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init2_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init3_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init3_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init3_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init3_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init4_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init4_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init4_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init4_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init5_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init5_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init5_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init5_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init6_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init6_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init6_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init6_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init7_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init7_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init7_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init7_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init8_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init8_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init8_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init8_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init9_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init9_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_init9_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_init9_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_maxInArray_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_maxInArray_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_minInArray_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_minInArray_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_minInArray_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_minInArray_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_palindrome_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_palindrome_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_partial_init_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_partial_init_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_partition_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_partition_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_partition_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_partition_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_partition_original_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_partition_original_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_password_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_password_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_reverse_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_reverse_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_running_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_running_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_running_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_running_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_sentinel_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_sentinel_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_sentinel_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_sentinel_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_sentinel_i_v+cfa_reducer"
+path               = "cases/part5_mined/svcomp/array_examples/standard_sentinel_i_v+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_seq_init_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_seq_init_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_strcmp_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_strcmp_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_strcpy_ground_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_strcpy_ground_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_strcpy_ground_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_strcpy_ground_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_strcpy_original_1"
+path               = "cases/part5_mined/svcomp/array_examples/standard_strcpy_original_1"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_strcpy_original_2"
+path               = "cases/part5_mined/svcomp/array_examples/standard_strcpy_original_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_01"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_01"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_02"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_02"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_03"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_03"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_04"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_04"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_05"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_05"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_06"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_06"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_07"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_07"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_08"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_08"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_two_index_09"
+path               = "cases/part5_mined/svcomp/array_examples/standard_two_index_09"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_vararg_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_vararg_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/array_examples/standard_vector_difference_ground"
+path               = "cases/part5_mined/svcomp/array_examples/standard_vector_difference_ground"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "arrays_mut", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/MADWiFi_encode_ie_ok"
+path               = "cases/part5_mined/svcomp/loop_invgen/MADWiFi_encode_ie_ok"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/NetBSD_loop"
+path               = "cases/part5_mined/svcomp/loop_invgen/NetBSD_loop"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/SpamAssassin_loop"
+path               = "cases/part5_mined/svcomp/loop_invgen/SpamAssassin_loop"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/SpamAssassin_loop_i_v+cfa_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/SpamAssassin_loop_i_v+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_escape_absolute"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_escape_absolute"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_escape_absolute_i_v+cfa_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_escape_absolute_i_v+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+lhb_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+lhb_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+nlh_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+nlh_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+sep_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag_i_p+sep_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag_i_v+lhb_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag_i_v+lhb_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/apache_get_tag_i_v+nlh_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/apache_get_tag_i_v+nlh_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/down"
+path               = "cases/part5_mined/svcomp/loop_invgen/down"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/fragtest_simple"
+path               = "cases/part5_mined/svcomp/loop_invgen/fragtest_simple"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/half_2"
+path               = "cases/part5_mined/svcomp/loop_invgen/half_2"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/heapsort"
+path               = "cases/part5_mined/svcomp/loop_invgen/heapsort"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/id_build"
+path               = "cases/part5_mined/svcomp/loop_invgen/id_build"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/id_build_i_p+nlh_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/id_build_i_p+nlh_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/id_build_i_p+sep_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/id_build_i_p+sep_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/id_build_i_v+lhb_reducer"
+path               = "cases/part5_mined/svcomp/loop_invgen/id_build_i_v+lhb_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/id_trans"
+path               = "cases/part5_mined/svcomp/loop_invgen/id_trans"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/large_const"
+path               = "cases/part5_mined/svcomp/loop_invgen/large_const"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/nest_if3"
+path               = "cases/part5_mined/svcomp/loop_invgen/nest_if3"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/nested6"
+path               = "cases/part5_mined/svcomp/loop_invgen/nested6"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/nested9"
+path               = "cases/part5_mined/svcomp/loop_invgen/nested9"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/sendmail_close_angle"
+path               = "cases/part5_mined/svcomp/loop_invgen/sendmail_close_angle"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/seq_3"
+path               = "cases/part5_mined/svcomp/loop_invgen/seq_3"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/string_concat_noarr"
+path               = "cases/part5_mined/svcomp/loop_invgen/string_concat_noarr"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_invgen/up"
+path               = "cases/part5_mined/svcomp/loop_invgen/up"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 3
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/afnp2014"
+path               = "cases/part5_mined/svcomp/loop_lit/afnp2014"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/as2013_hybrid"
+path               = "cases/part5_mined/svcomp/loop_lit/as2013_hybrid"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/bh2017_ex1_poly"
+path               = "cases/part5_mined/svcomp/loop_lit/bh2017_ex1_poly"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/bh2017_ex3"
+path               = "cases/part5_mined/svcomp/loop_lit/bh2017_ex3"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/bh2017_ex_add"
+path               = "cases/part5_mined/svcomp/loop_lit/bh2017_ex_add"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/bhmr2007"
+path               = "cases/part5_mined/svcomp/loop_lit/bhmr2007"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/cggmp2005"
+path               = "cases/part5_mined/svcomp/loop_lit/cggmp2005"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/cggmp2005_variant"
+path               = "cases/part5_mined/svcomp/loop_lit/cggmp2005_variant"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/cggmp2005b"
+path               = "cases/part5_mined/svcomp/loop_lit/cggmp2005b"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/css2003"
+path               = "cases/part5_mined/svcomp/loop_lit/css2003"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/ddlm2013"
+path               = "cases/part5_mined/svcomp/loop_lit/ddlm2013"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gcnr2008"
+path               = "cases/part5_mined/svcomp/loop_lit/gcnr2008"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gj2007"
+path               = "cases/part5_mined/svcomp/loop_lit/gj2007"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gj2007_c_i_p+lhb_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/gj2007_c_i_p+lhb_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gj2007_c_i_p+nlh_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/gj2007_c_i_p+nlh_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gj2007b"
+path               = "cases/part5_mined/svcomp/loop_lit/gj2007b"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gr2006"
+path               = "cases/part5_mined/svcomp/loop_lit/gr2006"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gsv2008"
+path               = "cases/part5_mined/svcomp/loop_lit/gsv2008"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gsv2008_c_i_p+cfa_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/gsv2008_c_i_p+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gsv2008_c_i_v+cfa_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/gsv2008_c_i_v+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/gsv2008_c_i_v+lhb_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/gsv2008_c_i_v+lhb_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/hh2012_ex1b"
+path               = "cases/part5_mined/svcomp/loop_lit/hh2012_ex1b"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/hh2012_ex2b"
+path               = "cases/part5_mined/svcomp/loop_lit/hh2012_ex2b"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/hh2012_ex3"
+path               = "cases/part5_mined/svcomp/loop_lit/hh2012_ex3"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/hhk2008"
+path               = "cases/part5_mined/svcomp/loop_lit/hhk2008"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/jm2006"
+path               = "cases/part5_mined/svcomp/loop_lit/jm2006"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/jm2006_c_i_v+cfa_reducer"
+path               = "cases/part5_mined/svcomp/loop_lit/jm2006_c_i_v+cfa_reducer"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/jm2006_variant"
+path               = "cases/part5_mined/svcomp/loop_lit/jm2006_variant"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/mcmillan2006"
+path               = "cases/part5_mined/svcomp/loop_lit/mcmillan2006"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/mine2017_ex4_10"
+path               = "cases/part5_mined/svcomp/loop_lit/mine2017_ex4_10"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/mine2017_ex4_6"
+path               = "cases/part5_mined/svcomp/loop_lit/mine2017_ex4_6"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/mine2017_ex4_7"
+path               = "cases/part5_mined/svcomp/loop_lit/mine2017_ex4_7"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/svcomp/loop_lit/mine2017_ex4_8"
+path               = "cases/part5_mined/svcomp/loop_lit/mine2017_ex4_8"
+source             = "svcomp"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 2
+features           = ["loops", "linear_arith"]
 has_ground_truth   = true
 has_stripped       = true

@@ -54,6 +54,16 @@ Bench versioning follows SemVer:
 
 总 case 1933 → **2080**（+147）。
 
+- ✅ **SV-COMP 学术子集 158 case 入库**（Part 5 mined supplement）
+  - 子集：c/loop-lit (33) + c/loop-invgen (29) + c/array-examples (96)
+  - 同名 .c/.i 文件去重（每个 stem 一个 case）
+  - source = "svcomp"（vocab 新增）；license = Apache-2.0
+  - 无 ACSL：stripped.c == ground_truth.c；goal_type=rte_only
+  - LICENSES/Apache-2.0-svcomp.txt + tools/ingest_svcomp.py
+  - 上游 .yml 性质文件不入库（property metadata 记 case.toml rationale）
+
+总 case 2080 → **2238**（+158）。
+
 ### 待添加
 
 - 现有 2080 case 的 difficulty / features 通过 classify_case 实际重打分

@@ -1,0 +1,57 @@
+schema_version = "0.1"
+id            = "part5_mined/svcomp/loop_lit/afnp2014"
+name          = "afnp2014"
+part          = 5
+features      = ["loops", "linear_arith"]
+
+[provenance]
+source             = "svcomp"
+upstream_url       = "https://gitlab.com/sosy-lab/benchmarking/sv-benchmarks"
+upstream_path      = "c/loop-lit/afnp2014.i"
+upstream_tool_hint = "SV-COMP (multi-verifier benchmark)"
+license            = "Apache-2.0"
+license_file       = "LICENSES/Apache-2.0-svcomp.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 2
+proof_size         = 0
+math_theory        = 2
+data_complexity    = 1
+control_complexity = 2
+spec_complexity    = 0
+auxiliary_needed   = ["loop_invariant"]
+
+[difficulty.scored_by]
+type      = "human"
+scored_at = "2026-05-14"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "rte_only"
+goal_lines  = []
+strip_lines = []
+source_hash = "sha256:9b126c2e4179fcd1dca44e04eae9f0721983a9a06894cd5f31aebfbdbef2948a"
+rationale   = "SV-COMP loop-lit: no ACSL annotations to strip; goal is `__VERIFIER_assert(P)` inline + .yml property file. ground_truth.c 与 stripped.c 内容相同。SV-COMP loop-lit: classic loop invariant benchmarks (De Angelis, Fioravanti, Navas, Proietti et al.)"
+
+[variants.strip_policy.classified_by]
+type              = "human"
+reviewed_by_human = true
+classified_at     = "2026-05-14"
+
+[mined]
+source_dataset       = "svcomp"
+upstream_id          = "c/loop-lit/afnp2014.i"
+ultimate_origin      = "svcomp"
+ultimate_origin_path = "c/loop-lit/afnp2014.i"
+per_file_license     = "Apache-2.0"

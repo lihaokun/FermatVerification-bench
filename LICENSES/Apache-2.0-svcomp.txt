@@ -1,0 +1,46 @@
+SV-COMP — Attribution & License Reference
+============================================
+
+Content under the following bench paths is derived from SV-COMP's benchmark
+collection (sv-benchmarks):
+
+  cases/part5_mined/svcomp/**
+
+Upstream:   https://gitlab.com/sosy-lab/benchmarking/sv-benchmarks
+License:    Apache-2.0 by default; some files GPL-2.0 / GPL-3.0
+            (see per-file headers in upstream)
+
+The upstream provides four LICENSE files at repo root:
+  LICENSE.Apache-2.0.txt
+  LICENSE.GPLv2.txt
+  LICENSE.GPLv3.txt
+  LICENSES/CC-BY-4.0.txt
+
+Each .c file declares its own license in a header comment. Our `case.toml`
+`[provenance].license` field reflects per-file inspection; default is
+Apache-2.0 for files without explicit header.
+
+Ingested subset (v0.2.0 dev):
+  - c/loop-lit/        — 60 classic loop invariant benchmarks (De Angelis et al.)
+  - c/loop-invgen/     — 48 InvGen benchmarks
+  - c/array-examples/  — 190 array benchmarks
+
+SV-COMP characteristics:
+  - Each program is small (typically < 100 LOC)
+  - Uses `__VERIFIER_*` extern functions (nondet_int, assume, error)
+  - `__VERIFIER_assert(P)` calls express the verification goal inline
+  - Companion `.yml` files declare which properties to verify (unreach-call,
+    termination, no-overflow, valid-memsafety, etc.) and expected verdict
+  - NOT C+ACSL (no /*@ ... */ blocks); goals are in C asserts and YAML
+
+Our bench storage convention:
+  - `ground_truth.c` = upstream .c verbatim (no ACSL, hence stripped.c == ground_truth.c)
+  - `strip_lines = []`, `goal_type = "rte_only"`
+  - SV-COMP property metadata (from .yml) recorded in case.toml notes
+
+For full SV-COMP description and category definitions:
+  https://sv-comp.sosy-lab.org/
+
+Citation:
+  Beyer, D. — The International Competition on Software Verification (SV-COMP).
+  Held annually since 2012.
