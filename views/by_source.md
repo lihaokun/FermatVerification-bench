@@ -1,7 +1,7 @@
 # Bench Cases — by Source
 
-> Generated: 2026-05-13T20:47:50Z
-> Total: 1932 case(s) across 8 source(s)
+> Generated: 2026-05-14T04:11:29Z
+> Total: 1933 case(s) across 9 source(s)
 
 ## `acsl_by_example` (76 case(s))
 
@@ -83,6 +83,12 @@
 | `part3_curated/acsl_by_example/Stack/stack_push` | stack_push | 3 | 3 | MIT |
 | `part3_curated/acsl_by_example/Stack/stack_size` | stack_size | 3 | 3 | MIT |
 | `part3_curated/acsl_by_example/Stack/stack_top` | stack_top | 3 | 3 | MIT |
+
+## `anssi_x509_parser` (1 case(s))
+
+| id | name | part | difficulty | license |
+|---|---|---|---|---|
+| `part4_real_targets/anssi_x509_parser` | anssi_x509_parser | 4 | 5 | BSD-2-Clause |
 
 ## `casp` (506 case(s))
 

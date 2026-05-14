@@ -1,9 +1,9 @@
 # Bench Cases — by Feature
 
-> Generated: 2026-05-13T20:47:50Z
-> 21 distinct feature(s) tagged across 1932 case(s)
+> Generated: 2026-05-14T04:11:29Z
+> 21 distinct feature(s) tagged across 1933 case(s)
 
-## `arrays_mut` (36 case(s))
+## `arrays_mut` (37 case(s))
 
 - `part2_acsl_features/frama_c_wp_acsl/assign_array` — assign_array (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_wp_acsl/initialized_shift_array` — initialized_shift_array (part 2, difficulty 2)
@@ -41,8 +41,9 @@
 - `part3_curated/acsl_by_example/Sorting/merge` — merge (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Sorting/partial_sort` — partial_sort (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Sorting/selection_sort` — selection_sort (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
-## `arrays_ro` (79 case(s))
+## `arrays_ro` (80 case(s))
 
 - `part1_c_features/frama_c_syntax/acsl_type_expression_array` — acsl_type_expression_array (part 1, difficulty 1)
 - `part1_c_features/frama_c_syntax/array_cast_bts1099` — array_cast_bts1099 (part 1, difficulty 1)
@@ -123,8 +124,9 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` — frama_c_exo3_old (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
-## `axiomatic` (24 case(s))
+## `axiomatic` (25 case(s))
 
 - `part2_acsl_features/frama_c_spec/axiom_ignored_bts1116` — axiom_ignored_bts1116 (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/axiom_included` — axiom_included (part 2, difficulty 2)
@@ -150,8 +152,9 @@
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/euclid` — euclid (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
-## `behaviors` (20 case(s))
+## `behaviors` (21 case(s))
 
 - `part2_acsl_features/frama_c_spec/behavior_assert` — behavior_assert (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/behavior_names` — behavior_names (part 2, difficulty 2)
@@ -173,6 +176,7 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
 ## `bitwise` (6 case(s))
 
@@ -209,7 +213,7 @@
 - `part2_acsl_features/frama_c_wp_acsl/real` — real (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_wp_acsl/sqrt_builtins` — sqrt_builtins (part 2, difficulty 2)
 
-## `ghost` (6 case(s))
+## `ghost` (7 case(s))
 
 - `part2_acsl_features/frama_c_spec/ghost` — ghost (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/ghost_array` — ghost_array (part 2, difficulty 2)
@@ -217,12 +221,14 @@
 - `part2_acsl_features/frama_c_spec/ghost_result_type` — ghost_result_type (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/onelineghost` — onelineghost (part 2, difficulty 2)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
-## `lemma` (3 case(s))
+## `lemma` (4 case(s))
 
 - `part2_acsl_features/frama_c_wp_acsl/lemma_dependency` — lemma_dependency (part 2, difficulty 2)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication` — binary_multiplication (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
 ## `linear_arith` (24 case(s))
 
@@ -277,7 +283,7 @@
 - `part3_curated/frama_c_wp_gallery/euclid3` — euclid3 (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo2` — frama_c_exo2 (part 3, difficulty 4)
 
-## `loops` (92 case(s))
+## `loops` (93 case(s))
 
 - `part1_c_features/frama_c_syntax/dowhilezero` — dowhilezero (part 1, difficulty 1)
 - `part1_c_features/frama_c_syntax/forloophook` — forloophook (part 1, difficulty 1)
@@ -371,6 +377,7 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
 ## `nested_loops` (7 case(s))
 
@@ -382,7 +389,7 @@
 - `part3_curated/acsl_by_example/Sorting/partial_sort` — partial_sort (part 3, difficulty 4)
 - `part3_curated/acsl_by_example/Sorting/selection_sort` — selection_sort (part 3, difficulty 4)
 
-## `nested_struct` (67 case(s))
+## `nested_struct` (68 case(s))
 
 - `part1_c_features/frama_c_cil/union_to_union` — union_to_union (part 1, difficulty 1)
 - `part1_c_features/frama_c_syntax/cast_struct_function_attr` — cast_struct_function_attr (part 1, difficulty 1)
@@ -451,12 +458,13 @@
 - `part3_curated/acsl_by_example/Stack/stack_push` — stack_push (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_size` — stack_size (part 3, difficulty 3)
 - `part3_curated/acsl_by_example/Stack/stack_top` — stack_top (part 3, difficulty 3)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
 ## `overflow_concern` (1 case(s))
 
 - `part3_curated/frama_c_wp_gallery/binary_multiplication_without_overflow` — binary_multiplication_without_overflow (part 3, difficulty 4)
 
-## `pointers` (63 case(s))
+## `pointers` (64 case(s))
 
 - `part1_c_features/frama_c_syntax/fct_ptr` — fct_ptr (part 1, difficulty 1)
 - `part1_c_features/frama_c_syntax/function_ptr_alignof` — function_ptr_alignof (part 1, difficulty 1)
@@ -521,8 +529,9 @@
 - `part3_curated/acsl_by_example/Stack/stack_top` — stack_top (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/find` — find (part 3, difficulty 3)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
-## `predicate` (69 case(s))
+## `predicate` (70 case(s))
 
 - `part2_acsl_features/frama_c_spec/constant_predicate` — constant_predicate (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/predicates` — predicates (part 2, difficulty 2)
@@ -593,6 +602,7 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` — frama_c_exo3_old (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` — frama_c_exo3_simplified (part 3, difficulty 3)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)
 
 ## `pure_arith` (4 case(s))
 
@@ -621,7 +631,7 @@
 - `part1_c_features/goblintcil/small1/stringsize` — stringsize (part 1, difficulty 1)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
 
-## `termination` (16 case(s))
+## `termination` (17 case(s))
 
 - `part2_acsl_features/frama_c_spec/global_invariant` — global_invariant (part 2, difficulty 2)
 - `part2_acsl_features/frama_c_spec/struct_invariant` — struct_invariant (part 2, difficulty 2)
@@ -639,3 +649,4 @@
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old` — frama_c_exo3_old (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/frama_c_exo3_old_v2` — frama_c_exo3_old_v2 (part 3, difficulty 4)
 - `part3_curated/frama_c_wp_gallery/string_compare` — string_compare (part 3, difficulty 4)
+- `part4_real_targets/anssi_x509_parser` — anssi_x509_parser (part 4, difficulty 5)

@@ -1,0 +1,3 @@
+[submodule "cases/part4_real_targets/anssi_x509_parser/upstream"]
+	path = cases/part4_real_targets/anssi_x509_parser/upstream
+	url = https://github.com/ANSSI-FR/x509-parser.git

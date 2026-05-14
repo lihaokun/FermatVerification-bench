@@ -1,9 +1,15 @@
 # Bench Cases — by Difficulty (overall)
 
-> Generated: 2026-05-13T20:47:50Z
-> Total: 1932 case(s)
+> Generated: 2026-05-14T04:11:29Z
+> Total: 1933 case(s)
 
 标度锚点：docs/manifest-schema.md §7.3
+
+## Difficulty 5 (1 case(s))
+
+| id | name | source | features |
+|---|---|---|---|
+| `part4_real_targets/anssi_x509_parser` | anssi_x509_parser | anssi_x509_parser | loops, pointers, arrays_ro, arrays_mut, nested_struct, behaviors, predicate, lemma, axiomatic, ghost, termination |
 
 ## Difficulty 4 (21 case(s))
 

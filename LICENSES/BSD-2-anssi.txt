@@ -1,0 +1,56 @@
+ANSSI x509-parser — Attribution & License Reference
+======================================================
+
+Content under the following bench paths is derived from ANSSI's x509-parser:
+
+  cases/part4_real_targets/anssi_x509_parser/upstream/   (git submodule)
+  cases/part4_real_targets/anssi_x509_parser/variants/   (derived via concat)
+
+Upstream:   https://github.com/ANSSI-FR/x509-parser
+Copyright:  Copyright (C) 2019-2022 ANSSI
+            (Arnaud Ebalard, Ryad Benadjila, Patricia Mouy)
+License:    Dual GPL-2.0-only / BSD-2-Clause; we redistribute under BSD-2-Clause
+
+The upstream LICENSE file states (verbatim, abridged):
+
+  The files in this project are provided under a dual GPLv2/BSD license. When
+  using or redistributing this software, you may do so under either license.
+
+  ...
+
+  BSD License summary
+
+  Redistribution and use in source and binary forms, with or without modification,
+  are permitted provided that the following conditions are met:
+
+  1. Redistributions of source code must retain the above copyright notice, this
+     list of conditions and the following disclaimer.
+
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED. ...
+
+For the full upstream LICENSE text, see:
+  https://github.com/ANSSI-FR/x509-parser/blob/master/LICENSE
+
+This bench redistributes the project under BSD-2-Clause per upstream's dual-license offer.
+
+Note on transformations:
+  variants/ground_truth/x509_flat.c is a CONCATENATION of all upstream .h and .c
+  files under src/. Internal #include "..." lines are commented out (their
+  content is now inline). System #include <...> are kept verbatim. The original
+  source is preserved unmodified in upstream/ (git submodule).
+
+Project background:
+  x509-parser is a defensive, manually-annotated C parser for X.509 certificates,
+  originally developed at ANSSI as a case study in deductive verification with
+  Frama-C and WP. The verification effort spans ~700 ACSL annotation blocks
+  across 12 files.
+
+Citation:
+  Benadjila, R., Ebalard, A., Mouy, P. — Formal verification of x509 parser at
+  ANSSI (technical report, 2019-2022).
+  Project home: https://github.com/ANSSI-FR/x509-parser

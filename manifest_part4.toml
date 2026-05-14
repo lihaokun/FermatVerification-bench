@@ -1,5 +1,17 @@
 schema_version = "0.1"
 part           = 4
 part_name      = "part4_real_targets"
-generated_at   = "2026-05-13T20:47:50Z"
-case_count     = 0
+generated_at   = "2026-05-14T04:11:29Z"
+case_count     = 1
+
+[[case]]
+id                 = "part4_real_targets/anssi_x509_parser"
+path               = "cases/part4_real_targets/anssi_x509_parser"
+source             = "anssi_x509_parser"
+license            = "BSD-2-Clause"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 5
+features           = ["loops", "pointers", "arrays_ro", "arrays_mut", "nested_struct", "behaviors", "predicate", "lemma", "axiomatic", "ghost", "termination"]
+has_ground_truth   = true
+has_stripped       = true

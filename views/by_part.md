@@ -1,6 +1,6 @@
 # Bench Cases — by Part
 
-> Generated: 2026-05-13T20:47:50Z
+> Generated: 2026-05-14T04:11:29Z
 > Bench version: 0.1.0
 
 ## Part 1 — C 语言特性 (1022 case(s))
@@ -1444,9 +1444,11 @@
 | `part3_curated/frama_c_wp_gallery/frama_c_exo3_simplified` | frama_c_exo3_simplified | frama_c_wp_gallery | 3 | loops, arrays_ro, behaviors, predicate |
 | `part3_curated/frama_c_wp_gallery/string_compare` | string_compare | frama_c_wp_gallery | 4 | loops, strings, pointers, behaviors, termination |
 
-## Part 4 — 真实验证目标项目 (0 case(s))
+## Part 4 — 真实验证目标项目 (1 case(s))
 
-_(empty)_
+| id | name | source | difficulty | features |
+|---|---|---|---|---|
+| `part4_real_targets/anssi_x509_parser` | anssi_x509_parser | anssi_x509_parser | 5 | loops, pointers, arrays_ro, arrays_mut, nested_struct, behaviors, predicate, lemma, axiomatic, ghost, termination |
 
 ## Part 5 — mined 外部 corpus (506 case(s))
 

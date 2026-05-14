@@ -6,12 +6,23 @@ Bench versioning follows SemVer:
 - **Minor**: significant new sources or case additions
 - **Patch**: bug fixes / small metadata corrections
 
-## [Unreleased] / v0.1.x dev
+## [Unreleased] / v0.2.0 dev
 
-待添加内容：
-- (J) ANSSI x509-parser part 4 ingest (submodule + multi-file ground_truth)
-- (C) `tools/classify_case.py` LLM 自动判读 strip_policy + difficulty
-- 现有 case 的 difficulty / features LLM 重打分（取代 v0.1 的 human/heuristic）
+### 添加（pending v0.2.0 release）
+
+- ✅ **ANSSI x509-parser part 4 case** —— submodule + concat MVP
+  - `cases/part4_real_targets/anssi_x509_parser/upstream/` git submodule
+    pinned to commit `6f3bae3` (ANSSI-FR/x509-parser)
+  - `tools/ingest_anssi_x509.py`: concat 全部 .h + .c → `variants/ground_truth/x509_flat.c`（595 KB / 20164 行）
+  - strip → `variants/stripped/x509_flat.c`（455 KB）
+  - 683 ACSL 块识别 + 删除
+  - 单文件 concat 适配 v0.1 schema（strip_lines 单 list），未引入 multi-file 扩展
+  - `LICENSES/BSD-2-anssi.txt` attribution + dual GPLv2/BSD 选 BSD-2-Clause
+
+### 待添加
+
+- (C) `tools/classify_case.py` —— LLM 自动判读 strip_policy + difficulty
+- 现有 1933 case 的 difficulty / features LLM 重打分（取代 v0.1 的 human/heuristic）
 
 ---
 
