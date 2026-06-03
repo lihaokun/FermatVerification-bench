@@ -40,12 +40,12 @@
 
 - **Bench 版本**：0.1.0
 - **Schema 版本**：0.1
-- **总用例数**：2598
+- **总用例数**：2878
   - Part 1 (C 特性)：1042（662 GoblintCil + 334 frama-c tests/syntax + 26 frama-c tests/cil + 20 inhouse）
   - Part 2 (ACSL 特性)：324（88 Frama-C wp_acsl + 227 frama-c tests/spec + 9 inhouse）
   - Part 3 (curated)：207（13 wp_gallery + 76 ACSL by Example + 81 frama_c_wp_models + 29 inhouse L1-L6 + 8 inhouse cil_features 真验证）
   - Part 4 (real targets)：1（ANSSI x509-parser）
-  - Part 5 (mined corpus)：1024（506 CASP + 360 Live-FM-Bench (sv-comp25 Code2Proof, held-out) + 158 SV-COMP 学术子集 loop-lit/loop-invgen/array-examples）
+  - Part 5 (mined corpus)：1304（506 CASP + 360 Live-FM-Bench (sv-comp25 Code2Proof, held-out) + 280 FM-Bench-Verified (WP 验证双版本) + 158 SV-COMP 学术子集 loop-lit/loop-invgen/array-examples）
 
 详见 [`views/stats.md`](views/stats.md) / [`views/by_part.md`](views/by_part.md)。
 
@@ -109,7 +109,7 @@ python3 tools/build_views.py --check     # CI 模式：仅校验是否最新
 | `tools/build_views.py` | 聚合 case.toml → manifest.toml + 5 分片 + 5 markdown views |
 | `tools/fetch_casp.py` | 从 HuggingFace 下载 CASP parquet 并生成 part5_mined/casp 用例 |
 | `tools/ingest_live_fm_bench.py` | 从 HuggingFace 拉取 Live-FM-Bench jsonl，生成 part5_mined/live_fm_bench 用例（task-only，直接入库）|
-| `tools/fetch_fm_bench.py` | FM-Bench ACSL slice fetch（**待实现**） |
+| `tools/ingest_fm_bench_verified.py` | 从 HuggingFace 拉取 FM-Bench-Verified jsonl，生成 part5_mined/fm_bench_verified 用例（WP 验证双版本，直接入库）|
 | `tools/schema_version.py` | `SCHEMA_VERSION` / `BENCH_VERSION` 常量单一来源 |
 | `tools/lib/vocab.py` | 11 个权威词表（source / quality / intent / features / ...） |
 
@@ -170,6 +170,7 @@ POC 阶段（v0.1）：
 - ✅ validate_manifest + build_views
 - ✅ CASP 全 506 case 入库（含 case.toml 元数据；.c 文件 fetch 时生成）
 - ✅ Live-FM-Bench 全 360 case 入库（part 5，sv-comp25 Code2Proof held-out，task-only：仅 stripped.c，无 ground_truth；apache-2.0 直接入库）
+- ✅ FM-Bench-Verified 全 280 case 入库（part 5，WP 验证双版本：ground_truth.c=output + stripped.c=input；三源 fmbench/autospec/github；apache-2.0 直接入库）
 - ✅ SV-COMP 学术子集 158 case 入库（part 5，loop-lit/loop-invgen/array-examples）
 - ✅ Frama-C wp_gallery 13 case 入库（part 3）
 - ✅ ACSL by Example 76 case 入库（part 3，#include 递归展平为单文件）
@@ -178,7 +179,6 @@ POC 阶段（v0.1）：
 - ✅ Frama-C tests/syntax (334) + tests/cil (26) + tests/spec (227) = 587 case 入库
 - ⏳ classify_case.py（LLM 判读 strip_policy + difficulty）
 - ⏳ ANSSI x509 (Part 4) submodule + transformations
-- ⏳ FM-Bench ACSL slice fetch
 
 详见 [`docs/architecture.md` §12](docs/architecture.md)。
 

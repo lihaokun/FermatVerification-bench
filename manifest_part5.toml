@@ -1,8 +1,8 @@
 schema_version = "0.1"
 part           = 5
 part_name      = "part5_mined"
-generated_at   = "2026-06-03T09:41:14Z"
-case_count     = 1024
+generated_at   = "2026-06-03T09:42:17Z"
+case_count     = 1304
 
 [[case]]
 id                 = "part5_mined/casp/00001"
@@ -6069,6 +6069,3366 @@ id                 = "part5_mined/casp/00506"
 path               = "cases/part5_mined/casp/00506"
 source             = "casp"
 license            = "NOASSERTION"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/X509_parser_bufs_differ"
+path               = "cases/part5_mined/fm_bench_verified/autospec/X509_parser_bufs_differ"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/X509_parser_check_ia5_string"
+path               = "cases/part5_mined/fm_bench_verified/autospec/X509_parser_check_ia5_string"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/X509_parser_parse_null"
+path               = "cases/part5_mined/fm_bench_verified/autospec/X509_parser_parse_null"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/X509_parser_time_components_to_comparable_u64"
+path               = "cases/part5_mined/fm_bench_verified/autospec/X509_parser_time_components_to_comparable_u64"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/X509_parser_verify_correct_time_use"
+path               = "cases/part5_mined/fm_bench_verified/autospec/X509_parser_verify_correct_time_use"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_1"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_100"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_100"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_102"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_102"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_103"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_103"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_105"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_105"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_107"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_107"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_108"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_108"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_109"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_109"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_11"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_11"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_110"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_110"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_111"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_111"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_112"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_112"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_113"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_113"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_114"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_114"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_115"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_115"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_117"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_117"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_118"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_118"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_119"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_119"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_12"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_12"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_120"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_120"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_121"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_121"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_122"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_122"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_123"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_123"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_124"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_124"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_125"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_125"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_126"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_126"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_127"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_127"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_128"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_128"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_129"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_129"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_130"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_130"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_132"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_132"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_133"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_133"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_14"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_14"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_15"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_15"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_16"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_16"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_17"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_17"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_18"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_18"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_19"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_19"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_20"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_20"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_21"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_21"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_22"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_22"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_25"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_25"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_30"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_30"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_35"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_35"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_38"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_38"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_39"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_39"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_40"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_40"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_41"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_41"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_42"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_42"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_43"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_43"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_44"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_44"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_45"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_45"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_47"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_47"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_48"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_48"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_49"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_49"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_50"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_50"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_51"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_51"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_52"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_52"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_53"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_53"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_54"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_54"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_55"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_55"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_56"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_56"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_57"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_57"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_58"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_58"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_59"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_59"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_60"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_60"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_63"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_63"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_64"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_64"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_65"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_65"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_66"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_66"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_67"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_67"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_68"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_68"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_69"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_69"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_7"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_7"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_70"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_70"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_71"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_71"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_73"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_73"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_74"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_74"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_76"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_76"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_77"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_77"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_78"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_78"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_79"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_79"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_8"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_8"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_80"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_80"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_81"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_81"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_82"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_82"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_83"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_83"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_85"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_85"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_86"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_86"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_87"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_87"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_88"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_88"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_89"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_89"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_9"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_9"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_90"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_90"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_91"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_91"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_92"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_92"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_93"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_93"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_95"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_95"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_96"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_96"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_97"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_97"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_98"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_98"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/autospec/code2_99"
+path               = "cases/part5_mined/fm_bench_verified/autospec/code2_99"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/accumulate"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/accumulate"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/adjacent_difference"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/adjacent_difference"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/adjacent_find"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/adjacent_find"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/array_double"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/array_double"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/arrays_and_loops_1"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/arrays_and_loops_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/arrays_and_loops_2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/arrays_and_loops_2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/arrays_and_loops_3"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/arrays_and_loops_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/arrays_and_loops_4"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/arrays_and_loops_4"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/arrays_and_loops_5"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/arrays_and_loops_5"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_pop_of_push"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_pop_of_push"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_push_of_pop_top"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_push_of_pop_top"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_size_of_init"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_size_of_init"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_size_of_pop"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_size_of_pop"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_size_of_push"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_size_of_push"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/axiom_top_of_push"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/axiom_top_of_push"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/copy"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/copy"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/copy_backward"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/copy_backward"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/count"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/count"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/count2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/count2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/equal_arrays"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/equal_arrays"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/fill"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/fill"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/find"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/find"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/find2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/find2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/find_end"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/find_end"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/find_first_of"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/find_first_of"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_absolute_value"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_absolute_value"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_add"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_add"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_ani"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_ani"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_diff"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_diff"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_gcd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_gcd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_max_of_2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_max_of_2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_simple_interest"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_simple_interest"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_swap"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_swap"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_triangle_angles"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_triangle_angles"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_triangle_sides"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_triangle_sides"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/general_wp_problem_wp1"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/general_wp_problem_wp1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/immutable_array_check_evens_in_array"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/immutable_array_check_evens_in_array"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/immutable_array_max"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/immutable_array_max"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/immutable_array_sample"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/immutable_array_sample"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/immutable_array_search"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/immutable_array_search"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/increment_arr"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/increment_arr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/iota"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/iota"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/is_heap_until"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/is_heap_until"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/loops_1"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/loops_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/loops_2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/loops_2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/loops_3"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/loops_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/loops_fact"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/loops_fact"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/loops_mult"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/loops_mult"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/lower_bound"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/lower_bound"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/max_element"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/max_element"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/max_element2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/max_element2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/min_element"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/min_element"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/minmax_element"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/minmax_element"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/miscellaneous_array_find"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/miscellaneous_array_find"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/miscellaneous_array_max_advanced"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/miscellaneous_array_max_advanced"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/miscellaneous_array_swap"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/miscellaneous_array_swap"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/miscellaneous_increment_arr"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/miscellaneous_increment_arr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/miscellaneous_max_of_2"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/miscellaneous_max_of_2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/mismatch"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/mismatch"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/more_arrays_equal_arrays"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/more_arrays_equal_arrays"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/more_arrays_replace_evens"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/more_arrays_replace_evens"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/mutable_arrays_array_double"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/mutable_arrays_array_double"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/mutable_arrays_bubble_sort"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/mutable_arrays_bubble_sort"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_add_pointers"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_add_pointers"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_add_pointers_3_vars"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_add_pointers_3_vars"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_div_rem"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_div_rem"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_incr_a_by_b"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_incr_a_by_b"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_max_pointer"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_max_pointer"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/pointers_reset_1st"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/pointers_reset_1st"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/random_number"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/random_number"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/remove_copy"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/remove_copy"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/replace"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/replace"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/replace_copy"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/replace_copy"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/reverse"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/reverse"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/reverse_copy"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/reverse_copy"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/rotate"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/rotate"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/search"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/search"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/search_n"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/search_n"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/stack_empty_wd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/stack_empty_wd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/stack_pop_wd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/stack_pop_wd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/stack_push_wd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/stack_push_wd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/stack_size_wd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/stack_size_wd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/stack_top_wd"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/stack_top_wd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/swap_ranges"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/swap_ranges"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/fmbench/upper_bound"
+path               = "cases/part5_mined/fm_bench_verified/fmbench/upper_bound"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_14"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_14"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_2"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_22"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_22"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_4"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_4"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_4a"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_4a"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_8"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_BL_EN_U4CSE21176_8"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/21176_LogicFunction2"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/21176_LogicFunction2"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/MarcoGrillo_Minimum_Period_of_a_String_period"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/MarcoGrillo_Minimum_Period_of_a_String_period"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/Tasmina0609_1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/Tasmina0609_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_abs_impletentation"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_abs_impletentation"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_average"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_average"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_distance"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_distance"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_distance_abs"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_distance_abs"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_factorial"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_factorial"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_lower_bound"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_lower_bound"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_lower_bound_raw"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_lower_bound_raw"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_reverse"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_reverse"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/arepina_sign"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/arepina_sign"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_abs"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_abs"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_add_ptr"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_add_ptr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_alphabet_letter"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_alphabet_letter"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_assigns"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_assigns"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_condit_set"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_condit_set"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_days"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_days"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_dist"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_dist"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_max_ptr"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_max_ptr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_minus_4"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_minus_4"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_minus_loop"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_minus_loop"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_order_inc_max"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_order_inc_max"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_order_inc_min"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_order_inc_min"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_remainder"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_remainder"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_sort_3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_sort_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_triangle"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_triangle"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/corinnt_vowel_or_cons"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/corinnt_vowel_or_cons"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_04_max_seq"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_04_max_seq"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_10_rec"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_10_rec"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_11_gcd"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_acsl_examples_11_gcd"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_proved_reverse_in_place"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_proved_reverse_in_place"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_proved_sign"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_proved_sign"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_avr"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_avr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_clamp"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_clamp"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_divide"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_divide"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_divmult"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_divmult"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_factorial"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_factorial"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_indaddr"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_indaddr"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_lower_bound"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_lower_bound"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_lshift"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_lshift"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_max3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_max3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_mod"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_mod"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_rshift"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/evdenis_small_examples_rshift"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_acsl_implementation_1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_acsl_implementation_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_10"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_10"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_11"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_11"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_18"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_18"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_7"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_7"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_8"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_8"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_9"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/frama_c_wp_tutorial_en_9"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_first_subset"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_first_subset"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_inv_insuf_ok"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_inv_insuf_ok"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_next_subset"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/gpetiot_Frama_C_StaDy_next_subset"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Binary_Search_problem_using_behavior"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Binary_Search_problem_using_behavior"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Compute_the_GCD_of_two_numbers_with_precondition_and_postcondition"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Compute_the_GCD_of_two_numbers_with_precondition_and_postcondition"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Compute_the_factorial_of_a_given_no__with_precondition_and_postcondition"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Compute_the_factorial_of_a_given_no__with_precondition_and_postcondition"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Computing_the_mod_with_precondition_and_postcondition"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Computing_the_mod_with_precondition_and_postcondition"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Examples_illustrating_the_usage_of_labels"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Examples_illustrating_the_usage_of_labels"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Increment_function_with_precondition_and_postcondition_"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Increment_function_with_precondition_and_postcondition_"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Linear_Search_problem_using_behavior"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Linear_Search_problem_using_behavior"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Maximum_element_in_an_array"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Maximum_element_in_an_array"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Sum_of_first_n_numbers_using__while__loop_with_precondition_and_postcondition"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_Sum_of_first_n_numbers_using__while__loop_with_precondition_and_postcondition"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_To_check_the_given_no__is_odd_or_even__and_is_divisible_by_3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_To_check_the_given_no__is_odd_or_even__and_is_divisible_by_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_minimum_element_in_the_array"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_minimum_element_in_the_array"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nabinkrsah_sum_of_number_divisble_by_3"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nabinkrsah_sum_of_number_divisble_by_3"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_4"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_4"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_7"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_7"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_8"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_8"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_9"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Arrays_9"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Basics_5"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/nikunjjain02_Basics_5"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/ranilakshmi_is_sorted"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/ranilakshmi_is_sorted"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/ranilakshmi_last_angle"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/ranilakshmi_last_angle"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/suman1406_ArrayDoubling1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/suman1406_ArrayDoubling1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/suman1406_FindMaxElement"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/suman1406_FindMaxElement"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/suman1406_Q1"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/suman1406_Q1"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/suman1406_Q4"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/suman1406_Q4"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
+quality            = "algorithm"
+intent             = "functional_correctness"
+difficulty_overall = 0
+features           = []
+has_ground_truth   = true
+has_stripped       = true
+
+[[case]]
+id                 = "part5_mined/fm_bench_verified/githubRepository/suman1406_Q5"
+path               = "cases/part5_mined/fm_bench_verified/githubRepository/suman1406_Q5"
+source             = "fm_bench_verified"
+license            = "Apache-2.0"
 quality            = "algorithm"
 intent             = "functional_correctness"
 difficulty_overall = 0

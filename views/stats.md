@@ -1,9 +1,9 @@
 # Bench Statistics
 
-> Generated: 2026-06-03T09:41:14Z
+> Generated: 2026-06-03T09:42:17Z
 > Bench version: 0.1.0 (schema: 0.1)
 
-**Total cases**: 2598
+**Total cases**: 2878
 
 ## By Part
 
@@ -13,7 +13,7 @@
 | 2 | part2_acsl_features | 324 |
 | 3 | part3_curated | 207 |
 | 4 | part4_real_targets | 1 |
-| 5 | part5_mined | 1024 |
+| 5 | part5_mined | 1304 |
 
 ## By Source
 
@@ -23,6 +23,7 @@
 | `casp` | 506 |
 | `live_fm_bench` | 360 |
 | `frama_c_syntax` | 334 |
+| `fm_bench_verified` | 280 |
 | `frama_c_spec` | 227 |
 | `svcomp` | 158 |
 | `frama_c_wp_acsl` | 88 |
@@ -43,7 +44,7 @@
 
 | Value | Count |
 |---|---|
-| `algorithm` | 1075 |
+| `algorithm` | 1355 |
 | `frontend_stress` | 1040 |
 | `acsl_feature_demo` | 324 |
 | `wp_internal_regression` | 81 |
@@ -54,7 +55,7 @@
 
 | Value | Count |
 |---|---|
-| `functional_correctness` | 1144 |
+| `functional_correctness` | 1424 |
 | `parser_stress` | 1040 |
 | `feature_demo` | 324 |
 | `memory_model_stress` | 63 |
@@ -65,9 +66,9 @@
 
 | Value | Count |
 |---|---|
+| `Apache-2.0` | 798 |
 | `LGPL-2.1-only` | 769 |
 | `BSD-3-Clause` | 662 |
-| `Apache-2.0` | 518 |
 | `NOASSERTION` | 506 |
 | `MIT` | 142 |
 | `BSD-2-Clause` | 1 |
@@ -76,7 +77,7 @@
 
 | Level | Count |
 |---|---|
-| 0 | 866 |
+| 0 | 1146 |
 | 1 | 1054 |
 | 2 | 461 |
 | 3 | 190 |
@@ -111,5 +112,5 @@
 
 ## Variants Coverage
 
-- Cases with `ground_truth`: 872 / 2598
-- Cases with `stripped`:     1232 / 2598
+- Cases with `ground_truth`: 1152 / 2878
+- Cases with `stripped`:     1512 / 2878

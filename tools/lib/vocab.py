@@ -17,7 +17,7 @@ SOURCE = frozenset({
     "acsl_by_example",
     "anssi_x509_parser",
     "casp",
-    "fm_bench_acsl",
+    "fm_bench_verified",
     "live_fm_bench",
     "svcomp",
     "inhouse",
@@ -115,7 +115,7 @@ BUILD_SYSTEM = frozenset({
 # §15.11 mined.source_dataset
 SOURCE_DATASET = frozenset({
     "casp",
-    "fm_bench_acsl",
+    "fm_bench_verified",
     "live_fm_bench",
     "svcomp",
 })

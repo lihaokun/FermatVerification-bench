@@ -1,0 +1,63 @@
+schema_version = "0.1"
+id            = "part5_mined/fm_bench_verified/fmbench/miscellaneous_array_find"
+name          = "array_find"
+part          = 5
+features      = []
+
+[provenance]
+source             = "fm_bench_verified"
+upstream_url       = "https://huggingface.co/datasets/fm-universe/FM-bench-verified"
+upstream_path      = "miscellaneous_array_find"
+upstream_tool_hint = "frama-c/WP (all 280 cases verified through Frama-C WP)"
+license            = "Apache-2.0"
+license_file       = "LICENSES/Apache-2.0-fm-bench-verified.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 0
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "upstream_split"
+scored_at = "2026-06-03"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "explicit_assert"
+goal_lines  = [28]
+strip_lines = [1, 12, 28]
+source_hash = "sha256:cf91e35420565fd2e9d00a88754474ea173c92f9ab000d97920b4ca6fef30f6e"
+rationale   = "FM-Bench-Verified 上游双版本: ground_truth.c = 上游 output（人工清洗 + 经 Frama-C WP 验证的 C+ACSL），stripped.c = 上游 input（C 程序 + //@ assert 待验证性质，缺规约解）。strip_lines = ground_truth 中 ACSL 块起始行（信息性，同 CASP）。"
+
+[variants.strip_policy.classified_by]
+type              = "upstream_split"
+reviewed_by_human = false
+classified_at     = "2026-06-03"
+
+[mined]
+source_dataset       = "fm_bench_verified"
+upstream_id          = "miscellaneous_array_find"
+ultimate_origin      = ""
+ultimate_origin_path = "miscellaneous_array_find"
+per_file_license     = "Apache-2.0"
+
+[mined.fm_bench_verified]
+task           = "Code2Proof"
+folder         = "miscellaneous_array_find"
+file_name      = "array_find"
+dataset_source = "fmbench"

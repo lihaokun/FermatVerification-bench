@@ -67,7 +67,8 @@ FermatVerification-bench/
 │   ├── strip_acsl.py                # Layer 1: 机械删除
 │   ├── classify_case.py             # Layer 2: LLM 判读 strip_policy + difficulty
 │   ├── fetch_casp.py
-│   ├── fetch_fm_bench.py
+│   ├── ingest_live_fm_bench.py
+│   ├── ingest_fm_bench_verified.py
 │   ├── tests/                       # pytest（后续工作）
 │   └── lib/                         # 共享模块
 ├── views/                           # 由 build_views.py 自动生成
@@ -111,7 +112,7 @@ cases/
 └── part5_mined/
     ├── casp/
     │   └── _index.toml              # 元数据骨架，详见 docs/manifest-schema.md
-    └── fm_bench_acsl/
+    └── fm_bench_verified/
 ```
 
 ---
@@ -499,9 +500,14 @@ difficulty_overall, features, has_ground_truth, has_stripped
 不依赖：任何 verifier
 ```
 
-### 7.7 `tools/fetch_fm_bench.py`
+### 7.7 `tools/ingest_live_fm_bench.py` / `tools/ingest_fm_bench_verified.py`
 
-待 §12.0 POC 之后实现。FM-Bench ACSL 数据 jsonl 引用外部路径，实际 C 文件位置需调研。
+两个从 HuggingFace `fm-universe/*` 数据集 ingest 的工具，均纯 stdlib（读上游 jsonl，无 pyarrow），apache-2.0 → `.c` 直接入库：
+
+- `ingest_live_fm_bench.py`：Live-FM-Bench（sv-comp25 Code2Proof，held-out）。上游 `output` 为空 → **task-only**：只产 `stripped.c`（=`input`），无 `ground_truth.c`。
+- `ingest_fm_bench_verified.py`：FM-Bench-Verified（人工清洗 + WP 验证）。上游 `output` 非空 → **双版本**：`ground_truth.c`=`output`、`stripped.c`=`input`，`source_hash` 绑定 ground_truth。
+
+依赖：python3, 网络。不依赖：任何 verifier / pyarrow。
 
 ### 7.8 共同要求
 
@@ -613,10 +619,17 @@ URL: https://huggingface.co/datasets/nicher92/CASP_dataset
 License: per-file from The Stack v1+v2 (NOASSERTION at bench level)
 Note: NOT redistributed. Run tools/fetch_casp.py to download.
 
-[fm_bench_acsl]
-URL: https://huggingface.co/datasets/fm-universe/FM-bench
+[live_fm_bench]
+URL: https://huggingface.co/datasets/fm-universe/Live-FM-Bench
 License: Apache-2.0
-Note: Only ACSL slice consumed; fetch via tools/fetch_fm_bench.py
+Note: sv-comp25 Code2Proof, held-out (task-only: stripped.c only, no ground_truth).
+      Committed directly; reproduce via tools/ingest_live_fm_bench.py
+
+[fm_bench_verified]
+URL: https://huggingface.co/datasets/fm-universe/FM-bench-verified
+License: Apache-2.0
+Note: WP-verified double-version (ground_truth.c=output, stripped.c=input).
+      Committed directly; reproduce via tools/ingest_fm_bench_verified.py
 ```
 
 ---

@@ -477,10 +477,14 @@ def check_mined(data: dict, case_id: str, part: int, vio: list[Violation]) -> No
                     if "error_cause" not in c or not isinstance(c["error_cause"], str):
                         vio.append(Violation(case_id, "error", "mined.casp.error_cause",
                                              "required string (may be empty)"))
-            elif mn["source_dataset"] == "fm_bench_acsl":
-                if "fm_bench" not in mn:
-                    vio.append(Violation(case_id, "error", "mined.fm_bench",
-                                         "required when source_dataset='fm_bench_acsl'"))
+            elif mn["source_dataset"] == "fm_bench_verified":
+                if "fm_bench_verified" not in mn:
+                    vio.append(Violation(case_id, "error", "mined.fm_bench_verified",
+                                         "required when source_dataset='fm_bench_verified'"))
+                else:
+                    sub = mn["fm_bench_verified"]
+                    for k in ("task", "folder", "file_name", "dataset_source"):
+                        _check_required_str(sub, k, case_id, "mined.fm_bench_verified", vio)
             elif mn["source_dataset"] == "live_fm_bench":
                 if "live_fm_bench" not in mn:
                     vio.append(Violation(case_id, "error", "mined.live_fm_bench",
