@@ -95,5 +95,26 @@ Reason:    FM-Bench's ACSL slice (119 examples) is derived from the same
 
 
 ===========================================================================
+[live_fm_bench]
+===========================================================================
+URL:       https://huggingface.co/datasets/fm-universe/Live-FM-Bench
+License:   Apache-2.0
+Citation:  Live-FM-Bench (fm-universe); programs sourced from SV-COMP 2025
+           (https://sv-comp.sosy-lab.org/2025/, released 2025-05-05)
+File:      LICENSES/Apache-2.0-live-fm-bench.txt
+Affected:  cases/part5_mined/live_fm_bench/**
+Note:      Contamination-free, held-out evaluation benchmark for LLM program
+           verification (Code2Proof spec-generation). The gold ACSL solution
+           (dataset `output` column) is intentionally empty, so these are
+           task-only cases: each ships `stripped.c` (= upstream `input`, a C
+           program with `//@ assert(...)` goals) and NO `ground_truth.c`.
+           Apache-2.0 + small (~262 KB), so the C files are committed directly;
+           reproduce via `tools/ingest_live_fm_bench.py`.
+           Underlying programs originate from SV-COMP 2025 — distinct framing
+           from this repo's raw `svcomp` source (which uses `__VERIFIER_assert`
+           + YAML property files); both are kept (no dedup).
+
+
+===========================================================================
 End of NOTICE.
 ===========================================================================

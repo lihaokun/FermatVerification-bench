@@ -12,6 +12,7 @@
 | `validate_manifest.py` | case.toml schema 校验（待实现）|
 | `build_views.py` | 聚合 case.toml 生成顶层 manifest + 分片 + views（待实现）|
 | `fetch_casp.py` | 从 HuggingFace 下载 CASP + 生成 part5 case.toml（待实现）|
+| `ingest_live_fm_bench.py` | 从 HuggingFace 拉取 Live-FM-Bench jsonl + 生成 part5_mined/live_fm_bench（task-only，纯 stdlib）|
 | `fetch_fm_bench.py` | 从 HuggingFace 下载 FM-Bench ACSL 切片（待实现）|
 
 ## 子目录

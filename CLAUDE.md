@@ -85,6 +85,9 @@ python3 -m pytest tools/tests/
 - **manifest_part*.toml 和 views/ 是生成产物**：不要手改，改 `cases/` 后跑 `build_views.py` 重新生成
 - **ANSSI x509 (Part 4) 是 git submodule**：clone 后需 `git submodule update --init --recursive`
 - **strip 双版本一致性**：part 3/4/5 用例的 `stripped.c` 由 strip 工具从 `ground_truth.c` 机械生成，改动需保证 strip_hash 一致（`validate_manifest.py --check-strip-hash`）
+- **task-only 来源**（如 `live_fm_bench`）：held-out 评测集无 gold 解，只产 `stripped.c`、不产 `ground_truth.c`；`source_hash` 绑定 stripped 内容，`§16.4` 检查自动跳过。新增此类 source 时仿 `tools/ingest_live_fm_bench.py`
+- **Python 依赖走 `.venv`**：项目根有 `.venv`（已 .gitignore），含 `pip` / `pyarrow` / `pytest`。需要 pyarrow 的工具（`fetch_casp.py`）用 `.venv/bin/python` 跑；`pytest tools/tests/` 用 `.venv/bin/python -m pytest`。系统 `python3` 没有这些包，ingest 类工具应尽量纯 stdlib（用 jsonl 而非 parquet 即可绕开 pyarrow）。注：`.venv` 需 `python3.12-venv` apt 包才能重建（ensurepip）
+- **CASP 的 `.c` 默认缺失**：本机没跑 `fetch_casp.py`，故 `validate_manifest.py --check-files` 会报 ~1518 个 CASP 文件不存在错误，属环境态，不是回归。判断自己的改动是否干净时需 `grep -v casp/` 过滤
 
 ## 工作流程
 

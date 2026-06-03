@@ -1,6 +1,6 @@
 schema_version = "0.1"
 bench_version  = "0.1.0"
-generated_at   = "2026-05-14T06:21:12Z"
+generated_at   = "2026-06-03T09:41:14Z"
 
 [parts.part1_c_features]
 manifest   = "manifest_part1.toml"
@@ -20,4 +20,4 @@ case_count = 1
 
 [parts.part5_mined]
 manifest   = "manifest_part5.toml"
-case_count = 664
+case_count = 1024

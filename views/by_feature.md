@@ -1,7 +1,7 @@
 # Bench Cases — by Feature
 
-> Generated: 2026-05-14T06:21:12Z
-> 21 distinct feature(s) tagged across 2238 case(s)
+> Generated: 2026-06-03T09:41:14Z
+> 21 distinct feature(s) tagged across 2598 case(s)
 
 ## `arrays_mut` (141 case(s))
 

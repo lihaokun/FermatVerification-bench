@@ -10,6 +10,15 @@ Bench versioning follows SemVer:
 
 ### 添加（pending v0.2.0 release）
 
+- ✅ **Live-FM-Bench part 5 case** —— 360 case，sv-comp25 Code2Proof held-out
+  - `tools/ingest_live_fm_bench.py`：从 HF `fm-universe/Live-FM-Bench` 拉取 jsonl
+    （纯 stdlib，无 pyarrow），生成 `cases/part5_mined/live_fm_bench/<folder>/`
+  - task-only：上游 `output` 为空（gold 解不下发），只产 `stripped.c`（=上游 `input`，
+    C + `//@ assert` 性质）、无 `ground_truth.c`；本仓库首个 task-only 来源
+    （schema §10 ground_truth 可选）；source_hash 绑定 stripped 内容
+  - apache-2.0 直接 commit；`LICENSES/Apache-2.0-live-fm-bench.txt` + NOTICE 条目
+  - 与现有 svcomp(158) 底层程序重叠但框架不同（ACSL Code2Proof vs `__VERIFIER_assert`），不去重
+
 - ✅ **ANSSI x509-parser part 4 case** —— submodule + concat MVP
   - `cases/part4_real_targets/anssi_x509_parser/upstream/` git submodule
     pinned to commit `6f3bae3` (ANSSI-FR/x509-parser)

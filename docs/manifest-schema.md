@@ -417,6 +417,11 @@ stripped     = "variants/stripped/<file>"       # 必填
 | `ground_truth` | str |   | 相对 case 目录的路径；上游提供 ground truth 时填 |
 | `stripped` | str | ✓ | 相对 case 目录的路径；必须实际存在 |
 
+**task-only case**（held-out 评测集，上游不提供 gold 解，如 `live_fm_bench`）：省略
+`ground_truth`，只填 `stripped`（= 待验证的 C 程序 + 性质）。此时
+`[variants.strip_policy].source_hash` 绑定 `stripped` 内容（而非 ground_truth），
+`§16.4` 一致性检查在无 ground_truth 时自动跳过。
+
 ### 10.1 多文件 case（part 4）
 
 Part 4 项目类 case 的 `ground_truth` 和 `stripped` 可以指向**目录**而非单文件：
@@ -570,6 +575,12 @@ error_cause          = ""
 task                 = "Code2Proof"           # 或 SegGen / ProofGen / ReqAna / ProofInfill
 folder               = "find___find"
 uid                  = "f2d9414c-..."
+
+[mined.live_fm_bench]                         # 仅 source_dataset=live_fm_bench 必填
+task                 = "Code2Proof"
+folder               = "array-tiling/rew"     # 上游 filefolder_name
+file_name            = "rew"
+dataset_source       = "sv-comp25"            # 上游 source 列
 ```
 
 ### 13.1 公共字段
@@ -605,6 +616,20 @@ uid                  = "f2d9414c-..."
 | `folder` | str | ✓ | jsonl `folder` 字段 |
 | `uid` | str | ✓ | jsonl `uid` 字段 |
 
+### 13.4 `[mined.live_fm_bench]` 子段（仅 Live-FM-Bench）
+
+将 Live-FM-Bench（HF `fm-universe/Live-FM-Bench`）的特有字段映射进 case.toml。
+该数据集是 contamination-free 的 *held-out* 评测集（Code2Proof 任务）：上游 `output`
+列为空（gold ACSL 解不下发），故这些 case 是 **task-only** —— 只产 `stripped.c`（=上游
+`input`），不产 `ground_truth.c`（见 §10 ground_truth 可选）。
+
+| 字段 | 类型 | 必填 | 来源 |
+|---|---|---|---|
+| `task` | str | ✓ | 固定 `"Code2Proof"`（数据集唯一任务类型）|
+| `folder` | str | ✓ | jsonl `filefolder_name` 字段（上游 case 标识，全局唯一）|
+| `file_name` | str | ✓ | jsonl `file_name` 字段 |
+| `dataset_source` | str | ✓ | jsonl `source` 字段（当前全部 `"sv-comp25"`）|
+
 ---
 
 ## 14. 段间互斥与必填约束总览
@@ -624,6 +649,7 @@ uid                  = "f2d9414c-..."
 | `[mined]` | ✗ | ✗ | ✗ | ✗ | ✓ |
 | `[mined.casp]` | ✗ | ✗ | ✗ | ✗ | source_dataset=casp 必填 |
 | `[mined.fm_bench]` | ✗ | ✗ | ✗ | ✗ | source_dataset=fm_bench_acsl 必填 |
+| `[mined.live_fm_bench]` | ✗ | ✗ | ✗ | ✗ | source_dataset=live_fm_bench 必填 |
 
 ✓ = 必填  ✗ = 不允许出现
 
@@ -646,6 +672,8 @@ uid                  = "f2d9414c-..."
 | `anssi_x509_parser` | github.com/ANSSI-FR/x509-parser |
 | `casp` | huggingface.co/datasets/nicher92/CASP_dataset |
 | `fm_bench_acsl` | huggingface.co/datasets/fm-universe/FM-bench (ACSL slice) |
+| `live_fm_bench` | huggingface.co/datasets/fm-universe/Live-FM-Bench（sv-comp25 Code2Proof，held-out）|
+| `svcomp` | gitlab.com/sosy-lab/benchmarking/sv-benchmarks |
 | `inhouse` | 本仓库自维护 |
 | `inhouse_l1_pure` ... `inhouse_l6_callers` | 来自原 fv-core/tests/benchmark/verification/L1-L6 |
 
@@ -789,6 +817,8 @@ uid                  = "f2d9414c-..."
 |---|
 | `casp` |
 | `fm_bench_acsl` |
+| `live_fm_bench` |
+| `svcomp` |
 
 新增 mined dataset 须 PR。
 
