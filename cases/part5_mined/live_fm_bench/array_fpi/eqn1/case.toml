@@ -1,0 +1,62 @@
+schema_version = "0.1"
+id            = "part5_mined/live_fm_bench/array_fpi/eqn1"
+name          = "eqn1"
+part          = 5
+features      = []
+
+[provenance]
+source             = "live_fm_bench"
+upstream_url       = "https://huggingface.co/datasets/fm-universe/Live-FM-Bench"
+upstream_path      = "array-fpi/eqn1"
+upstream_tool_hint = "frama-c/WP (Code2Proof spec-generation target; gold solution held out)"
+license            = "Apache-2.0"
+license_file       = "LICENSES/Apache-2.0-live-fm-bench.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["stripped.c"]
+
+[difficulty]
+overall            = 0
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "upstream_split"
+scored_at = "2026-06-03"
+
+[verification]
+target = ["functional"]
+
+[variants]
+stripped = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "explicit_assert"
+goal_lines  = [13, 29]
+strip_lines = []
+source_hash = "sha256:d79a6bbf424bd999dd34b8e0e890c8661c00c189b52b502e42c81412358bf5ba"
+rationale   = "Live-FM-Bench task-only: held-out 评测集，上游 output 列为空（gold ACSL 解不下发）。stripped.c = 上游 input（C 程序 + //@ assert 待验证性质），无 ground_truth。source_hash 绑定 stripped 内容。"
+
+[variants.strip_policy.classified_by]
+type              = "upstream_split"
+reviewed_by_human = false
+classified_at     = "2026-06-03"
+
+[mined]
+source_dataset       = "live_fm_bench"
+upstream_id          = "array-fpi/eqn1"
+ultimate_origin      = "svcomp"
+ultimate_origin_path = "array-fpi/eqn1"
+per_file_license     = "Apache-2.0"
+
+[mined.live_fm_bench]
+task           = "Code2Proof"
+folder         = "array-fpi/eqn1"
+file_name      = "eqn1"
+dataset_source = "sv-comp25"

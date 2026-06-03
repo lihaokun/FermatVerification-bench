@@ -1,0 +1,47 @@
+Live-FM-Bench — Attribution & License Reference
+================================================
+
+Content under the following bench paths is derived from the Live-FM-Bench
+dataset:
+
+  cases/part5_mined/live_fm_bench/**
+
+Upstream:   https://huggingface.co/datasets/fm-universe/Live-FM-Bench
+License:    Apache-2.0 (declared in the dataset card)
+
+What it is:
+  Live-FM-Bench is a contamination-free, continuously-updated evaluation
+  benchmark of LLMs for program verification (formal specification generation,
+  a.k.a. Code2Proof). Each case is a C program together with the properties to
+  be verified. Its programs are sourced from SV-COMP 2025
+  (https://sv-comp.sosy-lab.org/2025/, released 2025-05-05).
+
+Held-out / task-only nature:
+  The dataset ships only the verification *task* — the C program with embedded
+  `//@ assert(...)` goals plus minimal scaffolding contracts. The gold ACSL
+  solution (the dataset's `output` column) is intentionally empty (held out to
+  remain contamination-free). Accordingly, our bench stores these as task-only
+  cases:
+    - `stripped.c` = upstream `input` verbatim (UTF-8)
+    - NO `ground_truth.c`
+    - `goal_type = "explicit_assert"`, `strip_lines = []`
+    - `source_hash` binds to `stripped.c` content
+
+Redistribution:
+  The dataset is Apache-2.0 and small (~262 KB), so the C files are committed
+  directly to this repo. `tools/ingest_live_fm_bench.py` reproduces them from
+  the upstream `live-fm-bench.jsonl`.
+
+Note on ultimate origin:
+  The underlying programs originate from SV-COMP 2025; see also
+  LICENSES/Apache-2.0-svcomp.txt. Live-FM-Bench reformulates them as ACSL
+  Code2Proof tasks, which is a distinct framing from this repo's raw `svcomp`
+  source (which uses `__VERIFIER_assert` + YAML property files).
+
+The full Apache License 2.0 text is available at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Citation:
+  Live-FM-Bench (fm-universe). https://huggingface.co/datasets/fm-universe/Live-FM-Bench
+  SV-COMP: Beyer, D. — The International Competition on Software Verification
+  (SV-COMP), held annually since 2012. https://sv-comp.sosy-lab.org/

@@ -10,6 +10,23 @@ Bench versioning follows SemVer:
 
 ### 添加（pending v0.2.0 release）
 
+- ✅ **FM-Bench-Verified part 5 case** —— 280 case，WP 验证双版本
+  - `tools/ingest_fm_bench_verified.py`：从 HF `fm-universe/FM-bench-verified`
+    拉取 jsonl（纯 stdlib，无 pyarrow），生成 `cases/part5_mined/fm_bench_verified/<source>/<name>/`
+  - 双版本：`ground_truth.c` = 上游 `output`（人工清洗 + 经 Frama-C WP 验证的 C+ACSL），
+    `stripped.c` = 上游 `input`（C + `//@ assert` 性质，缺规约解）；全 280 过 `--check-strip-hash`
+  - 三源：autospec(107) / githubRepository(88) / fmbench(85)；apache-2.0 直接 commit
+  - `LICENSES/Apache-2.0-fm-bench-verified.txt` attribution + NOTICE 条目（EXCLUDED → INGESTED）
+  - source 名 `fm_bench_acsl` → `fm_bench_verified` 重命名（vocab / validator / schema / NOTICE）；
+    `[mined.fm_bench_verified]` 子表字段定稿（task/folder/file_name/dataset_source）
+- ✅ **Live-FM-Bench part 5 case** —— 360 case，sv-comp25 Code2Proof held-out
+  - `tools/ingest_live_fm_bench.py`：纯 stdlib jsonl ingest
+  - task-only：上游 `output` 为空（gold 解不下发），只产 `stripped.c`、无 `ground_truth.c`；
+    本仓库首个 task-only 来源（schema §10 ground_truth 可选）
+  - apache-2.0 直接 commit；`LICENSES/Apache-2.0-live-fm-bench.txt` + NOTICE 条目
+
+### 添加（pending v0.2.0 release，续）
+
 - ✅ **ANSSI x509-parser part 4 case** —— submodule + concat MVP
   - `cases/part4_real_targets/anssi_x509_parser/upstream/` git submodule
     pinned to commit `6f3bae3` (ANSSI-FR/x509-parser)
@@ -120,6 +137,9 @@ Bench versioning follows SemVer:
   ACSL by Example 算法的 LLM 任务重排（SegGen / ReqAna / ProofGen / Code2Proof /
   ProofInfill），跟我们已有的 76 个 ACSL by Example case 内容重叠 + 任务形态
   不是独立 C+ACSL pair。不适合作为独立 verification bench case
+  - 注：此处指原始 **FM-bench**（HF `fm-universe/FM-bench`, arXiv:2501.16207），
+    与后来入库的 **FM-Bench-Verified**（`fm-universe/FM-bench-verified`，人工清洗 +
+    WP 验证的双版本数据集，见上方 v0.2.0 添加）是不同数据集；后者已入库
 - **FormalBench 排除**：HF dataset 100% Java，README 说"支持 C/ACSL"但
   没实际数据（详见 `bench-research/SURVEY.md`）
 

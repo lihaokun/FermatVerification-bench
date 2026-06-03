@@ -78,20 +78,48 @@ Note:      CASP source content is NOT redistributed in this repository.
 
 
 ===========================================================================
-[fm_bench_acsl]  — EXCLUDED from v0.1 (see CHANGELOG)
+[fm_bench_verified]
 ===========================================================================
-URL:       https://huggingface.co/datasets/fm-universe/FM-bench
-Paper:     arXiv:2501.16207
+URL:       https://huggingface.co/datasets/fm-universe/FM-bench-verified
 License:   Apache-2.0
-Status:    NOT INGESTED
-Reason:    FM-Bench's ACSL slice (119 examples) is derived from the same
-           ACSL by Example algorithms we already ingest (76 cases under
-           cases/part3_curated/acsl_by_example/**). FM-Bench's contribution
-           is task reformulation (SegGen / ReqAna / ProofGen / Code2Proof /
-           ProofInfill) for LLM evaluation, not independent C+ACSL pairs.
-           Including would duplicate content and confuse the bench's role
-           as a C+ACSL artifact store. Reconsider for v0.2+ if a use case
-           emerges.
+Citation:  FM-Bench-Verified (fm-universe)
+File:      LICENSES/Apache-2.0-fm-bench-verified.txt
+Affected:  cases/part5_mined/fm_bench_verified/**
+Note:      Manually-cleaned + WP-verified benchmark (Code2Proof). 280 C programs,
+           each with a property under verification AND a ground-truth ACSL
+           specification; all 280 verified through Frama-C's WP. Assembled from
+           three upstream sources (per-case in `[mined.fm_bench_verified].
+           dataset_source`): FM-bench (incl. ACSL-by-Example, FRAMA-C-problems),
+           AutoSpec, and Github repositories.
+           Stored as double-version cases: `ground_truth.c` = upstream `output`
+           (verified C+ACSL), `stripped.c` = upstream `input` (C + `//@ assert`
+           goals, specs removed); `source_hash` binds to ground_truth.
+           Apache-2.0 + small (~483 KB), so the C files are committed directly;
+           reproduce via `tools/ingest_fm_bench_verified.py`.
+           Overlap: ~45 cases originate (via FM-bench) from ACSL-by-Example, also
+           ingested under cases/part3_curated/acsl_by_example/**; both kept (no
+           dedup) — this is an independently cleaned + WP-verified reformulation.
+
+
+===========================================================================
+[live_fm_bench]
+===========================================================================
+URL:       https://huggingface.co/datasets/fm-universe/Live-FM-Bench
+License:   Apache-2.0
+Citation:  Live-FM-Bench (fm-universe); programs sourced from SV-COMP 2025
+           (https://sv-comp.sosy-lab.org/2025/, released 2025-05-05)
+File:      LICENSES/Apache-2.0-live-fm-bench.txt
+Affected:  cases/part5_mined/live_fm_bench/**
+Note:      Contamination-free, held-out evaluation benchmark for LLM program
+           verification (Code2Proof spec-generation). The gold ACSL solution
+           (dataset `output` column) is intentionally empty, so these are
+           task-only cases: each ships `stripped.c` (= upstream `input`, a C
+           program with `//@ assert(...)` goals) and NO `ground_truth.c`.
+           Apache-2.0 + small (~262 KB), so the C files are committed directly;
+           reproduce via `tools/ingest_live_fm_bench.py`.
+           Underlying programs originate from SV-COMP 2025 — distinct framing
+           from this repo's raw `svcomp` source (which uses `__VERIFIER_assert`
+           + YAML property files); both are kept (no dedup).
 
 
 ===========================================================================

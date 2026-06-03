@@ -417,6 +417,11 @@ stripped     = "variants/stripped/<file>"       # 必填
 | `ground_truth` | str |   | 相对 case 目录的路径；上游提供 ground truth 时填 |
 | `stripped` | str | ✓ | 相对 case 目录的路径；必须实际存在 |
 
+**task-only case**（held-out 评测集，上游不提供 gold 解，如 `live_fm_bench`）：省略
+`ground_truth`，只填 `stripped`（= 待验证的 C 程序 + 性质）。此时
+`[variants.strip_policy].source_hash` 绑定 `stripped` 内容（而非 ground_truth），
+`§16.4` 一致性检查在无 ground_truth 时自动跳过。
+
 ### 10.1 多文件 case（part 4）
 
 Part 4 项目类 case 的 `ground_truth` 和 `stripped` 可以指向**目录**而非单文件：
@@ -554,9 +559,9 @@ notes    = ""
 
 ```toml
 [mined]
-source_dataset       = "casp" | "fm_bench_acsl"
+source_dataset       = "casp" | "fm_bench_verified" | "live_fm_bench"
 upstream_id          = "..."
-ultimate_origin      = "the_stack_v2" | "the_stack_v1" | ""
+ultimate_origin      = "the_stack_v2" | "the_stack_v1" | "svcomp" | ""
 ultimate_origin_path = ""
 per_file_license     = ""
 
@@ -566,10 +571,17 @@ total_goals          = 11
 verified_goals       = 11
 error_cause          = ""
 
-[mined.fm_bench]                              # 仅 source_dataset=fm_bench_acsl 必填
-task                 = "Code2Proof"           # 或 SegGen / ProofGen / ReqAna / ProofInfill
-folder               = "find___find"
-uid                  = "f2d9414c-..."
+[mined.fm_bench_verified]                     # 仅 source_dataset=fm_bench_verified 必填
+task                 = "Code2Proof"
+folder               = "reverse_copy"         # 上游 filefolder_name
+file_name            = "reverse_copy"
+dataset_source       = "fmbench"              # 上游 source 列: fmbench | githubRepository | autospec
+
+[mined.live_fm_bench]                         # 仅 source_dataset=live_fm_bench 必填
+task                 = "Code2Proof"
+folder               = "array-tiling/rew"     # 上游 filefolder_name
+file_name            = "rew"
+dataset_source       = "sv-comp25"            # 上游 source 列
 ```
 
 ### 13.1 公共字段
@@ -595,15 +607,33 @@ uid                  = "f2d9414c-..."
 
 注：上游 `verified=True` 时 `total_goals == verified_goals`；`verified=False` 时 `verified_goals < total_goals`。CASP 当前 506 个全部 `verified=True`。
 
-### 13.3 `[mined.fm_bench]` 子段（仅 FM-Bench ACSL slice）
+### 13.3 `[mined.fm_bench_verified]` 子段（仅 FM-Bench-Verified）
 
-详细字段定义待 §12.0 POC（fetch_fm_bench.py 实现）后再定。占位字段：
+将 FM-Bench-Verified（HF `fm-universe/FM-bench-verified`）的特有字段映射进 case.toml。
+该数据集是人工清洗 + 经 Frama-C WP 验证的 **双版本** Code2Proof 集（280 case，全过 WP）：
+`ground_truth.c` = 上游 `output`（已验证 C+ACSL），`stripped.c` = 上游 `input`（C + 待验证
+`//@ assert` 性质）。三源：FM-bench / AutoSpec / Github repositories。
 
 | 字段 | 类型 | 必填 | 来源 |
 |---|---|---|---|
-| `task` | str | ✓ | jsonl `task` 字段（ReqAna / SegGen / ProofGen / ProofComp / ProofInfill / Code2Proof）|
-| `folder` | str | ✓ | jsonl `folder` 字段 |
-| `uid` | str | ✓ | jsonl `uid` 字段 |
+| `task` | str | ✓ | 固定 `"Code2Proof"`（数据集唯一任务类型）|
+| `folder` | str | ✓ | jsonl `filefolder_name` 字段（上游 case 标识，全局唯一）|
+| `file_name` | str | ✓ | jsonl `file_name` 字段 |
+| `dataset_source` | str | ✓ | jsonl `source` 字段：`fmbench` / `githubRepository` / `autospec` |
+
+### 13.4 `[mined.live_fm_bench]` 子段（仅 Live-FM-Bench）
+
+将 Live-FM-Bench（HF `fm-universe/Live-FM-Bench`）的特有字段映射进 case.toml。
+该数据集是 contamination-free 的 *held-out* 评测集（Code2Proof 任务）：上游 `output`
+列为空（gold ACSL 解不下发），故这些 case 是 **task-only** —— 只产 `stripped.c`（=上游
+`input`），不产 `ground_truth.c`（见 §6 ground_truth 可选）。
+
+| 字段 | 类型 | 必填 | 来源 |
+|---|---|---|---|
+| `task` | str | ✓ | 固定 `"Code2Proof"`（数据集唯一任务类型）|
+| `folder` | str | ✓ | jsonl `filefolder_name` 字段（上游 case 标识，全局唯一）|
+| `file_name` | str | ✓ | jsonl `file_name` 字段 |
+| `dataset_source` | str | ✓ | jsonl `source` 字段（当前全部 `"sv-comp25"`）|
 
 ---
 
@@ -623,7 +653,8 @@ uid                  = "f2d9414c-..."
 | `[transformations]` | ✗ | ✗ | ✗ | ✓ | ✗ |
 | `[mined]` | ✗ | ✗ | ✗ | ✗ | ✓ |
 | `[mined.casp]` | ✗ | ✗ | ✗ | ✗ | source_dataset=casp 必填 |
-| `[mined.fm_bench]` | ✗ | ✗ | ✗ | ✗ | source_dataset=fm_bench_acsl 必填 |
+| `[mined.fm_bench_verified]` | ✗ | ✗ | ✗ | ✗ | source_dataset=fm_bench_verified 必填 |
+| `[mined.live_fm_bench]` | ✗ | ✗ | ✗ | ✗ | source_dataset=live_fm_bench 必填 |
 
 ✓ = 必填  ✗ = 不允许出现
 
@@ -645,7 +676,9 @@ uid                  = "f2d9414c-..."
 | `acsl_by_example` | github.com/fraunhoferfokus/acsl-by-example |
 | `anssi_x509_parser` | github.com/ANSSI-FR/x509-parser |
 | `casp` | huggingface.co/datasets/nicher92/CASP_dataset |
-| `fm_bench_acsl` | huggingface.co/datasets/fm-universe/FM-bench (ACSL slice) |
+| `fm_bench_verified` | huggingface.co/datasets/fm-universe/FM-bench (ACSL slice) |
+| `live_fm_bench` | huggingface.co/datasets/fm-universe/Live-FM-Bench（sv-comp25 Code2Proof，held-out）|
+| `svcomp` | gitlab.com/sosy-lab/benchmarking/sv-benchmarks |
 | `inhouse` | 本仓库自维护 |
 | `inhouse_l1_pure` ... `inhouse_l6_callers` | 来自原 fv-core/tests/benchmark/verification/L1-L6 |
 
@@ -788,7 +821,9 @@ uid                  = "f2d9414c-..."
 | 值 |
 |---|
 | `casp` |
-| `fm_bench_acsl` |
+| `fm_bench_verified` |
+| `live_fm_bench` |
+| `svcomp` |
 
 新增 mined dataset 须 PR。
 
@@ -814,7 +849,7 @@ uid                  = "f2d9414c-..."
 - `target` 中 `total_correctness` 与 `functional` 不应同时出现（前者已蕴含后者）—— 仅 warning
 - **Part 4 case 的 `classified_by.reviewed_by_human` 建议 true**（v2 软化：false 仅 warning，不阻塞）
 - Part 5 case 的 `source_dataset == "casp"` ⇒ `[mined.casp]` 段必填
-- Part 5 case 的 `source_dataset == "fm_bench_acsl"` ⇒ `[mined.fm_bench]` 段必填
+- Part 5 case 的 `source_dataset == "fm_bench_verified"` ⇒ `[mined.fm_bench_verified]` 段必填
 
 ### 16.3 文件存在性（`--check-files` 模式）
 

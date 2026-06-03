@@ -1,0 +1,54 @@
+FM-Bench-Verified — Attribution & License Reference
+====================================================
+
+Content under the following bench paths is derived from the FM-Bench-Verified
+dataset:
+
+  cases/part5_mined/fm_bench_verified/**
+
+Upstream:   https://huggingface.co/datasets/fm-universe/FM-bench-verified
+License:    Apache-2.0 (declared in the dataset card)
+
+What it is:
+  FM-Bench-Verified is a manually-cleaned and verified benchmark for LLM program
+  verification (formal specification generation, a.k.a. Code2Proof). It contains
+  280 C programs, each with at least one property under verification and a
+  ground-truth ACSL specification. ALL 280 cases (C program + specification) are
+  verified through Frama-C's WP (Weakest Precondition) plugin.
+
+  It is assembled from three upstream sources (recorded per-case in
+  case.toml `[mined.fm_bench_verified].dataset_source`):
+    - FM-bench         (https://huggingface.co/datasets/fm-universe/FM-bench)
+                       — includes ACSL-by-Example and FRAMA-C-problems subsets
+    - AutoSpec         (https://sites.google.com/view/autospecification)
+    - Github repositories (various)
+
+Double-version storage:
+  Unlike the held-out Live-FM-Bench, the gold solution is shipped (the dataset's
+  `output` column is populated), so our bench stores these as double-version
+  cases:
+    - `ground_truth.c` = upstream `output` (verified C + ACSL, passes Frama-C WP)
+    - `stripped.c`     = upstream `input`  (C program + `//@ assert(...)` goals,
+                         with the solution specs removed)
+    - `source_hash` binds to `ground_truth.c` (validated by
+      `validate_manifest.py --check-strip-hash`)
+    - `goal_type` is computed per-case from the ground_truth
+      (explicit_assert / mixed)
+
+Redistribution:
+  The dataset is Apache-2.0 and small (~483 KB), so the C files are committed
+  directly to this repo. `tools/ingest_fm_bench_verified.py` reproduces them
+  from the upstream `fm-bench-verified.jsonl`.
+
+Note on overlap:
+  ~45 cases originate (via FM-bench) from ACSL-by-Example, which this repo also
+  ingests under cases/part3_curated/acsl_by_example/**. Both are kept (no dedup):
+  FM-Bench-Verified provides an independently cleaned + WP-verified double-version
+  reformulation, distinct from the part-3 curated single-file artifacts.
+
+The full Apache License 2.0 text is available at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Citation:
+  FM-Bench-Verified (fm-universe).
+  https://huggingface.co/datasets/fm-universe/FM-bench-verified

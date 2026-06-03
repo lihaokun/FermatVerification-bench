@@ -1,0 +1,63 @@
+schema_version = "0.1"
+id            = "part5_mined/fm_bench_verified/fmbench/lower_bound"
+name          = "lower_bound"
+part          = 5
+features      = []
+
+[provenance]
+source             = "fm_bench_verified"
+upstream_url       = "https://huggingface.co/datasets/fm-universe/FM-bench-verified"
+upstream_path      = "lower_bound"
+upstream_tool_hint = "frama-c/WP (all 280 cases verified through Frama-C WP)"
+license            = "Apache-2.0"
+license_file       = "LICENSES/Apache-2.0-fm-bench-verified.txt"
+quality            = "algorithm"
+intent             = "functional_correctness"
+
+[files]
+entry_files = ["ground_truth.c"]
+
+[difficulty]
+overall            = 0
+proof_size         = 0
+math_theory        = 0
+data_complexity    = 0
+control_complexity = 0
+spec_complexity    = 0
+auxiliary_needed   = []
+
+[difficulty.scored_by]
+type      = "upstream_split"
+scored_at = "2026-06-03"
+
+[verification]
+target = ["functional"]
+
+[variants]
+ground_truth = "ground_truth.c"
+stripped     = "stripped.c"
+
+[variants.strip_policy]
+goal_type   = "explicit_assert"
+goal_lines  = [90]
+strip_lines = [12, 22, 32, 61, 74, 90]
+source_hash = "sha256:99fad5816ff75791d633d0dc6464e91bf4515cb8cd3b4463a11e88fae20f6e57"
+rationale   = "FM-Bench-Verified 上游双版本: ground_truth.c = 上游 output（人工清洗 + 经 Frama-C WP 验证的 C+ACSL），stripped.c = 上游 input（C 程序 + //@ assert 待验证性质，缺规约解）。strip_lines = ground_truth 中 ACSL 块起始行（信息性，同 CASP）。"
+
+[variants.strip_policy.classified_by]
+type              = "upstream_split"
+reviewed_by_human = false
+classified_at     = "2026-06-03"
+
+[mined]
+source_dataset       = "fm_bench_verified"
+upstream_id          = "lower_bound"
+ultimate_origin      = ""
+ultimate_origin_path = "lower_bound"
+per_file_license     = "Apache-2.0"
+
+[mined.fm_bench_verified]
+task           = "Code2Proof"
+folder         = "lower_bound"
+file_name      = "lower_bound"
+dataset_source = "fmbench"
